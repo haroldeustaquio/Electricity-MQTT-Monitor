@@ -1,0 +1,26 @@
+[
+    {
+        "date": "2024-11-10 10:30:44",
+        "total-active-power": 45.356,
+        "total-reactive-power": 8.342,
+        "total-apparent-power": 46.116,
+        "total-power-factor": 0.983,
+        "frecuency": 60.13
+    },
+    {
+        "date": "2024-11-10 10:34:44",
+        "total-active-power": 45.626,
+        "total-reactive-power": 8.372,
+        "total-apparent-power": 46.386,
+        "total-power-factor": 0.983,
+        "frecuency": 60.08
+    },
+    {
+        "date": "2024-11-10 10:36:44",
+        "total-active-power": 45.782,
+        "total-reactive-power": 8.462,
+        "total-apparent-power": 46.556,
+        "total-power-factor": 0.983,
+        "frecuency": 59.96
+    }
+]
