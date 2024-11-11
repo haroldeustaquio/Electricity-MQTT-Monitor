@@ -22,5 +22,3421 @@
         "total-apparent-power": 46.556,
         "total-power-factor": 0.983,
         "frecuency": 59.96
+    },
+    {
+        "date": "2024-11-10 10:38:44",
+        "total-active-power": 46.802,
+        "total-reactive-power": 8.656,
+        "total-apparent-power": 47.594,
+        "total-power-factor": 0.983,
+        "frecuency": 59.98
+    },
+    {
+        "date": "2024-11-10 10:40:44",
+        "total-active-power": 43.646,
+        "total-reactive-power": 7.796,
+        "total-apparent-power": 44.336,
+        "total-power-factor": 0.984,
+        "frecuency": 59.96
+    },
+    {
+        "date": "2024-11-10 10:42:44",
+        "total-active-power": 44.278,
+        "total-reactive-power": 8.176,
+        "total-apparent-power": 45.024,
+        "total-power-factor": 0.983,
+        "frecuency": 60.05
+    },
+    {
+        "date": "2024-11-10 10:44:44",
+        "total-active-power": 44.45,
+        "total-reactive-power": 8.302,
+        "total-apparent-power": 45.218,
+        "total-power-factor": 0.983,
+        "frecuency": 59.95
+    },
+    {
+        "date": "2024-11-10 10:46:44",
+        "total-active-power": 45.576,
+        "total-reactive-power": 8.33,
+        "total-apparent-power": 46.33,
+        "total-power-factor": 0.983,
+        "frecuency": 59.96
+    },
+    {
+        "date": "2024-11-10 10:48:44",
+        "total-active-power": 44.144,
+        "total-reactive-power": 8.16,
+        "total-apparent-power": 44.89,
+        "total-power-factor": 0.983,
+        "frecuency": 60
+    },
+    {
+        "date": "2024-11-10 10:50:44",
+        "total-active-power": 47.786,
+        "total-reactive-power": 8.702,
+        "total-apparent-power": 48.572,
+        "total-power-factor": 0.983,
+        "frecuency": 59.98
+    },
+    {
+        "date": "2024-11-10 10:52:44",
+        "total-active-power": 44.248,
+        "total-reactive-power": 8.188,
+        "total-apparent-power": 44.998,
+        "total-power-factor": 0.983,
+        "frecuency": 60.03
+    },
+    {
+        "date": "2024-11-10 10:54:44",
+        "total-active-power": 46.066,
+        "total-reactive-power": 8.384,
+        "total-apparent-power": 46.82,
+        "total-power-factor": 0.983,
+        "frecuency": 59.99
+    },
+    {
+        "date": "2024-11-10 10:56:44",
+        "total-active-power": 49.12,
+        "total-reactive-power": 8.904,
+        "total-apparent-power": 49.918,
+        "total-power-factor": 0.983,
+        "frecuency": 60.26
+    },
+    {
+        "date": "2024-11-10 10:58:44",
+        "total-active-power": 48.672,
+        "total-reactive-power": 8.448,
+        "total-apparent-power": 49.398,
+        "total-power-factor": 0.985,
+        "frecuency": 59.92
+    },
+    {
+        "date": "2024-11-10 11:06:44",
+        "total-active-power": 41.538,
+        "total-reactive-power": 7.85,
+        "total-apparent-power": 42.272,
+        "total-power-factor": 0.982,
+        "frecuency": 60.02
+    },
+    {
+        "date": "2024-11-10 11:08:44",
+        "total-active-power": 43.63,
+        "total-reactive-power": 8.192,
+        "total-apparent-power": 44.392,
+        "total-power-factor": 0.982,
+        "frecuency": 60
+    },
+    {
+        "date": "2024-11-10 11:10:44",
+        "total-active-power": 45.264,
+        "total-reactive-power": 8.244,
+        "total-apparent-power": 46.006,
+        "total-power-factor": 0.983,
+        "frecuency": 59.95
+    },
+    {
+        "date": "2024-11-10 11:12:44",
+        "total-active-power": 44.894,
+        "total-reactive-power": 8.272,
+        "total-apparent-power": 45.65,
+        "total-power-factor": 0.983,
+        "frecuency": 60.01
+    },
+    {
+        "date": "2024-11-10 11:14:44",
+        "total-active-power": 46.66,
+        "total-reactive-power": 8.512,
+        "total-apparent-power": 47.43,
+        "total-power-factor": 0.983,
+        "frecuency": 59.96
+    },
+    {
+        "date": "2024-11-10 11:16:44",
+        "total-active-power": 45.938,
+        "total-reactive-power": 8.36,
+        "total-apparent-power": 46.69,
+        "total-power-factor": 0.983,
+        "frecuency": 59.96
+    },
+    {
+        "date": "2024-11-10 11:18:44",
+        "total-active-power": 45.404,
+        "total-reactive-power": 8.316,
+        "total-apparent-power": 46.158,
+        "total-power-factor": 0.983,
+        "frecuency": 60.01
+    },
+    {
+        "date": "2024-11-10 11:20:44",
+        "total-active-power": 47.886,
+        "total-reactive-power": 8.738,
+        "total-apparent-power": 48.676,
+        "total-power-factor": 0.983,
+        "frecuency": 59.97
+    },
+    {
+        "date": "2024-11-10 11:22:44",
+        "total-active-power": 46.066,
+        "total-reactive-power": 8.336,
+        "total-apparent-power": 46.812,
+        "total-power-factor": 0.984,
+        "frecuency": 59.94
+    },
+    {
+        "date": "2024-11-10 11:24:44",
+        "total-active-power": 45.862,
+        "total-reactive-power": 8.386,
+        "total-apparent-power": 46.622,
+        "total-power-factor": 0.983,
+        "frecuency": 60.01
+    },
+    {
+        "date": "2024-11-10 11:26:44",
+        "total-active-power": 36.274,
+        "total-reactive-power": 7.34,
+        "total-apparent-power": 37.008,
+        "total-power-factor": 0.98,
+        "frecuency": 59.94
+    },
+    {
+        "date": "2024-11-10 11:28:44",
+        "total-active-power": 40.97,
+        "total-reactive-power": 7.506,
+        "total-apparent-power": 41.652,
+        "total-power-factor": 0.983,
+        "frecuency": 59.98
+    },
+    {
+        "date": "2024-11-10 11:30:44",
+        "total-active-power": 35.882,
+        "total-reactive-power": 7.17,
+        "total-apparent-power": 36.592,
+        "total-power-factor": 0.98,
+        "frecuency": 59.97
+    },
+    {
+        "date": "2024-11-10 11:32:44",
+        "total-active-power": 42.24,
+        "total-reactive-power": 7.978,
+        "total-apparent-power": 42.986,
+        "total-power-factor": 0.982,
+        "frecuency": 60.23
+    },
+    {
+        "date": "2024-11-10 11:34:44",
+        "total-active-power": 41.932,
+        "total-reactive-power": 7.814,
+        "total-apparent-power": 42.652,
+        "total-power-factor": 0.983,
+        "frecuency": 59.9
+    },
+    {
+        "date": "2024-11-10 11:36:44",
+        "total-active-power": 46.352,
+        "total-reactive-power": 8.368,
+        "total-apparent-power": 47.1,
+        "total-power-factor": 0.984,
+        "frecuency": 59.97
+    },
+    {
+        "date": "2024-11-10 11:38:44",
+        "total-active-power": 46.364,
+        "total-reactive-power": 8.428,
+        "total-apparent-power": 47.124,
+        "total-power-factor": 0.983,
+        "frecuency": 60
+    },
+    {
+        "date": "2024-11-10 11:40:44",
+        "total-active-power": 48.006,
+        "total-reactive-power": 8.658,
+        "total-apparent-power": 48.78,
+        "total-power-factor": 0.984,
+        "frecuency": 60.02
+    },
+    {
+        "date": "2024-11-10 11:42:44",
+        "total-active-power": 49.552,
+        "total-reactive-power": 8.858,
+        "total-apparent-power": 50.338,
+        "total-power-factor": 0.984,
+        "frecuency": 59.97
+    },
+    {
+        "date": "2024-11-10 11:44:44",
+        "total-active-power": 53.624,
+        "total-reactive-power": 9.108,
+        "total-apparent-power": 54.39,
+        "total-power-factor": 0.985,
+        "frecuency": 59.99
+    },
+    {
+        "date": "2024-11-10 11:46:44",
+        "total-active-power": 52.166,
+        "total-reactive-power": 9.264,
+        "total-apparent-power": 52.98,
+        "total-power-factor": 0.984,
+        "frecuency": 60.01
+    },
+    {
+        "date": "2024-11-10 11:48:44",
+        "total-active-power": 49.642,
+        "total-reactive-power": 8.92,
+        "total-apparent-power": 50.436,
+        "total-power-factor": 0.984,
+        "frecuency": 59.99
+    },
+    {
+        "date": "2024-11-10 11:50:44",
+        "total-active-power": 50.984,
+        "total-reactive-power": 9.146,
+        "total-apparent-power": 51.796,
+        "total-power-factor": 0.984,
+        "frecuency": 60.27
+    },
+    {
+        "date": "2024-11-10 11:52:44",
+        "total-active-power": 50.032,
+        "total-reactive-power": 8.972,
+        "total-apparent-power": 50.828,
+        "total-power-factor": 0.984,
+        "frecuency": 60.03
+    },
+    {
+        "date": "2024-11-10 11:54:44",
+        "total-active-power": 47.464,
+        "total-reactive-power": 8.716,
+        "total-apparent-power": 48.256,
+        "total-power-factor": 0.983,
+        "frecuency": 59.95
+    },
+    {
+        "date": "2024-11-10 11:56:44",
+        "total-active-power": 47.918,
+        "total-reactive-power": 8.856,
+        "total-apparent-power": 48.728,
+        "total-power-factor": 0.983,
+        "frecuency": 60.01
+    },
+    {
+        "date": "2024-11-10 11:58:44",
+        "total-active-power": 46.3,
+        "total-reactive-power": 8.262,
+        "total-apparent-power": 47.03,
+        "total-power-factor": 0.984,
+        "frecuency": 60.04
+    },
+    {
+        "date": "2024-11-10 12:00:44",
+        "total-active-power": 46.076,
+        "total-reactive-power": 8.462,
+        "total-apparent-power": 46.846,
+        "total-power-factor": 0.983,
+        "frecuency": 59.94
+    },
+    {
+        "date": "2024-11-10 12:02:44",
+        "total-active-power": 47.678,
+        "total-reactive-power": 8.696,
+        "total-apparent-power": 48.484,
+        "total-power-factor": 0.983,
+        "frecuency": 59.94
+    },
+    {
+        "date": "2024-11-10 12:04:44",
+        "total-active-power": 48.446,
+        "total-reactive-power": 8.788,
+        "total-apparent-power": 49.236,
+        "total-power-factor": 0.983,
+        "frecuency": 59.97
+    },
+    {
+        "date": "2024-11-10 12:06:44",
+        "total-active-power": 47.598,
+        "total-reactive-power": 8.582,
+        "total-apparent-power": 48.366,
+        "total-power-factor": 0.984,
+        "frecuency": 60.02
+    },
+    {
+        "date": "2024-11-10 12:08:44",
+        "total-active-power": 47.696,
+        "total-reactive-power": 8.672,
+        "total-apparent-power": 48.476,
+        "total-power-factor": 0.983,
+        "frecuency": 59.93
+    },
+    {
+        "date": "2024-11-10 12:10:44",
+        "total-active-power": 47.674,
+        "total-reactive-power": 8.618,
+        "total-apparent-power": 48.448,
+        "total-power-factor": 0.984,
+        "frecuency": 59.99
+    },
+    {
+        "date": "2024-11-10 12:12:44",
+        "total-active-power": 45.85,
+        "total-reactive-power": 8.34,
+        "total-apparent-power": 46.602,
+        "total-power-factor": 0.983,
+        "frecuency": 59.91
+    },
+    {
+        "date": "2024-11-10 12:14:44",
+        "total-active-power": 48.782,
+        "total-reactive-power": 8.548,
+        "total-apparent-power": 49.524,
+        "total-power-factor": 0.985,
+        "frecuency": 60
+    },
+    {
+        "date": "2024-11-10 12:16:44",
+        "total-active-power": 47.768,
+        "total-reactive-power": 8.708,
+        "total-apparent-power": 48.554,
+        "total-power-factor": 0.983,
+        "frecuency": 60.02
+    },
+    {
+        "date": "2024-11-10 12:18:44",
+        "total-active-power": 45.844,
+        "total-reactive-power": 8.352,
+        "total-apparent-power": 46.598,
+        "total-power-factor": 0.983,
+        "frecuency": 59.98
+    },
+    {
+        "date": "2024-11-10 12:20:44",
+        "total-active-power": 48.05,
+        "total-reactive-power": 8.76,
+        "total-apparent-power": 48.842,
+        "total-power-factor": 0.983,
+        "frecuency": 59.99
+    },
+    {
+        "date": "2024-11-10 12:22:44",
+        "total-active-power": 47.576,
+        "total-reactive-power": 8.676,
+        "total-apparent-power": 48.36,
+        "total-power-factor": 0.983,
+        "frecuency": 60
+    },
+    {
+        "date": "2024-11-10 12:24:44",
+        "total-active-power": 44.57,
+        "total-reactive-power": 8.316,
+        "total-apparent-power": 45.338,
+        "total-power-factor": 0.983,
+        "frecuency": 60.03
+    },
+    {
+        "date": "2024-11-10 12:26:44",
+        "total-active-power": 45.608,
+        "total-reactive-power": 8.58,
+        "total-apparent-power": 46.408,
+        "total-power-factor": 0.982,
+        "frecuency": 59.96
+    },
+    {
+        "date": "2024-11-10 12:28:44",
+        "total-active-power": 47.406,
+        "total-reactive-power": 8.342,
+        "total-apparent-power": 48.134,
+        "total-power-factor": 0.984,
+        "frecuency": 60
+    },
+    {
+        "date": "2024-11-10 12:30:44",
+        "total-active-power": 46.022,
+        "total-reactive-power": 8.346,
+        "total-apparent-power": 46.772,
+        "total-power-factor": 0.983,
+        "frecuency": 60.03
+    },
+    {
+        "date": "2024-11-10 12:32:44",
+        "total-active-power": 48.088,
+        "total-reactive-power": 8.774,
+        "total-apparent-power": 48.88,
+        "total-power-factor": 0.983,
+        "frecuency": 60.09
+    },
+    {
+        "date": "2024-11-10 12:34:44",
+        "total-active-power": 47.58,
+        "total-reactive-power": 8.632,
+        "total-apparent-power": 48.356,
+        "total-power-factor": 0.983,
+        "frecuency": 60.04
+    },
+    {
+        "date": "2024-11-10 12:36:44",
+        "total-active-power": 46.532,
+        "total-reactive-power": 8.454,
+        "total-apparent-power": 47.294,
+        "total-power-factor": 0.983,
+        "frecuency": 59.98
+    },
+    {
+        "date": "2024-11-10 12:38:44",
+        "total-active-power": 45.348,
+        "total-reactive-power": 8.39,
+        "total-apparent-power": 46.116,
+        "total-power-factor": 0.983,
+        "frecuency": 59.93
+    },
+    {
+        "date": "2024-11-10 12:40:44",
+        "total-active-power": 47.028,
+        "total-reactive-power": 8.69,
+        "total-apparent-power": 47.824,
+        "total-power-factor": 0.983,
+        "frecuency": 59.96
+    },
+    {
+        "date": "2024-11-10 12:42:44",
+        "total-active-power": 47.108,
+        "total-reactive-power": 8.272,
+        "total-apparent-power": 47.828,
+        "total-power-factor": 0.984,
+        "frecuency": 59.97
+    },
+    {
+        "date": "2024-11-10 12:44:44",
+        "total-active-power": 45.332,
+        "total-reactive-power": 8.384,
+        "total-apparent-power": 46.1,
+        "total-power-factor": 0.983,
+        "frecuency": 59.98
+    },
+    {
+        "date": "2024-11-10 12:46:44",
+        "total-active-power": 47.644,
+        "total-reactive-power": 8.77,
+        "total-apparent-power": 48.444,
+        "total-power-factor": 0.983,
+        "frecuency": 60.02
+    },
+    {
+        "date": "2024-11-10 12:48:44",
+        "total-active-power": 45.704,
+        "total-reactive-power": 8.39,
+        "total-apparent-power": 46.466,
+        "total-power-factor": 0.983,
+        "frecuency": 59.92
+    },
+    {
+        "date": "2024-11-10 12:50:44",
+        "total-active-power": 45.472,
+        "total-reactive-power": 8.35,
+        "total-apparent-power": 46.23,
+        "total-power-factor": 0.983,
+        "frecuency": 59.96
+    },
+    {
+        "date": "2024-11-10 12:52:44",
+        "total-active-power": 47.516,
+        "total-reactive-power": 8.712,
+        "total-apparent-power": 48.308,
+        "total-power-factor": 0.983,
+        "frecuency": 59.98
+    },
+    {
+        "date": "2024-11-10 12:54:44",
+        "total-active-power": 45.582,
+        "total-reactive-power": 8.334,
+        "total-apparent-power": 46.336,
+        "total-power-factor": 0.983,
+        "frecuency": 59.94
+    },
+    {
+        "date": "2024-11-10 12:56:44",
+        "total-active-power": 46.586,
+        "total-reactive-power": 8.15,
+        "total-apparent-power": 47.292,
+        "total-power-factor": 0.985,
+        "frecuency": 60.09
+    },
+    {
+        "date": "2024-11-10 12:58:44",
+        "total-active-power": 47.134,
+        "total-reactive-power": 8.708,
+        "total-apparent-power": 47.93,
+        "total-power-factor": 0.983,
+        "frecuency": 59.94
+    },
+    {
+        "date": "2024-11-10 13:00:44",
+        "total-active-power": 45.516,
+        "total-reactive-power": 8.334,
+        "total-apparent-power": 46.272,
+        "total-power-factor": 0.983,
+        "frecuency": 59.95
+    },
+    {
+        "date": "2024-11-10 13:02:44",
+        "total-active-power": 45.558,
+        "total-reactive-power": 8.366,
+        "total-apparent-power": 46.318,
+        "total-power-factor": 0.983,
+        "frecuency": 60
+    },
+    {
+        "date": "2024-11-10 13:04:44",
+        "total-active-power": 47.092,
+        "total-reactive-power": 8.694,
+        "total-apparent-power": 47.888,
+        "total-power-factor": 0.983,
+        "frecuency": 60.01
+    },
+    {
+        "date": "2024-11-10 13:06:44",
+        "total-active-power": 45.788,
+        "total-reactive-power": 8.468,
+        "total-apparent-power": 46.564,
+        "total-power-factor": 0.983,
+        "frecuency": 60.07
+    },
+    {
+        "date": "2024-11-10 13:08:44",
+        "total-active-power": 45.428,
+        "total-reactive-power": 8.416,
+        "total-apparent-power": 46.2,
+        "total-power-factor": 0.983,
+        "frecuency": 60.02
+    },
+    {
+        "date": "2024-11-10 13:10:49",
+        "total-active-power": 47.432,
+        "total-reactive-power": 8.424,
+        "total-apparent-power": 48.174,
+        "total-power-factor": 0.984,
+        "frecuency": 59.95
+    },
+    {
+        "date": "2024-11-10 13:12:44",
+        "total-active-power": 45.076,
+        "total-reactive-power": 8.318,
+        "total-apparent-power": 45.836,
+        "total-power-factor": 0.983,
+        "frecuency": 59.99
+    },
+    {
+        "date": "2024-11-10 13:14:44",
+        "total-active-power": 44.946,
+        "total-reactive-power": 8.28,
+        "total-apparent-power": 45.702,
+        "total-power-factor": 0.983,
+        "frecuency": 59.93
+    },
+    {
+        "date": "2024-11-10 13:16:44",
+        "total-active-power": 46.628,
+        "total-reactive-power": 8.64,
+        "total-apparent-power": 47.422,
+        "total-power-factor": 0.983,
+        "frecuency": 59.96
+    },
+    {
+        "date": "2024-11-10 13:18:43",
+        "total-active-power": 45.502,
+        "total-reactive-power": 8.468,
+        "total-apparent-power": 46.282,
+        "total-power-factor": 0.983,
+        "frecuency": 60.04
+    },
+    {
+        "date": "2024-11-10 13:20:44",
+        "total-active-power": 44.936,
+        "total-reactive-power": 8.302,
+        "total-apparent-power": 45.696,
+        "total-power-factor": 0.983,
+        "frecuency": 60.12
+    },
+    {
+        "date": "2024-11-10 13:22:44",
+        "total-active-power": 47.656,
+        "total-reactive-power": 8.528,
+        "total-apparent-power": 48.412,
+        "total-power-factor": 0.984,
+        "frecuency": 59.99
+    },
+    {
+        "date": "2024-11-10 13:24:44",
+        "total-active-power": 46.672,
+        "total-reactive-power": 8.68,
+        "total-apparent-power": 47.472,
+        "total-power-factor": 0.983,
+        "frecuency": 59.97
+    },
+    {
+        "date": "2024-11-10 13:26:44",
+        "total-active-power": 45.486,
+        "total-reactive-power": 8.36,
+        "total-apparent-power": 46.246,
+        "total-power-factor": 0.983,
+        "frecuency": 60.04
+    },
+    {
+        "date": "2024-11-10 13:28:44",
+        "total-active-power": 46.478,
+        "total-reactive-power": 8.554,
+        "total-apparent-power": 47.258,
+        "total-power-factor": 0.983,
+        "frecuency": 59.94
+    },
+    {
+        "date": "2024-11-10 13:30:44",
+        "total-active-power": 45.394,
+        "total-reactive-power": 8.466,
+        "total-apparent-power": 46.176,
+        "total-power-factor": 0.983,
+        "frecuency": 60
+    },
+    {
+        "date": "2024-11-10 13:32:44",
+        "total-active-power": 42.68,
+        "total-reactive-power": 8.018,
+        "total-apparent-power": 43.426,
+        "total-power-factor": 0.982,
+        "frecuency": 60.02
+    },
+    {
+        "date": "2024-11-10 13:34:44",
+        "total-active-power": 40.79,
+        "total-reactive-power": 7.926,
+        "total-apparent-power": 41.552,
+        "total-power-factor": 0.981,
+        "frecuency": 59.93
+    },
+    {
+        "date": "2024-11-10 13:36:44",
+        "total-active-power": 45.19,
+        "total-reactive-power": 8.194,
+        "total-apparent-power": 45.926,
+        "total-power-factor": 0.983,
+        "frecuency": 60
+    },
+    {
+        "date": "2024-11-10 13:38:44",
+        "total-active-power": 39.346,
+        "total-reactive-power": 7.658,
+        "total-apparent-power": 40.084,
+        "total-power-factor": 0.981,
+        "frecuency": 60.06
+    },
+    {
+        "date": "2024-11-10 13:40:43",
+        "total-active-power": 42.876,
+        "total-reactive-power": 8.202,
+        "total-apparent-power": 43.654,
+        "total-power-factor": 0.982,
+        "frecuency": 60.06
+    },
+    {
+        "date": "2024-11-10 13:42:43",
+        "total-active-power": 42.866,
+        "total-reactive-power": 8.194,
+        "total-apparent-power": 43.642,
+        "total-power-factor": 0.982,
+        "frecuency": 59.99
+    },
+    {
+        "date": "2024-11-10 13:44:44",
+        "total-active-power": 40.05,
+        "total-reactive-power": 7.754,
+        "total-apparent-power": 40.794,
+        "total-power-factor": 0.981,
+        "frecuency": 60
+    },
+    {
+        "date": "2024-11-10 13:46:44",
+        "total-active-power": 45.288,
+        "total-reactive-power": 8.498,
+        "total-apparent-power": 46.078,
+        "total-power-factor": 0.982,
+        "frecuency": 60.01
+    },
+    {
+        "date": "2024-11-10 13:48:44",
+        "total-active-power": 40.79,
+        "total-reactive-power": 7.892,
+        "total-apparent-power": 41.546,
+        "total-power-factor": 0.981,
+        "frecuency": 60
+    },
+    {
+        "date": "2024-11-10 13:50:44",
+        "total-active-power": 39.618,
+        "total-reactive-power": 7.416,
+        "total-apparent-power": 40.306,
+        "total-power-factor": 0.982,
+        "frecuency": 59.92
+    },
+    {
+        "date": "2024-11-10 13:52:43",
+        "total-active-power": 25.136,
+        "total-reactive-power": 6.168,
+        "total-apparent-power": 25.88,
+        "total-power-factor": 0.971,
+        "frecuency": 60
+    },
+    {
+        "date": "2024-11-10 13:54:43",
+        "total-active-power": 32.874,
+        "total-reactive-power": 6.938,
+        "total-apparent-power": 33.598,
+        "total-power-factor": 0.978,
+        "frecuency": 59.96
+    },
+    {
+        "date": "2024-11-10 13:56:43",
+        "total-active-power": 25.988,
+        "total-reactive-power": 6.038,
+        "total-apparent-power": 26.678,
+        "total-power-factor": 0.974,
+        "frecuency": 59.98
+    },
+    {
+        "date": "2024-11-10 13:58:44",
+        "total-active-power": 28.852,
+        "total-reactive-power": 6.562,
+        "total-apparent-power": 29.588,
+        "total-power-factor": 0.975,
+        "frecuency": 59.89
+    },
+    {
+        "date": "2024-11-10 14:00:44",
+        "total-active-power": 4.274,
+        "total-reactive-power": 3.778,
+        "total-apparent-power": 5.704,
+        "total-power-factor": 0.749,
+        "frecuency": 60.06
+    },
+    {
+        "date": "2024-11-10 14:02:43",
+        "total-active-power": 1.102,
+        "total-reactive-power": -0.642,
+        "total-apparent-power": 1.276,
+        "total-power-factor": 0.864,
+        "frecuency": 60.03
+    },
+    {
+        "date": "2024-11-10 14:04:44",
+        "total-active-power": 1.804,
+        "total-reactive-power": -0.048,
+        "total-apparent-power": 1.804,
+        "total-power-factor": 0.999,
+        "frecuency": 59.98
+    },
+    {
+        "date": "2024-11-10 14:06:43",
+        "total-active-power": 1.794,
+        "total-reactive-power": -0.084,
+        "total-apparent-power": 1.796,
+        "total-power-factor": 0.999,
+        "frecuency": 59.96
+    },
+    {
+        "date": "2024-11-10 14:08:44",
+        "total-active-power": 0.14,
+        "total-reactive-power": -0.554,
+        "total-apparent-power": 0.572,
+        "total-power-factor": 0.247,
+        "frecuency": 60
+    },
+    {
+        "date": "2024-11-10 14:10:44",
+        "total-active-power": 1.784,
+        "total-reactive-power": -0.058,
+        "total-apparent-power": 1.786,
+        "total-power-factor": 0.999,
+        "frecuency": 59.95
+    },
+    {
+        "date": "2024-11-10 14:12:43",
+        "total-active-power": 1.792,
+        "total-reactive-power": -0.106,
+        "total-apparent-power": 1.796,
+        "total-power-factor": 0.998,
+        "frecuency": 59.94
+    },
+    {
+        "date": "2024-11-10 14:14:43",
+        "total-active-power": 1.086,
+        "total-reactive-power": -0.664,
+        "total-apparent-power": 1.272,
+        "total-power-factor": 0.852,
+        "frecuency": 60.02
+    },
+    {
+        "date": "2024-11-10 14:16:44",
+        "total-active-power": 1.772,
+        "total-reactive-power": -0.092,
+        "total-apparent-power": 1.774,
+        "total-power-factor": 0.998,
+        "frecuency": 59.95
+    },
+    {
+        "date": "2024-11-10 14:18:43",
+        "total-active-power": 1.792,
+        "total-reactive-power": -0.104,
+        "total-apparent-power": 1.794,
+        "total-power-factor": 0.998,
+        "frecuency": 60.01
+    },
+    {
+        "date": "2024-11-10 14:20:43",
+        "total-active-power": 0.144,
+        "total-reactive-power": -0.552,
+        "total-apparent-power": 0.57,
+        "total-power-factor": 0.255,
+        "frecuency": 59.99
+    },
+    {
+        "date": "2024-11-10 14:22:44",
+        "total-active-power": 1.78,
+        "total-reactive-power": -0.104,
+        "total-apparent-power": 1.784,
+        "total-power-factor": 0.998,
+        "frecuency": 60
+    },
+    {
+        "date": "2024-11-10 14:24:43",
+        "total-active-power": 1.788,
+        "total-reactive-power": -0.122,
+        "total-apparent-power": 1.792,
+        "total-power-factor": 0.997,
+        "frecuency": 60.03
+    },
+    {
+        "date": "2024-11-10 14:26:43",
+        "total-active-power": 1.1,
+        "total-reactive-power": -0.658,
+        "total-apparent-power": 1.282,
+        "total-power-factor": 0.857,
+        "frecuency": 59.94
+    },
+    {
+        "date": "2024-11-10 14:28:43",
+        "total-active-power": 1.758,
+        "total-reactive-power": -0.102,
+        "total-apparent-power": 1.76,
+        "total-power-factor": 0.998,
+        "frecuency": 60.02
+    },
+    {
+        "date": "2024-11-10 14:30:43",
+        "total-active-power": 1.79,
+        "total-reactive-power": -0.118,
+        "total-apparent-power": 1.794,
+        "total-power-factor": 0.997,
+        "frecuency": 59.94
+    },
+    {
+        "date": "2024-11-10 14:32:44",
+        "total-active-power": 0.146,
+        "total-reactive-power": -0.548,
+        "total-apparent-power": 0.566,
+        "total-power-factor": 0.257,
+        "frecuency": 59.99
+    },
+    {
+        "date": "2024-11-10 14:34:44",
+        "total-active-power": 1.78,
+        "total-reactive-power": -0.114,
+        "total-apparent-power": 1.782,
+        "total-power-factor": 0.997,
+        "frecuency": 59.98
+    },
+    {
+        "date": "2024-11-10 14:36:43",
+        "total-active-power": 0.146,
+        "total-reactive-power": -0.552,
+        "total-apparent-power": 0.572,
+        "total-power-factor": 0.255,
+        "frecuency": 60.11
+    },
+    {
+        "date": "2024-11-10 14:38:43",
+        "total-active-power": 0.146,
+        "total-reactive-power": -0.552,
+        "total-apparent-power": 0.57,
+        "total-power-factor": 0.257,
+        "frecuency": 60.01
+    },
+    {
+        "date": "2024-11-10 14:40:43",
+        "total-active-power": 2.716,
+        "total-reactive-power": -0.208,
+        "total-apparent-power": 2.724,
+        "total-power-factor": 0.997,
+        "frecuency": 59.97
+    },
+    {
+        "date": "2024-11-10 14:42:43",
+        "total-active-power": 0.144,
+        "total-reactive-power": -0.55,
+        "total-apparent-power": 0.568,
+        "total-power-factor": 0.254,
+        "frecuency": 60
+    },
+    {
+        "date": "2024-11-10 14:44:43",
+        "total-active-power": 0.136,
+        "total-reactive-power": -0.554,
+        "total-apparent-power": 0.57,
+        "total-power-factor": 0.241,
+        "frecuency": 60.02
+    },
+    {
+        "date": "2024-11-10 14:48:43",
+        "total-active-power": 0.144,
+        "total-reactive-power": -0.554,
+        "total-apparent-power": 0.572,
+        "total-power-factor": 0.253,
+        "frecuency": 60
+    },
+    {
+        "date": "2024-11-10 14:50:44",
+        "total-active-power": 0.146,
+        "total-reactive-power": -0.552,
+        "total-apparent-power": 0.572,
+        "total-power-factor": 0.257,
+        "frecuency": 59.94
+    },
+    {
+        "date": "2024-11-10 14:52:44",
+        "total-active-power": 1.774,
+        "total-reactive-power": -0.098,
+        "total-apparent-power": 1.778,
+        "total-power-factor": 0.998,
+        "frecuency": 59.94
+    },
+    {
+        "date": "2024-11-10 14:54:44",
+        "total-active-power": 0.146,
+        "total-reactive-power": -0.554,
+        "total-apparent-power": 0.574,
+        "total-power-factor": 0.256,
+        "frecuency": 59.94
+    },
+    {
+        "date": "2024-11-10 14:56:43",
+        "total-active-power": 0.144,
+        "total-reactive-power": -0.554,
+        "total-apparent-power": 0.572,
+        "total-power-factor": 0.253,
+        "frecuency": 59.98
+    },
+    {
+        "date": "2024-11-10 14:58:43",
+        "total-active-power": 1.774,
+        "total-reactive-power": -0.118,
+        "total-apparent-power": 1.778,
+        "total-power-factor": 0.997,
+        "frecuency": 60.02
+    },
+    {
+        "date": "2024-11-10 15:00:43",
+        "total-active-power": 0.15,
+        "total-reactive-power": -0.548,
+        "total-apparent-power": 0.568,
+        "total-power-factor": 0.264,
+        "frecuency": 60.01
+    },
+    {
+        "date": "2024-11-10 15:02:44",
+        "total-active-power": 0.152,
+        "total-reactive-power": -0.546,
+        "total-apparent-power": 0.566,
+        "total-power-factor": 0.267,
+        "frecuency": 59.94
+    },
+    {
+        "date": "2024-11-10 15:04:43",
+        "total-active-power": 1.762,
+        "total-reactive-power": -0.108,
+        "total-apparent-power": 1.766,
+        "total-power-factor": 0.998,
+        "frecuency": 59.94
+    },
+    {
+        "date": "2024-11-10 15:06:44",
+        "total-active-power": 1.062,
+        "total-reactive-power": -0.66,
+        "total-apparent-power": 1.25,
+        "total-power-factor": 0.849,
+        "frecuency": 60.03
+    },
+    {
+        "date": "2024-11-10 15:08:44",
+        "total-active-power": 1.634,
+        "total-reactive-power": -0.054,
+        "total-apparent-power": 1.634,
+        "total-power-factor": 0.999,
+        "frecuency": 59.93
+    },
+    {
+        "date": "2024-11-10 15:10:43",
+        "total-active-power": 1.758,
+        "total-reactive-power": -0.1,
+        "total-apparent-power": 1.76,
+        "total-power-factor": 0.998,
+        "frecuency": 60
+    },
+    {
+        "date": "2024-11-10 15:12:44",
+        "total-active-power": 0.15,
+        "total-reactive-power": -0.55,
+        "total-apparent-power": 0.57,
+        "total-power-factor": 0.264,
+        "frecuency": 59.99
+    },
+    {
+        "date": "2024-11-10 15:14:43",
+        "total-active-power": 1.87,
+        "total-reactive-power": -0.108,
+        "total-apparent-power": 1.874,
+        "total-power-factor": 0.998,
+        "frecuency": 60.03
+    },
+    {
+        "date": "2024-11-10 16:02:43",
+        "total-active-power": 1.846,
+        "total-reactive-power": -0.102,
+        "total-apparent-power": 1.85,
+        "total-power-factor": 0.998,
+        "frecuency": 59.99
+    },
+    {
+        "date": "2024-11-10 16:04:43",
+        "total-active-power": 0.254,
+        "total-reactive-power": -0.558,
+        "total-apparent-power": 0.612,
+        "total-power-factor": 0.414,
+        "frecuency": 60
+    },
+    {
+        "date": "2024-11-10 16:06:43",
+        "total-active-power": 0.356,
+        "total-reactive-power": -0.562,
+        "total-apparent-power": 0.666,
+        "total-power-factor": 0.535,
+        "frecuency": 59.99
+    },
+    {
+        "date": "2024-11-10 16:08:43",
+        "total-active-power": 2.866,
+        "total-reactive-power": -0.256,
+        "total-apparent-power": 2.878,
+        "total-power-factor": 0.996,
+        "frecuency": 60.05
+    },
+    {
+        "date": "2024-11-10 16:10:43",
+        "total-active-power": 0.356,
+        "total-reactive-power": -0.552,
+        "total-apparent-power": 0.658,
+        "total-power-factor": 0.542,
+        "frecuency": 59.98
+    },
+    {
+        "date": "2024-11-10 16:12:43",
+        "total-active-power": 1.976,
+        "total-reactive-power": -0.14,
+        "total-apparent-power": 1.982,
+        "total-power-factor": 0.997,
+        "frecuency": 59.98
+    },
+    {
+        "date": "2024-11-10 16:14:43",
+        "total-active-power": 1.964,
+        "total-reactive-power": -0.13,
+        "total-apparent-power": 1.968,
+        "total-power-factor": 0.997,
+        "frecuency": 59.91
+    },
+    {
+        "date": "2024-11-10 16:16:43",
+        "total-active-power": 0.352,
+        "total-reactive-power": -0.55,
+        "total-apparent-power": 0.652,
+        "total-power-factor": 0.539,
+        "frecuency": 60.04
+    },
+    {
+        "date": "2024-11-10 16:18:43",
+        "total-active-power": 2.036,
+        "total-reactive-power": -0.142,
+        "total-apparent-power": 2.042,
+        "total-power-factor": 0.997,
+        "frecuency": 59.98
+    },
+    {
+        "date": "2024-11-10 16:20:43",
+        "total-active-power": 1.936,
+        "total-reactive-power": -0.144,
+        "total-apparent-power": 1.942,
+        "total-power-factor": 0.997,
+        "frecuency": 59.92
+    },
+    {
+        "date": "2024-11-10 16:22:43",
+        "total-active-power": 1.234,
+        "total-reactive-power": -0.666,
+        "total-apparent-power": 1.402,
+        "total-power-factor": 0.88,
+        "frecuency": 59.94
+    },
+    {
+        "date": "2024-11-10 16:24:43",
+        "total-active-power": 1.946,
+        "total-reactive-power": -0.156,
+        "total-apparent-power": 1.952,
+        "total-power-factor": 0.996,
+        "frecuency": 60.02
+    },
+    {
+        "date": "2024-11-10 16:26:43",
+        "total-active-power": 1.934,
+        "total-reactive-power": -0.168,
+        "total-apparent-power": 1.94,
+        "total-power-factor": 0.996,
+        "frecuency": 60.05
+    },
+    {
+        "date": "2024-11-10 16:28:43",
+        "total-active-power": 0.352,
+        "total-reactive-power": -0.546,
+        "total-apparent-power": 0.65,
+        "total-power-factor": 0.543,
+        "frecuency": 60.01
+    },
+    {
+        "date": "2024-11-10 16:30:43",
+        "total-active-power": 1.934,
+        "total-reactive-power": -0.17,
+        "total-apparent-power": 1.942,
+        "total-power-factor": 0.996,
+        "frecuency": 60.06
+    },
+    {
+        "date": "2024-11-10 16:32:43",
+        "total-active-power": 1.938,
+        "total-reactive-power": -0.156,
+        "total-apparent-power": 1.944,
+        "total-power-factor": 0.996,
+        "frecuency": 60.03
+    },
+    {
+        "date": "2024-11-10 16:34:43",
+        "total-active-power": 1.25,
+        "total-reactive-power": -0.666,
+        "total-apparent-power": 1.418,
+        "total-power-factor": 0.882,
+        "frecuency": 59.98
+    },
+    {
+        "date": "2024-11-10 16:36:43",
+        "total-active-power": 1.926,
+        "total-reactive-power": -0.144,
+        "total-apparent-power": 1.932,
+        "total-power-factor": 0.997,
+        "frecuency": 60.01
+    },
+    {
+        "date": "2024-11-10 16:38:43",
+        "total-active-power": 1.938,
+        "total-reactive-power": -0.148,
+        "total-apparent-power": 1.944,
+        "total-power-factor": 0.997,
+        "frecuency": 60
+    },
+    {
+        "date": "2024-11-10 16:40:43",
+        "total-active-power": 0.354,
+        "total-reactive-power": -0.55,
+        "total-apparent-power": 0.654,
+        "total-power-factor": 0.542,
+        "frecuency": 59.95
+    },
+    {
+        "date": "2024-11-10 16:42:43",
+        "total-active-power": 1.934,
+        "total-reactive-power": -0.136,
+        "total-apparent-power": 1.938,
+        "total-power-factor": 0.997,
+        "frecuency": 60.02
+    },
+    {
+        "date": "2024-11-10 16:44:43",
+        "total-active-power": 0.36,
+        "total-reactive-power": -0.552,
+        "total-apparent-power": 0.66,
+        "total-power-factor": 0.548,
+        "frecuency": 59.97
+    },
+    {
+        "date": "2024-11-10 16:46:43",
+        "total-active-power": 1.294,
+        "total-reactive-power": -0.67,
+        "total-apparent-power": 1.456,
+        "total-power-factor": 0.888,
+        "frecuency": 60.02
+    },
+    {
+        "date": "2024-11-10 16:48:43",
+        "total-active-power": 1.928,
+        "total-reactive-power": -0.156,
+        "total-apparent-power": 1.934,
+        "total-power-factor": 0.996,
+        "frecuency": 60.03
+    },
+    {
+        "date": "2024-11-10 16:50:43",
+        "total-active-power": 0.354,
+        "total-reactive-power": -0.546,
+        "total-apparent-power": 0.65,
+        "total-power-factor": 0.544,
+        "frecuency": 59.93
+    },
+    {
+        "date": "2024-11-10 16:52:43",
+        "total-active-power": 0.358,
+        "total-reactive-power": -0.548,
+        "total-apparent-power": 0.654,
+        "total-power-factor": 0.548,
+        "frecuency": 60.11
+    },
+    {
+        "date": "2024-11-10 16:54:43",
+        "total-active-power": 1.922,
+        "total-reactive-power": -0.152,
+        "total-apparent-power": 1.928,
+        "total-power-factor": 0.996,
+        "frecuency": 59.98
+    },
+    {
+        "date": "2024-11-10 16:56:43",
+        "total-active-power": 0.354,
+        "total-reactive-power": -0.544,
+        "total-apparent-power": 0.648,
+        "total-power-factor": 0.547,
+        "frecuency": 60.02
+    },
+    {
+        "date": "2024-11-10 16:58:43",
+        "total-active-power": 0.358,
+        "total-reactive-power": -0.544,
+        "total-apparent-power": 0.652,
+        "total-power-factor": 0.55,
+        "frecuency": 59.94
+    },
+    {
+        "date": "2024-11-10 17:00:43",
+        "total-active-power": 1.93,
+        "total-reactive-power": -0.138,
+        "total-apparent-power": 1.934,
+        "total-power-factor": 0.997,
+        "frecuency": 59.97
+    },
+    {
+        "date": "2024-11-10 17:02:43",
+        "total-active-power": 0.358,
+        "total-reactive-power": -0.548,
+        "total-apparent-power": 0.654,
+        "total-power-factor": 0.548,
+        "frecuency": 59.98
+    },
+    {
+        "date": "2024-11-10 17:04:43",
+        "total-active-power": 0.352,
+        "total-reactive-power": -0.542,
+        "total-apparent-power": 0.646,
+        "total-power-factor": 0.544,
+        "frecuency": 59.92
+    },
+    {
+        "date": "2024-11-10 17:06:43",
+        "total-active-power": 1.938,
+        "total-reactive-power": -0.108,
+        "total-apparent-power": 1.94,
+        "total-power-factor": 0.998,
+        "frecuency": 59.98
+    },
+    {
+        "date": "2024-11-10 17:08:43",
+        "total-active-power": 0.356,
+        "total-reactive-power": -0.55,
+        "total-apparent-power": 0.654,
+        "total-power-factor": 0.543,
+        "frecuency": 59.96
+    },
+    {
+        "date": "2024-11-10 17:10:43",
+        "total-active-power": 0.364,
+        "total-reactive-power": -0.552,
+        "total-apparent-power": 0.662,
+        "total-power-factor": 0.549,
+        "frecuency": 60.03
+    },
+    {
+        "date": "2024-11-10 17:12:43",
+        "total-active-power": 2.81,
+        "total-reactive-power": -0.194,
+        "total-apparent-power": 2.816,
+        "total-power-factor": 0.997,
+        "frecuency": 59.91
+    },
+    {
+        "date": "2024-11-10 17:14:43",
+        "total-active-power": 0.362,
+        "total-reactive-power": -0.546,
+        "total-apparent-power": 0.656,
+        "total-power-factor": 0.552,
+        "frecuency": 59.97
+    },
+    {
+        "date": "2024-11-10 17:16:43",
+        "total-active-power": 0.352,
+        "total-reactive-power": -0.542,
+        "total-apparent-power": 0.646,
+        "total-power-factor": 0.545,
+        "frecuency": 59.92
+    },
+    {
+        "date": "2024-11-10 17:18:43",
+        "total-active-power": 1.926,
+        "total-reactive-power": -0.168,
+        "total-apparent-power": 1.934,
+        "total-power-factor": 0.996,
+        "frecuency": 59.93
+    },
+    {
+        "date": "2024-11-10 17:20:43",
+        "total-active-power": 0.356,
+        "total-reactive-power": -0.542,
+        "total-apparent-power": 0.648,
+        "total-power-factor": 0.55,
+        "frecuency": 59.97
+    },
+    {
+        "date": "2024-11-10 17:22:43",
+        "total-active-power": 2.032,
+        "total-reactive-power": -0.126,
+        "total-apparent-power": 2.036,
+        "total-power-factor": 0.998,
+        "frecuency": 60.02
+    },
+    {
+        "date": "2024-11-10 17:24:43",
+        "total-active-power": 2.846,
+        "total-reactive-power": -0.186,
+        "total-apparent-power": 2.852,
+        "total-power-factor": 0.997,
+        "frecuency": 60.04
+    },
+    {
+        "date": "2024-11-10 17:26:43",
+        "total-active-power": 0.364,
+        "total-reactive-power": -0.57,
+        "total-apparent-power": 0.676,
+        "total-power-factor": 0.539,
+        "frecuency": 60.22
+    },
+    {
+        "date": "2024-11-10 17:28:43",
+        "total-active-power": 2,
+        "total-reactive-power": -0.078,
+        "total-apparent-power": 2.002,
+        "total-power-factor": 0.999,
+        "frecuency": 60.04
+    },
+    {
+        "date": "2024-11-10 17:30:44",
+        "total-active-power": 1.956,
+        "total-reactive-power": -0.072,
+        "total-apparent-power": 1.956,
+        "total-power-factor": 0.999,
+        "frecuency": 60.02
+    },
+    {
+        "date": "2024-11-10 17:32:43",
+        "total-active-power": 0.364,
+        "total-reactive-power": -0.564,
+        "total-apparent-power": 0.672,
+        "total-power-factor": 0.543,
+        "frecuency": 59.94
+    },
+    {
+        "date": "2024-11-10 17:34:43",
+        "total-active-power": 1.97,
+        "total-reactive-power": -0.046,
+        "total-apparent-power": 1.97,
+        "total-power-factor": 0.999,
+        "frecuency": 60.01
+    },
+    {
+        "date": "2024-11-10 17:36:43",
+        "total-active-power": 2.888,
+        "total-reactive-power": -0.12,
+        "total-apparent-power": 2.89,
+        "total-power-factor": 0.999,
+        "frecuency": 60
+    },
+    {
+        "date": "2024-11-10 17:38:52",
+        "total-active-power": 0.366,
+        "total-reactive-power": -0.564,
+        "total-apparent-power": 0.672,
+        "total-power-factor": 0.544,
+        "frecuency": 60.05
+    },
+    {
+        "date": "2024-11-10 17:41:30",
+        "total-active-power": 1.95,
+        "total-reactive-power": -0.056,
+        "total-apparent-power": 1.95,
+        "total-power-factor": 0.999,
+        "frecuency": 59.93
+    },
+    {
+        "date": "2024-11-10 17:42:53",
+        "total-active-power": 0.368,
+        "total-reactive-power": -0.56,
+        "total-apparent-power": 0.67,
+        "total-power-factor": 0.55,
+        "frecuency": 59.94
+    },
+    {
+        "date": "2024-11-10 17:44:45",
+        "total-active-power": 0.364,
+        "total-reactive-power": -0.566,
+        "total-apparent-power": 0.672,
+        "total-power-factor": 0.541,
+        "frecuency": 60.05
+    },
+    {
+        "date": "2024-11-10 17:46:43",
+        "total-active-power": 1.946,
+        "total-reactive-power": -0.092,
+        "total-apparent-power": 1.948,
+        "total-power-factor": 0.999,
+        "frecuency": 60
+    },
+    {
+        "date": "2024-11-10 17:48:43",
+        "total-active-power": 1.258,
+        "total-reactive-power": -0.654,
+        "total-apparent-power": 1.418,
+        "total-power-factor": 0.887,
+        "frecuency": 60.01
+    },
+    {
+        "date": "2024-11-10 17:50:43",
+        "total-active-power": 0.36,
+        "total-reactive-power": -0.558,
+        "total-apparent-power": 0.664,
+        "total-power-factor": 0.542,
+        "frecuency": 59.97
+    },
+    {
+        "date": "2024-11-10 17:52:43",
+        "total-active-power": 1.936,
+        "total-reactive-power": -0.098,
+        "total-apparent-power": 1.938,
+        "total-power-factor": 0.998,
+        "frecuency": 60.01
+    },
+    {
+        "date": "2024-11-10 17:54:43",
+        "total-active-power": 0.358,
+        "total-reactive-power": -0.552,
+        "total-apparent-power": 0.658,
+        "total-power-factor": 0.543,
+        "frecuency": 60.01
+    },
+    {
+        "date": "2024-11-10 17:56:43",
+        "total-active-power": 0.358,
+        "total-reactive-power": -0.558,
+        "total-apparent-power": 0.662,
+        "total-power-factor": 0.541,
+        "frecuency": 60.02
+    },
+    {
+        "date": "2024-11-10 17:58:43",
+        "total-active-power": 1.944,
+        "total-reactive-power": -0.078,
+        "total-apparent-power": 1.946,
+        "total-power-factor": 0.999,
+        "frecuency": 60.07
+    },
+    {
+        "date": "2024-11-10 18:00:43",
+        "total-active-power": 1.25,
+        "total-reactive-power": -0.648,
+        "total-apparent-power": 1.41,
+        "total-power-factor": 0.887,
+        "frecuency": 60.02
+    },
+    {
+        "date": "2024-11-10 18:02:43",
+        "total-active-power": 0.358,
+        "total-reactive-power": -0.562,
+        "total-apparent-power": 0.666,
+        "total-power-factor": 0.537,
+        "frecuency": 60.19
+    },
+    {
+        "date": "2024-11-10 18:04:43",
+        "total-active-power": 1.948,
+        "total-reactive-power": -0.092,
+        "total-apparent-power": 1.95,
+        "total-power-factor": 0.999,
+        "frecuency": 60.01
+    },
+    {
+        "date": "2024-11-10 18:08:44",
+        "total-active-power": 0.36,
+        "total-reactive-power": -0.558,
+        "total-apparent-power": 0.664,
+        "total-power-factor": 0.542,
+        "frecuency": 60.05
+    },
+    {
+        "date": "2024-11-10 18:10:44",
+        "total-active-power": 1.944,
+        "total-reactive-power": -0.07,
+        "total-apparent-power": 1.946,
+        "total-power-factor": 0.999,
+        "frecuency": 59.97
+    },
+    {
+        "date": "2024-11-10 18:12:43",
+        "total-active-power": 0.364,
+        "total-reactive-power": -0.558,
+        "total-apparent-power": 0.664,
+        "total-power-factor": 0.547,
+        "frecuency": 59.95
+    },
+    {
+        "date": "2024-11-10 18:14:43",
+        "total-active-power": 2.842,
+        "total-reactive-power": -0.174,
+        "total-apparent-power": 2.848,
+        "total-power-factor": 0.998,
+        "frecuency": 60
+    },
+    {
+        "date": "2024-11-10 18:16:43",
+        "total-active-power": 1.94,
+        "total-reactive-power": -0.066,
+        "total-apparent-power": 1.94,
+        "total-power-factor": 0.999,
+        "frecuency": 59.92
+    },
+    {
+        "date": "2024-11-10 18:18:43",
+        "total-active-power": 0.356,
+        "total-reactive-power": -0.558,
+        "total-apparent-power": 0.662,
+        "total-power-factor": 0.538,
+        "frecuency": 59.94
+    },
+    {
+        "date": "2024-11-10 18:20:43",
+        "total-active-power": 1.998,
+        "total-reactive-power": -0.066,
+        "total-apparent-power": 2,
+        "total-power-factor": 0.999,
+        "frecuency": 60.16
+    },
+    {
+        "date": "2024-11-10 18:22:43",
+        "total-active-power": 1.96,
+        "total-reactive-power": -0.04,
+        "total-apparent-power": 1.96,
+        "total-power-factor": 0.999,
+        "frecuency": 59.93
+    },
+    {
+        "date": "2024-11-10 18:24:43",
+        "total-active-power": 0.354,
+        "total-reactive-power": -0.56,
+        "total-apparent-power": 0.664,
+        "total-power-factor": 0.534,
+        "frecuency": 60
+    },
+    {
+        "date": "2024-11-10 18:26:43",
+        "total-active-power": 2.836,
+        "total-reactive-power": -0.15,
+        "total-apparent-power": 2.84,
+        "total-power-factor": 0.998,
+        "frecuency": 60
+    },
+    {
+        "date": "2024-11-10 18:28:43",
+        "total-active-power": 0.362,
+        "total-reactive-power": -0.558,
+        "total-apparent-power": 0.664,
+        "total-power-factor": 0.546,
+        "frecuency": 59.93
+    },
+    {
+        "date": "2024-11-10 18:30:43",
+        "total-active-power": 0.358,
+        "total-reactive-power": -0.556,
+        "total-apparent-power": 0.662,
+        "total-power-factor": 0.541,
+        "frecuency": 59.94
+    },
+    {
+        "date": "2024-11-10 18:32:43",
+        "total-active-power": 1.93,
+        "total-reactive-power": -0.078,
+        "total-apparent-power": 1.93,
+        "total-power-factor": 0.999,
+        "frecuency": 59.99
+    },
+    {
+        "date": "2024-11-10 18:34:44",
+        "total-active-power": 0.254,
+        "total-reactive-power": -0.554,
+        "total-apparent-power": 0.61,
+        "total-power-factor": 0.415,
+        "frecuency": 60.01
+    },
+    {
+        "date": "2024-11-10 18:37:01",
+        "total-active-power": 0.248,
+        "total-reactive-power": -0.554,
+        "total-apparent-power": 0.606,
+        "total-power-factor": 0.411,
+        "frecuency": 59.92
+    },
+    {
+        "date": "2024-11-10 18:38:44",
+        "total-active-power": 2.718,
+        "total-reactive-power": -0.16,
+        "total-apparent-power": 2.722,
+        "total-power-factor": 0.998,
+        "frecuency": 60
+    },
+    {
+        "date": "2024-11-10 18:40:43",
+        "total-active-power": 0.248,
+        "total-reactive-power": -0.556,
+        "total-apparent-power": 0.608,
+        "total-power-factor": 0.408,
+        "frecuency": 59.96
+    },
+    {
+        "date": "2024-11-10 18:42:43",
+        "total-active-power": 0.254,
+        "total-reactive-power": -0.556,
+        "total-apparent-power": 0.612,
+        "total-power-factor": 0.417,
+        "frecuency": 59.92
+    },
+    {
+        "date": "2024-11-10 18:44:43",
+        "total-active-power": 1.828,
+        "total-reactive-power": -0.062,
+        "total-apparent-power": 1.83,
+        "total-power-factor": 0.999,
+        "frecuency": 59.96
+    },
+    {
+        "date": "2024-11-10 18:46:43",
+        "total-active-power": 0.256,
+        "total-reactive-power": -0.558,
+        "total-apparent-power": 0.614,
+        "total-power-factor": 0.419,
+        "frecuency": 60.04
+    },
+    {
+        "date": "2024-11-10 18:48:43",
+        "total-active-power": 0.25,
+        "total-reactive-power": -0.558,
+        "total-apparent-power": 0.61,
+        "total-power-factor": 0.409,
+        "frecuency": 59.94
+    },
+    {
+        "date": "2024-11-10 18:50:43",
+        "total-active-power": 1.826,
+        "total-reactive-power": -0.054,
+        "total-apparent-power": 1.826,
+        "total-power-factor": 0.999,
+        "frecuency": 60
+    },
+    {
+        "date": "2024-11-10 18:52:43",
+        "total-active-power": 1.146,
+        "total-reactive-power": -0.642,
+        "total-apparent-power": 1.314,
+        "total-power-factor": 0.872,
+        "frecuency": 60.01
+    },
+    {
+        "date": "2024-11-10 18:54:43",
+        "total-active-power": 0.254,
+        "total-reactive-power": -0.56,
+        "total-apparent-power": 0.614,
+        "total-power-factor": 0.413,
+        "frecuency": 60
+    },
+    {
+        "date": "2024-11-10 18:56:43",
+        "total-active-power": 1.826,
+        "total-reactive-power": -0.052,
+        "total-apparent-power": 1.826,
+        "total-power-factor": 0.999,
+        "frecuency": 59.94
+    },
+    {
+        "date": "2024-11-10 18:58:43",
+        "total-active-power": 0.252,
+        "total-reactive-power": -0.56,
+        "total-apparent-power": 0.614,
+        "total-power-factor": 0.41,
+        "frecuency": 59.96
+    },
+    {
+        "date": "2024-11-10 19:00:43",
+        "total-active-power": 0.25,
+        "total-reactive-power": -0.56,
+        "total-apparent-power": 0.614,
+        "total-power-factor": 0.407,
+        "frecuency": 59.95
+    },
+    {
+        "date": "2024-11-10 19:02:43",
+        "total-active-power": 1.828,
+        "total-reactive-power": -0.062,
+        "total-apparent-power": 1.83,
+        "total-power-factor": 0.999,
+        "frecuency": 60.03
+    },
+    {
+        "date": "2024-11-10 19:04:43",
+        "total-active-power": 1.14,
+        "total-reactive-power": -0.65,
+        "total-apparent-power": 1.312,
+        "total-power-factor": 0.869,
+        "frecuency": 60.01
+    },
+    {
+        "date": "2024-11-10 19:06:43",
+        "total-active-power": 1.814,
+        "total-reactive-power": -0.074,
+        "total-apparent-power": 1.814,
+        "total-power-factor": 0.999,
+        "frecuency": 59.97
+    },
+    {
+        "date": "2024-11-10 19:08:43",
+        "total-active-power": 1.726,
+        "total-reactive-power": -0.074,
+        "total-apparent-power": 1.728,
+        "total-power-factor": 0.999,
+        "frecuency": 59.98
+    },
+    {
+        "date": "2024-11-10 19:10:43",
+        "total-active-power": 0.144,
+        "total-reactive-power": -0.562,
+        "total-apparent-power": 0.58,
+        "total-power-factor": 0.248,
+        "frecuency": 60.08
+    },
+    {
+        "date": "2024-11-10 19:12:43",
+        "total-active-power": 1.746,
+        "total-reactive-power": -0.048,
+        "total-apparent-power": 1.748,
+        "total-power-factor": 0.999,
+        "frecuency": 59.93
+    },
+    {
+        "date": "2024-11-10 19:14:43",
+        "total-active-power": 1.734,
+        "total-reactive-power": -0.062,
+        "total-apparent-power": 1.734,
+        "total-power-factor": 0.999,
+        "frecuency": 60.02
+    },
+    {
+        "date": "2024-11-10 19:16:43",
+        "total-active-power": 1.04,
+        "total-reactive-power": -0.64,
+        "total-apparent-power": 1.22,
+        "total-power-factor": 0.851,
+        "frecuency": 59.96
+    },
+    {
+        "date": "2024-11-10 19:18:43",
+        "total-active-power": 1.732,
+        "total-reactive-power": -0.044,
+        "total-apparent-power": 1.732,
+        "total-power-factor": 0.999,
+        "frecuency": 59.98
+    },
+    {
+        "date": "2024-11-10 19:20:43",
+        "total-active-power": 0.148,
+        "total-reactive-power": -0.56,
+        "total-apparent-power": 0.578,
+        "total-power-factor": 0.256,
+        "frecuency": 59.97
+    },
+    {
+        "date": "2024-11-10 19:22:43",
+        "total-active-power": 0.144,
+        "total-reactive-power": -0.56,
+        "total-apparent-power": 0.578,
+        "total-power-factor": 0.25,
+        "frecuency": 60.01
+    },
+    {
+        "date": "2024-11-10 19:24:43",
+        "total-active-power": 1.712,
+        "total-reactive-power": -0.05,
+        "total-apparent-power": 1.712,
+        "total-power-factor": 0.999,
+        "frecuency": 60
+    },
+    {
+        "date": "2024-11-10 19:26:43",
+        "total-active-power": 0.148,
+        "total-reactive-power": -0.558,
+        "total-apparent-power": 0.578,
+        "total-power-factor": 0.257,
+        "frecuency": 59.95
+    },
+    {
+        "date": "2024-11-10 19:28:42",
+        "total-active-power": 0.144,
+        "total-reactive-power": -0.56,
+        "total-apparent-power": 0.578,
+        "total-power-factor": 0.251,
+        "frecuency": 59.97
+    },
+    {
+        "date": "2024-11-10 19:30:43",
+        "total-active-power": 1.734,
+        "total-reactive-power": -0.048,
+        "total-apparent-power": 1.734,
+        "total-power-factor": 0.999,
+        "frecuency": 60.01
+    },
+    {
+        "date": "2024-11-10 19:32:43",
+        "total-active-power": 0.148,
+        "total-reactive-power": -0.556,
+        "total-apparent-power": 0.574,
+        "total-power-factor": 0.258,
+        "frecuency": 59.98
+    },
+    {
+        "date": "2024-11-10 19:34:43",
+        "total-active-power": 0.254,
+        "total-reactive-power": -0.56,
+        "total-apparent-power": 0.616,
+        "total-power-factor": 0.414,
+        "frecuency": 60
+    },
+    {
+        "date": "2024-11-10 19:36:43",
+        "total-active-power": 1.84,
+        "total-reactive-power": -0.08,
+        "total-apparent-power": 1.842,
+        "total-power-factor": 0.999,
+        "frecuency": 60.1
+    },
+    {
+        "date": "2024-11-10 19:38:43",
+        "total-active-power": 0.248,
+        "total-reactive-power": -0.556,
+        "total-apparent-power": 0.61,
+        "total-power-factor": 0.407,
+        "frecuency": 59.89
+    },
+    {
+        "date": "2024-11-10 19:40:43",
+        "total-active-power": 0.258,
+        "total-reactive-power": -0.556,
+        "total-apparent-power": 0.612,
+        "total-power-factor": 0.408,
+        "frecuency": 59.93
+    },
+    {
+        "date": "2024-11-10 19:42:43",
+        "total-active-power": 1.84,
+        "total-reactive-power": -0.034,
+        "total-apparent-power": 1.84,
+        "total-power-factor": 0.999,
+        "frecuency": 59.96
+    },
+    {
+        "date": "2024-11-10 19:44:43",
+        "total-active-power": 1.144,
+        "total-reactive-power": -0.64,
+        "total-apparent-power": 1.31,
+        "total-power-factor": 0.872,
+        "frecuency": 59.97
+    },
+    {
+        "date": "2024-11-10 19:46:43",
+        "total-active-power": 0.252,
+        "total-reactive-power": -0.562,
+        "total-apparent-power": 0.616,
+        "total-power-factor": 0.41,
+        "frecuency": 59.97
+    },
+    {
+        "date": "2024-11-10 19:48:43",
+        "total-active-power": 1.828,
+        "total-reactive-power": -0.052,
+        "total-apparent-power": 1.828,
+        "total-power-factor": 0.999,
+        "frecuency": 59.98
+    },
+    {
+        "date": "2024-11-10 19:50:43",
+        "total-active-power": 0.254,
+        "total-reactive-power": -0.562,
+        "total-apparent-power": 0.616,
+        "total-power-factor": 0.411,
+        "frecuency": 60.01
+    },
+    {
+        "date": "2024-11-10 19:52:42",
+        "total-active-power": 1.974,
+        "total-reactive-power": -0.08,
+        "total-apparent-power": 1.976,
+        "total-power-factor": 0.999,
+        "frecuency": 60.04
+    },
+    {
+        "date": "2024-11-10 19:54:43",
+        "total-active-power": 1.842,
+        "total-reactive-power": -0.034,
+        "total-apparent-power": 1.842,
+        "total-power-factor": 0.999,
+        "frecuency": 60.07
+    },
+    {
+        "date": "2024-11-10 19:56:43",
+        "total-active-power": 1.15,
+        "total-reactive-power": -0.638,
+        "total-apparent-power": 1.316,
+        "total-power-factor": 0.874,
+        "frecuency": 60
+    },
+    {
+        "date": "2024-11-10 19:58:43",
+        "total-active-power": 1.85,
+        "total-reactive-power": -0.032,
+        "total-apparent-power": 1.85,
+        "total-power-factor": 0.999,
+        "frecuency": 59.99
+    },
+    {
+        "date": "2024-11-10 20:00:43",
+        "total-active-power": 1.846,
+        "total-reactive-power": -0.028,
+        "total-apparent-power": 1.848,
+        "total-power-factor": 0.999,
+        "frecuency": 59.96
+    },
+    {
+        "date": "2024-11-10 20:02:43",
+        "total-active-power": 0.256,
+        "total-reactive-power": -0.568,
+        "total-apparent-power": 0.624,
+        "total-power-factor": 0.411,
+        "frecuency": 60.07
+    },
+    {
+        "date": "2024-11-10 20:04:43",
+        "total-active-power": 1.944,
+        "total-reactive-power": -0.028,
+        "total-apparent-power": 1.944,
+        "total-power-factor": 0.999,
+        "frecuency": 60.04
+    },
+    {
+        "date": "2024-11-10 20:06:43",
+        "total-active-power": 0.364,
+        "total-reactive-power": -0.562,
+        "total-apparent-power": 0.67,
+        "total-power-factor": 0.543,
+        "frecuency": 59.99
+    },
+    {
+        "date": "2024-11-10 20:08:43",
+        "total-active-power": 1.236,
+        "total-reactive-power": -0.662,
+        "total-apparent-power": 1.402,
+        "total-power-factor": 0.881,
+        "frecuency": 59.98
+    },
+    {
+        "date": "2024-11-10 20:10:43",
+        "total-active-power": 1.9,
+        "total-reactive-power": -0.112,
+        "total-apparent-power": 1.904,
+        "total-power-factor": 0.998,
+        "frecuency": 59.95
+    },
+    {
+        "date": "2024-11-10 20:12:43",
+        "total-active-power": 0.354,
+        "total-reactive-power": -0.542,
+        "total-apparent-power": 0.648,
+        "total-power-factor": 0.547,
+        "frecuency": 59.91
+    },
+    {
+        "date": "2024-11-10 20:14:43",
+        "total-active-power": 0.348,
+        "total-reactive-power": -0.546,
+        "total-apparent-power": 0.648,
+        "total-power-factor": 0.537,
+        "frecuency": 60.03
+    },
+    {
+        "date": "2024-11-10 20:16:43",
+        "total-active-power": 1.898,
+        "total-reactive-power": -0.142,
+        "total-apparent-power": 1.902,
+        "total-power-factor": 0.997,
+        "frecuency": 60.05
+    },
+    {
+        "date": "2024-11-10 20:18:43",
+        "total-active-power": 0.354,
+        "total-reactive-power": -0.546,
+        "total-apparent-power": 0.65,
+        "total-power-factor": 0.544,
+        "frecuency": 59.99
+    },
+    {
+        "date": "2024-11-10 20:20:43",
+        "total-active-power": 1.224,
+        "total-reactive-power": -0.668,
+        "total-apparent-power": 1.396,
+        "total-power-factor": 0.877,
+        "frecuency": 60.04
+    },
+    {
+        "date": "2024-11-10 20:20:58",
+        "total-active-power": 1.224,
+        "total-reactive-power": -0.668,
+        "total-apparent-power": 1.396,
+        "total-power-factor": 0.877,
+        "frecuency": 60.04
+    },
+    {
+        "date": "2024-11-10 20:22:43",
+        "total-active-power": 1.898,
+        "total-reactive-power": -0.136,
+        "total-apparent-power": 1.904,
+        "total-power-factor": 0.997,
+        "frecuency": 60.09
+    },
+    {
+        "date": "2024-11-10 20:24:43",
+        "total-active-power": 0.36,
+        "total-reactive-power": -0.55,
+        "total-apparent-power": 0.658,
+        "total-power-factor": 0.547,
+        "frecuency": 59.98
+    },
+    {
+        "date": "2024-11-10 20:26:43",
+        "total-active-power": 0.356,
+        "total-reactive-power": -0.55,
+        "total-apparent-power": 0.654,
+        "total-power-factor": 0.543,
+        "frecuency": 59.94
+    },
+    {
+        "date": "2024-11-10 20:28:43",
+        "total-active-power": 1.908,
+        "total-reactive-power": -0.108,
+        "total-apparent-power": 1.912,
+        "total-power-factor": 0.998,
+        "frecuency": 59.97
+    },
+    {
+        "date": "2024-11-10 20:30:43",
+        "total-active-power": 0.352,
+        "total-reactive-power": -0.55,
+        "total-apparent-power": 0.652,
+        "total-power-factor": 0.541,
+        "frecuency": 59.94
+    },
+    {
+        "date": "2024-11-10 20:32:43",
+        "total-active-power": 1.222,
+        "total-reactive-power": -0.662,
+        "total-apparent-power": 1.39,
+        "total-power-factor": 0.879,
+        "frecuency": 59.92
+    },
+    {
+        "date": "2024-11-10 20:34:43",
+        "total-active-power": 1.898,
+        "total-reactive-power": -0.13,
+        "total-apparent-power": 1.904,
+        "total-power-factor": 0.997,
+        "frecuency": 59.98
+    },
+    {
+        "date": "2024-11-10 20:36:43",
+        "total-active-power": 0.352,
+        "total-reactive-power": -0.548,
+        "total-apparent-power": 0.652,
+        "total-power-factor": 0.542,
+        "frecuency": 60
+    },
+    {
+        "date": "2024-11-10 20:38:42",
+        "total-active-power": 0.354,
+        "total-reactive-power": -0.548,
+        "total-apparent-power": 0.652,
+        "total-power-factor": 0.542,
+        "frecuency": 59.97
+    },
+    {
+        "date": "2024-11-10 20:40:43",
+        "total-active-power": 1.9,
+        "total-reactive-power": -0.132,
+        "total-apparent-power": 1.906,
+        "total-power-factor": 0.997,
+        "frecuency": 60.05
+    },
+    {
+        "date": "2024-11-10 20:42:43",
+        "total-active-power": 0.358,
+        "total-reactive-power": -0.552,
+        "total-apparent-power": 0.658,
+        "total-power-factor": 0.544,
+        "frecuency": 60.09
+    },
+    {
+        "date": "2024-11-10 20:44:43",
+        "total-active-power": 2.004,
+        "total-reactive-power": -0.13,
+        "total-apparent-power": 2.008,
+        "total-power-factor": 0.997,
+        "frecuency": 59.97
+    },
+    {
+        "date": "2024-11-10 20:46:43",
+        "total-active-power": 2.788,
+        "total-reactive-power": -0.228,
+        "total-apparent-power": 2.796,
+        "total-power-factor": 0.996,
+        "frecuency": 60.04
+    },
+    {
+        "date": "2024-11-10 20:48:43",
+        "total-active-power": 0.358,
+        "total-reactive-power": -0.552,
+        "total-apparent-power": 0.658,
+        "total-power-factor": 0.543,
+        "frecuency": 60.04
+    },
+    {
+        "date": "2024-11-10 20:50:42",
+        "total-active-power": 1.942,
+        "total-reactive-power": -0.11,
+        "total-apparent-power": 1.944,
+        "total-power-factor": 0.998,
+        "frecuency": 60.02
+    },
+    {
+        "date": "2024-11-10 20:52:43",
+        "total-active-power": 1.916,
+        "total-reactive-power": -0.102,
+        "total-apparent-power": 1.918,
+        "total-power-factor": 0.998,
+        "frecuency": 59.97
+    },
+    {
+        "date": "2024-11-10 20:54:43",
+        "total-active-power": 0.36,
+        "total-reactive-power": -0.548,
+        "total-apparent-power": 0.656,
+        "total-power-factor": 0.548,
+        "frecuency": 59.93
+    },
+    {
+        "date": "2024-11-10 20:56:43",
+        "total-active-power": 1.898,
+        "total-reactive-power": -0.124,
+        "total-apparent-power": 1.902,
+        "total-power-factor": 0.997,
+        "frecuency": 59.98
+    },
+    {
+        "date": "2024-11-10 20:58:43",
+        "total-active-power": 1.238,
+        "total-reactive-power": -0.654,
+        "total-apparent-power": 1.4,
+        "total-power-factor": 0.884,
+        "frecuency": 60
+    },
+    {
+        "date": "2024-11-10 21:00:43",
+        "total-active-power": 0.356,
+        "total-reactive-power": -0.55,
+        "total-apparent-power": 0.654,
+        "total-power-factor": 0.543,
+        "frecuency": 59.96
+    },
+    {
+        "date": "2024-11-10 21:02:43",
+        "total-active-power": 1.928,
+        "total-reactive-power": -0.092,
+        "total-apparent-power": 1.93,
+        "total-power-factor": 0.998,
+        "frecuency": 59.9
+    },
+    {
+        "date": "2024-11-10 21:04:43",
+        "total-active-power": 0.36,
+        "total-reactive-power": -0.554,
+        "total-apparent-power": 0.662,
+        "total-power-factor": 0.546,
+        "frecuency": 59.9
+    },
+    {
+        "date": "2024-11-10 21:06:43",
+        "total-active-power": 0.35,
+        "total-reactive-power": -0.54,
+        "total-apparent-power": 0.644,
+        "total-power-factor": 0.544,
+        "frecuency": 59.98
+    },
+    {
+        "date": "2024-11-10 21:08:43",
+        "total-active-power": 1.884,
+        "total-reactive-power": -0.16,
+        "total-apparent-power": 1.89,
+        "total-power-factor": 0.996,
+        "frecuency": 59.96
+    },
+    {
+        "date": "2024-11-10 21:10:43",
+        "total-active-power": 1.18,
+        "total-reactive-power": -0.66,
+        "total-apparent-power": 1.352,
+        "total-power-factor": 0.872,
+        "frecuency": 60.03
+    },
+    {
+        "date": "2024-11-10 21:12:43",
+        "total-active-power": 0.354,
+        "total-reactive-power": -0.544,
+        "total-apparent-power": 0.65,
+        "total-power-factor": 0.545,
+        "frecuency": 60.01
+    },
+    {
+        "date": "2024-11-10 21:14:43",
+        "total-active-power": 1.902,
+        "total-reactive-power": -0.128,
+        "total-apparent-power": 1.906,
+        "total-power-factor": 0.997,
+        "frecuency": 59.95
+    },
+    {
+        "date": "2024-11-10 21:16:42",
+        "total-active-power": 0.356,
+        "total-reactive-power": -0.546,
+        "total-apparent-power": 0.652,
+        "total-power-factor": 0.546,
+        "frecuency": 60
+    },
+    {
+        "date": "2024-11-10 21:18:43",
+        "total-active-power": 0.352,
+        "total-reactive-power": -0.548,
+        "total-apparent-power": 0.65,
+        "total-power-factor": 0.54,
+        "frecuency": 60
+    },
+    {
+        "date": "2024-11-10 21:20:43",
+        "total-active-power": 1.922,
+        "total-reactive-power": -0.136,
+        "total-apparent-power": 1.926,
+        "total-power-factor": 0.997,
+        "frecuency": 59.97
+    },
+    {
+        "date": "2024-11-10 21:22:42",
+        "total-active-power": 0.35,
+        "total-reactive-power": -0.55,
+        "total-apparent-power": 0.652,
+        "total-power-factor": 0.538,
+        "frecuency": 59.99
+    },
+    {
+        "date": "2024-11-10 21:24:43",
+        "total-active-power": 1.222,
+        "total-reactive-power": -0.664,
+        "total-apparent-power": 1.39,
+        "total-power-factor": 0.878,
+        "frecuency": 60.07
+    },
+    {
+        "date": "2024-11-10 21:26:42",
+        "total-active-power": 1.918,
+        "total-reactive-power": -0.134,
+        "total-apparent-power": 1.924,
+        "total-power-factor": 0.997,
+        "frecuency": 59.98
+    },
+    {
+        "date": "2024-11-10 21:28:42",
+        "total-active-power": 0.356,
+        "total-reactive-power": -0.552,
+        "total-apparent-power": 0.656,
+        "total-power-factor": 0.544,
+        "frecuency": 60.03
+    },
+    {
+        "date": "2024-11-10 21:30:43",
+        "total-active-power": 1.946,
+        "total-reactive-power": -0.134,
+        "total-apparent-power": 1.95,
+        "total-power-factor": 0.997,
+        "frecuency": 59.96
+    },
+    {
+        "date": "2024-11-10 21:32:43",
+        "total-active-power": 1.916,
+        "total-reactive-power": -0.128,
+        "total-apparent-power": 1.92,
+        "total-power-factor": 0.997,
+        "frecuency": 59.96
+    },
+    {
+        "date": "2024-11-10 21:34:43",
+        "total-active-power": 0.352,
+        "total-reactive-power": -0.552,
+        "total-apparent-power": 0.654,
+        "total-power-factor": 0.537,
+        "frecuency": 60.01
+    },
+    {
+        "date": "2024-11-10 21:36:43",
+        "total-active-power": 2.804,
+        "total-reactive-power": -0.21,
+        "total-apparent-power": 2.81,
+        "total-power-factor": 0.997,
+        "frecuency": 59.99
+    },
+    {
+        "date": "2024-11-10 21:38:43",
+        "total-active-power": 1.928,
+        "total-reactive-power": -0.104,
+        "total-apparent-power": 1.932,
+        "total-power-factor": 0.998,
+        "frecuency": 59.99
+    },
+    {
+        "date": "2024-11-10 21:40:42",
+        "total-active-power": 0.36,
+        "total-reactive-power": -0.556,
+        "total-apparent-power": 0.662,
+        "total-power-factor": 0.544,
+        "frecuency": 59.98
+    },
+    {
+        "date": "2024-11-10 21:42:43",
+        "total-active-power": 1.898,
+        "total-reactive-power": -0.148,
+        "total-apparent-power": 1.904,
+        "total-power-factor": 0.996,
+        "frecuency": 59.98
+    },
+    {
+        "date": "2024-11-10 21:44:43",
+        "total-active-power": 0.356,
+        "total-reactive-power": -0.544,
+        "total-apparent-power": 0.65,
+        "total-power-factor": 0.547,
+        "frecuency": 60
+    },
+    {
+        "date": "2024-11-10 21:46:43",
+        "total-active-power": 0.354,
+        "total-reactive-power": -0.544,
+        "total-apparent-power": 0.65,
+        "total-power-factor": 0.545,
+        "frecuency": 59.93
+    },
+    {
+        "date": "2024-11-10 21:48:43",
+        "total-active-power": 1.906,
+        "total-reactive-power": -0.144,
+        "total-apparent-power": 1.91,
+        "total-power-factor": 0.997,
+        "frecuency": 60.06
+    },
+    {
+        "date": "2024-11-10 21:50:42",
+        "total-active-power": 1.218,
+        "total-reactive-power": -0.662,
+        "total-apparent-power": 1.386,
+        "total-power-factor": 0.878,
+        "frecuency": 60
+    },
+    {
+        "date": "2024-11-10 21:52:42",
+        "total-active-power": 0.358,
+        "total-reactive-power": -0.548,
+        "total-apparent-power": 0.654,
+        "total-power-factor": 0.547,
+        "frecuency": 59.97
+    },
+    {
+        "date": "2024-11-10 21:54:43",
+        "total-active-power": 1.89,
+        "total-reactive-power": -0.146,
+        "total-apparent-power": 1.894,
+        "total-power-factor": 0.997,
+        "frecuency": 60
+    },
+    {
+        "date": "2024-11-10 21:56:43",
+        "total-active-power": 0.358,
+        "total-reactive-power": -0.546,
+        "total-apparent-power": 0.652,
+        "total-power-factor": 0.548,
+        "frecuency": 59.95
+    },
+    {
+        "date": "2024-11-10 21:58:43",
+        "total-active-power": 0.354,
+        "total-reactive-power": -0.548,
+        "total-apparent-power": 0.652,
+        "total-power-factor": 0.543,
+        "frecuency": 59.96
+    },
+    {
+        "date": "2024-11-10 22:00:43",
+        "total-active-power": 1.91,
+        "total-reactive-power": -0.118,
+        "total-apparent-power": 1.912,
+        "total-power-factor": 0.998,
+        "frecuency": 59.98
+    },
+    {
+        "date": "2024-11-10 22:02:43",
+        "total-active-power": 0.354,
+        "total-reactive-power": -0.552,
+        "total-apparent-power": 0.656,
+        "total-power-factor": 0.541,
+        "frecuency": 59.97
+    },
+    {
+        "date": "2024-11-10 22:04:43",
+        "total-active-power": 1.218,
+        "total-reactive-power": -0.658,
+        "total-apparent-power": 1.386,
+        "total-power-factor": 0.88,
+        "frecuency": 60.02
+    },
+    {
+        "date": "2024-11-10 22:06:42",
+        "total-active-power": 1.906,
+        "total-reactive-power": -0.128,
+        "total-apparent-power": 1.91,
+        "total-power-factor": 0.997,
+        "frecuency": 60
+    },
+    {
+        "date": "2024-11-10 22:08:43",
+        "total-active-power": 0.358,
+        "total-reactive-power": -0.552,
+        "total-apparent-power": 0.656,
+        "total-power-factor": 0.544,
+        "frecuency": 60
+    },
+    {
+        "date": "2024-11-10 22:10:43",
+        "total-active-power": 0.354,
+        "total-reactive-power": -0.55,
+        "total-apparent-power": 0.654,
+        "total-power-factor": 0.541,
+        "frecuency": 59.94
+    },
+    {
+        "date": "2024-11-10 22:12:42",
+        "total-active-power": 1.906,
+        "total-reactive-power": -0.11,
+        "total-apparent-power": 1.908,
+        "total-power-factor": 0.998,
+        "frecuency": 59.99
+    },
+    {
+        "date": "2024-11-10 22:14:43",
+        "total-active-power": 0.35,
+        "total-reactive-power": -0.536,
+        "total-apparent-power": 0.64,
+        "total-power-factor": 0.547,
+        "frecuency": 60.02
+    },
+    {
+        "date": "2024-11-10 22:16:42",
+        "total-active-power": 1.15,
+        "total-reactive-power": -0.672,
+        "total-apparent-power": 1.332,
+        "total-power-factor": 0.863,
+        "frecuency": 60.05
+    },
+    {
+        "date": "2024-11-10 22:18:42",
+        "total-active-power": 1.85,
+        "total-reactive-power": -0.26,
+        "total-apparent-power": 1.868,
+        "total-power-factor": 0.99,
+        "frecuency": 59.99
+    },
+    {
+        "date": "2024-11-10 22:20:43",
+        "total-active-power": 0.342,
+        "total-reactive-power": -0.516,
+        "total-apparent-power": 0.618,
+        "total-power-factor": 0.552,
+        "frecuency": 59.97
+    },
+    {
+        "date": "2024-11-10 22:22:43",
+        "total-active-power": 0.342,
+        "total-reactive-power": -0.516,
+        "total-apparent-power": 0.618,
+        "total-power-factor": 0.554,
+        "frecuency": 59.99
+    },
+    {
+        "date": "2024-11-10 22:24:43",
+        "total-active-power": 1.844,
+        "total-reactive-power": -0.276,
+        "total-apparent-power": 1.864,
+        "total-power-factor": 0.989,
+        "frecuency": 59.95
+    },
+    {
+        "date": "2024-11-10 22:26:42",
+        "total-active-power": 0.34,
+        "total-reactive-power": -0.516,
+        "total-apparent-power": 0.618,
+        "total-power-factor": 0.551,
+        "frecuency": 59.96
+    },
+    {
+        "date": "2024-11-10 22:28:42",
+        "total-active-power": 1.962,
+        "total-reactive-power": -0.268,
+        "total-apparent-power": 1.98,
+        "total-power-factor": 0.99,
+        "frecuency": 59.96
+    },
+    {
+        "date": "2024-11-10 22:30:43",
+        "total-active-power": 2.688,
+        "total-reactive-power": -0.43,
+        "total-apparent-power": 2.722,
+        "total-power-factor": 0.987,
+        "frecuency": 59.99
+    },
+    {
+        "date": "2024-11-10 22:32:43",
+        "total-active-power": 0.242,
+        "total-reactive-power": -0.518,
+        "total-apparent-power": 0.572,
+        "total-power-factor": 0.424,
+        "frecuency": 60.02
+    },
+    {
+        "date": "2024-11-10 22:34:43",
+        "total-active-power": 1.748,
+        "total-reactive-power": -0.262,
+        "total-apparent-power": 1.768,
+        "total-power-factor": 0.988,
+        "frecuency": 60.05
+    },
+    {
+        "date": "2024-11-10 22:36:43",
+        "total-active-power": 0.242,
+        "total-reactive-power": -0.52,
+        "total-apparent-power": 0.574,
+        "total-power-factor": 0.423,
+        "frecuency": 60.04
+    },
+    {
+        "date": "2024-11-10 22:38:43",
+        "total-active-power": 0.242,
+        "total-reactive-power": -0.52,
+        "total-apparent-power": 0.574,
+        "total-power-factor": 0.421,
+        "frecuency": 60.02
+    },
+    {
+        "date": "2024-11-10 22:40:43",
+        "total-active-power": 1.746,
+        "total-reactive-power": -0.256,
+        "total-apparent-power": 1.764,
+        "total-power-factor": 0.989,
+        "frecuency": 60.03
+    },
+    {
+        "date": "2024-11-10 22:42:43",
+        "total-active-power": 0.242,
+        "total-reactive-power": -0.518,
+        "total-apparent-power": 0.57,
+        "total-power-factor": 0.424,
+        "frecuency": 59.9
+    },
+    {
+        "date": "2024-11-10 22:44:43",
+        "total-active-power": 0.242,
+        "total-reactive-power": -0.516,
+        "total-apparent-power": 0.57,
+        "total-power-factor": 0.425,
+        "frecuency": 59.93
+    },
+    {
+        "date": "2024-11-10 22:46:42",
+        "total-active-power": 1.736,
+        "total-reactive-power": -0.268,
+        "total-apparent-power": 1.756,
+        "total-power-factor": 0.988,
+        "frecuency": 59.98
+    },
+    {
+        "date": "2024-11-10 22:48:42",
+        "total-active-power": 0.242,
+        "total-reactive-power": -0.51,
+        "total-apparent-power": 0.564,
+        "total-power-factor": 0.431,
+        "frecuency": 59.85
+    },
+    {
+        "date": "2024-11-10 22:50:42",
+        "total-active-power": 0.242,
+        "total-reactive-power": -0.516,
+        "total-apparent-power": 0.568,
+        "total-power-factor": 0.425,
+        "frecuency": 60.04
+    },
+    {
+        "date": "2024-11-10 22:52:42",
+        "total-active-power": 1.738,
+        "total-reactive-power": -0.266,
+        "total-apparent-power": 1.758,
+        "total-power-factor": 0.988,
+        "frecuency": 59.97
+    },
+    {
+        "date": "2024-11-10 22:54:43",
+        "total-active-power": 0.244,
+        "total-reactive-power": -0.516,
+        "total-apparent-power": 0.57,
+        "total-power-factor": 0.428,
+        "frecuency": 59.95
+    },
+    {
+        "date": "2024-11-10 22:56:43",
+        "total-active-power": 1.096,
+        "total-reactive-power": -0.69,
+        "total-apparent-power": 1.294,
+        "total-power-factor": 0.846,
+        "frecuency": 60
+    },
+    {
+        "date": "2024-11-10 22:58:43",
+        "total-active-power": 1.75,
+        "total-reactive-power": -0.256,
+        "total-apparent-power": 1.77,
+        "total-power-factor": 0.989,
+        "frecuency": 60.01
+    },
+    {
+        "date": "2024-11-10 23:00:43",
+        "total-active-power": 0.242,
+        "total-reactive-power": -0.516,
+        "total-apparent-power": 0.57,
+        "total-power-factor": 0.424,
+        "frecuency": 59.95
+    },
+    {
+        "date": "2024-11-10 23:02:43",
+        "total-active-power": 0.244,
+        "total-reactive-power": -0.524,
+        "total-apparent-power": 0.578,
+        "total-power-factor": 0.423,
+        "frecuency": 60.08
+    },
+    {
+        "date": "2024-11-10 23:04:43",
+        "total-active-power": 1.648,
+        "total-reactive-power": -0.25,
+        "total-apparent-power": 1.666,
+        "total-power-factor": 0.988,
+        "frecuency": 60.02
+    },
+    {
+        "date": "2024-11-10 23:06:43",
+        "total-active-power": 0.142,
+        "total-reactive-power": -0.522,
+        "total-apparent-power": 0.54,
+        "total-power-factor": 0.265,
+        "frecuency": 60.01
+    },
+    {
+        "date": "2024-11-10 23:08:42",
+        "total-active-power": 0.142,
+        "total-reactive-power": -0.52,
+        "total-apparent-power": 0.538,
+        "total-power-factor": 0.265,
+        "frecuency": 60.01
+    },
+    {
+        "date": "2024-11-10 23:10:44",
+        "total-active-power": 2.496,
+        "total-reactive-power": -0.424,
+        "total-apparent-power": 2.53,
+        "total-power-factor": 0.985,
+        "frecuency": 60.11
+    },
+    {
+        "date": "2024-11-10 23:12:43",
+        "total-active-power": 0.144,
+        "total-reactive-power": -0.52,
+        "total-apparent-power": 0.54,
+        "total-power-factor": 0.268,
+        "frecuency": 59.99
+    },
+    {
+        "date": "2024-11-10 23:14:42",
+        "total-active-power": 1.76,
+        "total-reactive-power": -0.248,
+        "total-apparent-power": 1.778,
+        "total-power-factor": 0.99,
+        "frecuency": 59.94
+    },
+    {
+        "date": "2024-11-10 23:16:43",
+        "total-active-power": 1.654,
+        "total-reactive-power": -0.252,
+        "total-apparent-power": 1.672,
+        "total-power-factor": 0.988,
+        "frecuency": 60.02
+    },
+    {
+        "date": "2024-11-10 23:18:43",
+        "total-active-power": 0.15,
+        "total-reactive-power": -0.52,
+        "total-apparent-power": 0.542,
+        "total-power-factor": 0.278,
+        "frecuency": 60.03
+    },
+    {
+        "date": "2024-11-10 23:20:42",
+        "total-active-power": 1.71,
+        "total-reactive-power": -0.26,
+        "total-apparent-power": 1.73,
+        "total-power-factor": 0.988,
+        "frecuency": 60.04
+    },
+    {
+        "date": "2024-11-10 23:22:42",
+        "total-active-power": 1.658,
+        "total-reactive-power": -0.248,
+        "total-apparent-power": 1.676,
+        "total-power-factor": 0.989,
+        "frecuency": 60.06
+    },
+    {
+        "date": "2024-11-10 23:24:42",
+        "total-active-power": 0.98,
+        "total-reactive-power": -0.692,
+        "total-apparent-power": 1.2,
+        "total-power-factor": 0.817,
+        "frecuency": 60.08
+    },
+    {
+        "date": "2024-11-10 23:26:43",
+        "total-active-power": 1.666,
+        "total-reactive-power": -0.256,
+        "total-apparent-power": 1.684,
+        "total-power-factor": 0.988,
+        "frecuency": 60.08
+    },
+    {
+        "date": "2024-11-10 23:28:42",
+        "total-active-power": 1.662,
+        "total-reactive-power": -0.236,
+        "total-apparent-power": 1.678,
+        "total-power-factor": 0.99,
+        "frecuency": 59.93
+    },
+    {
+        "date": "2024-11-10 23:30:44",
+        "total-active-power": 0.14,
+        "total-reactive-power": -0.52,
+        "total-apparent-power": 0.538,
+        "total-power-factor": 0.262,
+        "frecuency": 59.94
+    },
+    {
+        "date": "2024-11-10 23:32:42",
+        "total-active-power": 1.74,
+        "total-reactive-power": -0.236,
+        "total-apparent-power": 1.756,
+        "total-power-factor": 0.99,
+        "frecuency": 60.03
+    },
+    {
+        "date": "2024-11-10 23:34:43",
+        "total-active-power": 0.234,
+        "total-reactive-power": -0.526,
+        "total-apparent-power": 0.576,
+        "total-power-factor": 0.408,
+        "frecuency": 59.97
+    },
+    {
+        "date": "2024-11-10 23:36:42",
+        "total-active-power": 0.24,
+        "total-reactive-power": -0.522,
+        "total-apparent-power": 0.574,
+        "total-power-factor": 0.419,
+        "frecuency": 59.93
+    },
+    {
+        "date": "2024-11-10 23:38:43",
+        "total-active-power": 1.744,
+        "total-reactive-power": -0.248,
+        "total-apparent-power": 1.762,
+        "total-power-factor": 0.989,
+        "frecuency": 60.04
+    },
+    {
+        "date": "2024-11-10 23:40:42",
+        "total-active-power": 0.248,
+        "total-reactive-power": -0.52,
+        "total-apparent-power": 0.576,
+        "total-power-factor": 0.432,
+        "frecuency": 59.96
+    },
+    {
+        "date": "2024-11-10 23:42:43",
+        "total-active-power": 0.242,
+        "total-reactive-power": -0.524,
+        "total-apparent-power": 0.576,
+        "total-power-factor": 0.422,
+        "frecuency": 60.04
+    },
+    {
+        "date": "2024-11-10 23:44:42",
+        "total-active-power": 1.742,
+        "total-reactive-power": -0.238,
+        "total-apparent-power": 1.758,
+        "total-power-factor": 0.99,
+        "frecuency": 59.96
+    },
+    {
+        "date": "2024-11-10 23:46:43",
+        "total-active-power": 0.244,
+        "total-reactive-power": -0.526,
+        "total-apparent-power": 0.58,
+        "total-power-factor": 0.423,
+        "frecuency": 59.99
+    },
+    {
+        "date": "2024-11-10 23:48:43",
+        "total-active-power": 0.248,
+        "total-reactive-power": -0.524,
+        "total-apparent-power": 0.58,
+        "total-power-factor": 0.428,
+        "frecuency": 60.03
+    },
+    {
+        "date": "2024-11-10 23:50:43",
+        "total-active-power": 2.6,
+        "total-reactive-power": -0.412,
+        "total-apparent-power": 2.632,
+        "total-power-factor": 0.987,
+        "frecuency": 60.03
+    },
+    {
+        "date": "2024-11-10 23:52:42",
+        "total-active-power": 0.244,
+        "total-reactive-power": -0.524,
+        "total-apparent-power": 0.578,
+        "total-power-factor": 0.424,
+        "frecuency": 59.99
+    },
+    {
+        "date": "2024-11-10 23:54:43",
+        "total-active-power": 0.242,
+        "total-reactive-power": -0.524,
+        "total-apparent-power": 0.578,
+        "total-power-factor": 0.42,
+        "frecuency": 60.02
+    },
+    {
+        "date": "2024-11-10 23:56:43",
+        "total-active-power": 1.74,
+        "total-reactive-power": -0.228,
+        "total-apparent-power": 1.756,
+        "total-power-factor": 0.991,
+        "frecuency": 59.93
+    },
+    {
+        "date": "2024-11-10 23:58:43",
+        "total-active-power": 0.244,
+        "total-reactive-power": -0.524,
+        "total-apparent-power": 0.578,
+        "total-power-factor": 0.423,
+        "frecuency": 59.99
+    },
+    {
+        "date": "2024-11-11 00:00:42",
+        "total-active-power": 0.248,
+        "total-reactive-power": -0.528,
+        "total-apparent-power": 0.584,
+        "total-power-factor": 0.424,
+        "frecuency": 60.04
+    },
+    {
+        "date": "2024-11-11 00:02:43",
+        "total-active-power": 1.84,
+        "total-reactive-power": -0.24,
+        "total-apparent-power": 1.854,
+        "total-power-factor": 0.991,
+        "frecuency": 60
+    },
+    {
+        "date": "2024-11-11 00:04:43",
+        "total-active-power": 1.034,
+        "total-reactive-power": -0.222,
+        "total-apparent-power": 1.24,
+        "total-power-factor": 0.834,
+        "frecuency": 60.08
+    },
+    {
+        "date": "2024-11-11 00:06:43",
+        "total-active-power": 0.348,
+        "total-reactive-power": -0.526,
+        "total-apparent-power": 0.632,
+        "total-power-factor": 0.551,
+        "frecuency": 59.98
+    },
+    {
+        "date": "2024-11-11 00:08:43",
+        "total-active-power": 1.846,
+        "total-reactive-power": -0.232,
+        "total-apparent-power": 1.86,
+        "total-power-factor": 0.992,
+        "frecuency": 59.96
+    },
+    {
+        "date": "2024-11-11 00:10:42",
+        "total-active-power": 0.346,
+        "total-reactive-power": -0.528,
+        "total-apparent-power": 0.63,
+        "total-power-factor": 0.548,
+        "frecuency": 59.94
+    },
+    {
+        "date": "2024-11-11 00:12:43",
+        "total-active-power": 0.346,
+        "total-reactive-power": -0.532,
+        "total-apparent-power": 0.634,
+        "total-power-factor": 0.546,
+        "frecuency": 60.03
+    },
+    {
+        "date": "2024-11-11 00:14:43",
+        "total-active-power": 1.852,
+        "total-reactive-power": -0.226,
+        "total-apparent-power": 1.866,
+        "total-power-factor": 0.992,
+        "frecuency": 60.02
+    },
+    {
+        "date": "2024-11-11 00:16:42",
+        "total-active-power": 0.344,
+        "total-reactive-power": -0.526,
+        "total-apparent-power": 0.628,
+        "total-power-factor": 0.549,
+        "frecuency": 59.9
+    },
+    {
+        "date": "2024-11-11 00:18:43",
+        "total-active-power": 1.986,
+        "total-reactive-power": -0.248,
+        "total-apparent-power": 2,
+        "total-power-factor": 0.992,
+        "frecuency": 59.94
+    },
+    {
+        "date": "2024-11-11 00:20:42",
+        "total-active-power": 1.844,
+        "total-reactive-power": -0.224,
+        "total-apparent-power": 1.858,
+        "total-power-factor": 0.992,
+        "frecuency": 59.98
+    },
+    {
+        "date": "2024-11-11 00:22:42",
+        "total-active-power": 0.346,
+        "total-reactive-power": -0.524,
+        "total-apparent-power": 0.628,
+        "total-power-factor": 0.553,
+        "frecuency": 59.94
+    },
+    {
+        "date": "2024-11-11 00:24:42",
+        "total-active-power": 1.856,
+        "total-reactive-power": -0.25,
+        "total-apparent-power": 1.872,
+        "total-power-factor": 0.991,
+        "frecuency": 60.02
+    },
+    {
+        "date": "2024-11-11 00:26:43",
+        "total-active-power": 1.842,
+        "total-reactive-power": -0.244,
+        "total-apparent-power": 1.858,
+        "total-power-factor": 0.991,
+        "frecuency": 59.97
+    },
+    {
+        "date": "2024-11-11 00:28:42",
+        "total-active-power": 0.346,
+        "total-reactive-power": -0.528,
+        "total-apparent-power": 0.63,
+        "total-power-factor": 0.549,
+        "frecuency": 59.96
+    },
+    {
+        "date": "2024-11-11 00:30:42",
+        "total-active-power": 1.84,
+        "total-reactive-power": -0.228,
+        "total-apparent-power": 1.854,
+        "total-power-factor": 0.992,
+        "frecuency": 60
+    },
+    {
+        "date": "2024-11-11 00:32:43",
+        "total-active-power": 1.172,
+        "total-reactive-power": -0.668,
+        "total-apparent-power": 1.348,
+        "total-power-factor": 0.868,
+        "frecuency": 59.98
+    },
+    {
+        "date": "2024-11-11 00:34:43",
+        "total-active-power": 0.348,
+        "total-reactive-power": -0.53,
+        "total-apparent-power": 0.634,
+        "total-power-factor": 0.55,
+        "frecuency": 59.96
+    },
+    {
+        "date": "2024-11-11 00:36:42",
+        "total-active-power": 1.838,
+        "total-reactive-power": -0.232,
+        "total-apparent-power": 1.852,
+        "total-power-factor": 0.992,
+        "frecuency": 59.97
+    },
+    {
+        "date": "2024-11-11 00:38:43",
+        "total-active-power": 0.35,
+        "total-reactive-power": -0.528,
+        "total-apparent-power": 0.634,
+        "total-power-factor": 0.552,
+        "frecuency": 59.99
+    },
+    {
+        "date": "2024-11-11 00:40:43",
+        "total-active-power": 0.34,
+        "total-reactive-power": -0.53,
+        "total-apparent-power": 0.63,
+        "total-power-factor": 0.539,
+        "frecuency": 60.03
+    },
+    {
+        "date": "2024-11-11 00:42:42",
+        "total-active-power": 1.848,
+        "total-reactive-power": -0.216,
+        "total-apparent-power": 1.862,
+        "total-power-factor": 0.993,
+        "frecuency": 59.9
+    },
+    {
+        "date": "2024-11-11 00:44:42",
+        "total-active-power": 0.348,
+        "total-reactive-power": -0.528,
+        "total-apparent-power": 0.632,
+        "total-power-factor": 0.551,
+        "frecuency": 59.97
+    },
+    {
+        "date": "2024-11-11 00:46:42",
+        "total-active-power": 0.352,
+        "total-reactive-power": -0.534,
+        "total-apparent-power": 0.638,
+        "total-power-factor": 0.55,
+        "frecuency": 60.06
+    },
+    {
+        "date": "2024-11-11 00:48:42",
+        "total-active-power": 2.69,
+        "total-reactive-power": -0.362,
+        "total-apparent-power": 2.714,
+        "total-power-factor": 0.991,
+        "frecuency": 59.98
+    },
+    {
+        "date": "2024-11-11 00:50:42",
+        "total-active-power": 0.348,
+        "total-reactive-power": -0.53,
+        "total-apparent-power": 0.632,
+        "total-power-factor": 0.549,
+        "frecuency": 59.94
+    },
+    {
+        "date": "2024-11-11 00:52:42",
+        "total-active-power": 0.352,
+        "total-reactive-power": -0.528,
+        "total-apparent-power": 0.634,
+        "total-power-factor": 0.554,
+        "frecuency": 59.93
+    },
+    {
+        "date": "2024-11-11 00:54:43",
+        "total-active-power": 1.852,
+        "total-reactive-power": -0.222,
+        "total-apparent-power": 1.866,
+        "total-power-factor": 0.993,
+        "frecuency": 59.97
+    },
+    {
+        "date": "2024-11-11 00:56:42",
+        "total-active-power": 0.348,
+        "total-reactive-power": -0.53,
+        "total-apparent-power": 0.634,
+        "total-power-factor": 0.548,
+        "frecuency": 60
+    },
+    {
+        "date": "2024-11-11 00:58:42",
+        "total-active-power": 0.346,
+        "total-reactive-power": -0.53,
+        "total-apparent-power": 0.634,
+        "total-power-factor": 0.548,
+        "frecuency": 59.97
+    },
+    {
+        "date": "2024-11-11 01:00:43",
+        "total-active-power": 1.848,
+        "total-reactive-power": -0.218,
+        "total-apparent-power": 1.86,
+        "total-power-factor": 0.993,
+        "frecuency": 59.96
+    },
+    {
+        "date": "2024-11-11 01:02:42",
+        "total-active-power": 1.188,
+        "total-reactive-power": -0.674,
+        "total-apparent-power": 1.366,
+        "total-power-factor": 0.869,
+        "frecuency": 60.03
+    },
+    {
+        "date": "2024-11-11 01:04:42",
+        "total-active-power": 0.346,
+        "total-reactive-power": -0.534,
+        "total-apparent-power": 0.636,
+        "total-power-factor": 0.545,
+        "frecuency": 60.1
+    },
+    {
+        "date": "2024-11-11 01:06:42",
+        "total-active-power": 1.848,
+        "total-reactive-power": -0.234,
+        "total-apparent-power": 1.862,
+        "total-power-factor": 0.992,
+        "frecuency": 60.04
+    },
+    {
+        "date": "2024-11-11 01:08:42",
+        "total-active-power": 0.348,
+        "total-reactive-power": -0.532,
+        "total-apparent-power": 0.634,
+        "total-power-factor": 0.548,
+        "frecuency": 59.98
+    },
+    {
+        "date": "2024-11-11 01:10:42",
+        "total-active-power": 1.95,
+        "total-reactive-power": -0.226,
+        "total-apparent-power": 1.962,
+        "total-power-factor": 0.993,
+        "frecuency": 59.93
+    },
+    {
+        "date": "2024-11-11 01:12:42",
+        "total-active-power": 1.852,
+        "total-reactive-power": -0.22,
+        "total-apparent-power": 1.866,
+        "total-power-factor": 0.993,
+        "frecuency": 59.97
+    },
+    {
+        "date": "2024-11-11 01:14:42",
+        "total-active-power": 0.344,
+        "total-reactive-power": -0.53,
+        "total-apparent-power": 0.632,
+        "total-power-factor": 0.545,
+        "frecuency": 60
+    },
+    {
+        "date": "2024-11-11 01:16:42",
+        "total-active-power": 2.702,
+        "total-reactive-power": -0.374,
+        "total-apparent-power": 2.728,
+        "total-power-factor": 0.99,
+        "frecuency": 60
+    },
+    {
+        "date": "2024-11-11 01:18:42",
+        "total-active-power": 1.838,
+        "total-reactive-power": -0.234,
+        "total-apparent-power": 1.854,
+        "total-power-factor": 0.991,
+        "frecuency": 59.94
+    },
+    {
+        "date": "2024-11-11 01:20:43",
+        "total-active-power": 0.346,
+        "total-reactive-power": -0.528,
+        "total-apparent-power": 0.632,
+        "total-power-factor": 0.549,
+        "frecuency": 59.98
+    },
+    {
+        "date": "2024-11-11 01:22:42",
+        "total-active-power": 1.858,
+        "total-reactive-power": -0.208,
+        "total-apparent-power": 1.87,
+        "total-power-factor": 0.993,
+        "frecuency": 60.02
+    },
+    {
+        "date": "2024-11-11 01:24:42",
+        "total-active-power": 0.348,
+        "total-reactive-power": -0.528,
+        "total-apparent-power": 0.632,
+        "total-power-factor": 0.55,
+        "frecuency": 59.88
+    },
+    {
+        "date": "2024-11-11 01:26:42",
+        "total-active-power": 0.346,
+        "total-reactive-power": -0.53,
+        "total-apparent-power": 0.632,
+        "total-power-factor": 0.548,
+        "frecuency": 60
+    },
+    {
+        "date": "2024-11-11 01:28:42",
+        "total-active-power": 1.846,
+        "total-reactive-power": -0.222,
+        "total-apparent-power": 1.86,
+        "total-power-factor": 0.992,
+        "frecuency": 59.97
+    },
+    {
+        "date": "2024-11-11 01:30:42",
+        "total-active-power": 0.346,
+        "total-reactive-power": -0.53,
+        "total-apparent-power": 0.634,
+        "total-power-factor": 0.547,
+        "frecuency": 60.08
+    },
+    {
+        "date": "2024-11-11 01:32:43",
+        "total-active-power": 0.344,
+        "total-reactive-power": -0.53,
+        "total-apparent-power": 0.632,
+        "total-power-factor": 0.546,
+        "frecuency": 59.99
+    },
+    {
+        "date": "2024-11-11 01:34:44",
+        "total-active-power": 1.852,
+        "total-reactive-power": -0.224,
+        "total-apparent-power": 1.866,
+        "total-power-factor": 0.992,
+        "frecuency": 60.03
+    },
+    {
+        "date": "2024-11-11 01:36:43",
+        "total-active-power": 0.35,
+        "total-reactive-power": -0.532,
+        "total-apparent-power": 0.636,
+        "total-power-factor": 0.549,
+        "frecuency": 60.04
+    },
+    {
+        "date": "2024-11-11 01:38:43",
+        "total-active-power": 0.346,
+        "total-reactive-power": -0.53,
+        "total-apparent-power": 0.634,
+        "total-power-factor": 0.547,
+        "frecuency": 60.02
+    },
+    {
+        "date": "2024-11-11 01:40:43",
+        "total-active-power": 1.846,
+        "total-reactive-power": -0.218,
+        "total-apparent-power": 1.86,
+        "total-power-factor": 0.993,
+        "frecuency": 59.96
+    },
+    {
+        "date": "2024-11-11 01:42:42",
+        "total-active-power": 0.348,
+        "total-reactive-power": -0.53,
+        "total-apparent-power": 0.634,
+        "total-power-factor": 0.548,
+        "frecuency": 60.02
+    },
+    {
+        "date": "2024-11-11 01:44:43",
+        "total-active-power": 0.344,
+        "total-reactive-power": -0.53,
+        "total-apparent-power": 0.632,
+        "total-power-factor": 0.546,
+        "frecuency": 60.01
     }
 ]
