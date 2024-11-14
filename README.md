@@ -3,7 +3,6 @@
 ## Overview
 This repository provides a solution to monitor electricity levels using the MQTT protocol. We extract the data from MQTT, store it in several JSON files and select specific information to store in a database and generate alerts using WhatsApp.
 
-
 **Content**
 - [Monitor](#monitor)
 - [Notifications](#notifications)
