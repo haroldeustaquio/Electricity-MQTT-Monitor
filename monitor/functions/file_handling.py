@@ -2,8 +2,12 @@ import json
 
 def save_json(data, filename, folder = 'data'):
     try:
-        with open(f'{folder}/{filename}.json', "w") as f:
-            json.dump(data, f, indent=4)
+        if folder is None:
+            with open(f'{filename}.json', "w") as f:
+                json.dump(data, f, indent=4)
+        else:
+            with open(f'{folder}/{filename}.json', "w") as f:
+                json.dump(data, f, indent=4)
     except FileNotFoundError:
         print(f'Error: Directory "data" not found. Could not save {filename}.json')
     except Exception as e:

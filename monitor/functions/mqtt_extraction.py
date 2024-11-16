@@ -112,6 +112,15 @@ def save_data():
     print('Saving data... 100%')
 
 
+def save_alert():
+    if voltage_detector.volt_outliers(instant_energy) ==1:
+        voltage_alert = {"message_1":f"Voltage Alert: {instant_energy}"}
+    else:
+        voltage_alert = {"message_1":""}
+    
+    file_handling.save_json(voltage_alert,'alerts',folder=None)
+    print('go')
+
 def on_message(client, userdata, message):
     global dicc_total, temp
     
@@ -139,4 +148,4 @@ def on_message(client, userdata, message):
         dicc = {item['id']: item['val'] for item in part_1}        
         file_handling.save_json(dicc,'part_1')
         save_data()
-        print(voltage_detector.volt_outliers(instant_energy))
+        save_alert()
