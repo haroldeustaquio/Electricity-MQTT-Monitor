@@ -3438,5 +3438,13 @@
         "total-apparent-power": 0.632,
         "total-power-factor": 0.546,
         "frecuency": 60.01
+    },
+    {
+        "date": "2024-11-16 00:23:10",
+        "total-active-power": 1.82,
+        "total-reactive-power": -0.302,
+        "total-apparent-power": 1.844,
+        "total-power-factor": 0.986,
+        "frecuency": 59.98
     }
 ]
