@@ -1,7 +1,7 @@
 import json
-from functions import file_handling
+from functions import file_handling, voltage_detector
 from datetime import datetime
-
+import math
 
 def return_broker_data():
     keys = file_handling.read_json('broker')
@@ -43,35 +43,6 @@ def on_connect(client, userdata, flags, rc):
         print(connection_codes.get(rc, f"Unknown Connection Error, code: {rc}"))
 
 
-def on_message(client, userdata, message):
-    global dicc_total, temp
-    
-    try:
-        # Try to decode the JSON message
-        temp = json.loads(str(message.payload.decode()).replace("\'}", "").replace("{\'", ""))
-    except json.JSONDecodeError:
-        print("Error: Received message is not valid JSON")
-        return
-
-    # Verify that the structure of `temp` is as expected
-    try:
-        points = temp['data'][0]['point'][1:]
-    except (KeyError, IndexError, TypeError) as e:
-        print(f"Error in the structure of the message: {e}")
-        return
-
-    # Check if the value 1 is in the first point of the message
-    if 1 in points[0].values():
-        part_0 = points
-        dicc = {item['id']: item['val'] for item in part_0}
-        file_handling.save_json(dicc,'part_0')
-    else:
-        part_1 = points
-        dicc = {item['id']: item['val'] for item in part_1}        
-        file_handling.save_json(dicc,'part_1')
-        save_data()
-
-
 def save_data():
     # Load datetime
     date_time =datetime.now().strftime("%Y-%m-%d %H:%M:%S")
@@ -97,6 +68,9 @@ def save_data():
     file_handling.save_json(total_part,'last_update')
     
     # Voltage
+    global instant_energy 
+    instant_energy = round(math.sqrt(part_0['1']**2 + part_0['2']**2 + part_0['3']**2 + part_0['4']**2 + part_0['5']**2 + part_0['6']**2),3)
+    
     voltage = [{
         'date': date_time,
         'Va': part_0['1'],
@@ -105,6 +79,7 @@ def save_data():
         'Va-b': part_0['4'],
         'Vb-c': part_0['5'],
         'Vc-a': part_0['6'],
+        'instant_energy': instant_energy
     }]
     
     # current
@@ -135,3 +110,33 @@ def save_data():
     file_handling.load_update(potency,'potency','electrical-data')
     
     print('Saving data... 100%')
+
+
+def on_message(client, userdata, message):
+    global dicc_total, temp
+    
+    try:
+        # Try to decode the JSON message
+        temp = json.loads(str(message.payload.decode()).replace("\'}", "").replace("{\'", ""))
+    except json.JSONDecodeError:
+        print("Error: Received message is not valid JSON")
+        return
+
+    # Verify that the structure of `temp` is as expected
+    try:
+        points = temp['data'][0]['point'][1:]
+    except (KeyError, IndexError, TypeError) as e:
+        print(f"Error in the structure of the message: {e}")
+        return
+
+    # Check if the value 1 is in the first point of the message
+    if 1 in points[0].values():
+        part_0 = points
+        dicc = {item['id']: item['val'] for item in part_0}
+        file_handling.save_json(dicc,'part_0')
+    else:
+        part_1 = points
+        dicc = {item['id']: item['val'] for item in part_1}        
+        file_handling.save_json(dicc,'part_1')
+        save_data()
+        print(voltage_detector.volt_outliers(instant_energy))
