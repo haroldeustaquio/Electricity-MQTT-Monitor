@@ -12,6 +12,5 @@ client.on_message = mqtt_extraction.on_message
 
 client.connect(broker, port)
 
-
 # Mantain the client in loop to recibe messages
 client.loop_forever()
