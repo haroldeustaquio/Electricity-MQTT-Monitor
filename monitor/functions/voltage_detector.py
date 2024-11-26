@@ -12,9 +12,9 @@ def iqr_detection(list_voltage,instant_energy,iqr_factor = 1.5):
     lim_inf = Q1 - iqr_factor * IQR
     lim_sup = Q3 + iqr_factor * IQR
     
-    voltage_alert = (instant_energy >= lim_inf) & (instant_energy <= lim_sup)
+    voltage_alert = (instant_energy <= lim_inf) | (instant_energy >= lim_sup)
     
-    return voltage_alert
+    return int(voltage_alert)
 
 def z_score_detection(list_voltage, instant_energy, threshold = 3):
     _, p_value = shapiro(list_voltage)
@@ -26,18 +26,18 @@ def z_score_detection(list_voltage, instant_energy, threshold = 3):
         z_score = abs((instant_energy - mean)/std)
         voltage_alert = z_score > threshold
     else:
-        voltage_alert = 0
+        voltage_alert = False
     
-    return voltage_alert
+    return int(voltage_alert)
 
 def iso_for_detection(list_voltage, instant_energy):
-    iso_for = IsolationForest(contamination=0.05)
+    iso_for = IsolationForest(contamination=0.03)
     iso_for.fit(np.array(list_voltage).reshape(-1,1))
     
     value = iso_for.predict([[instant_energy]])
     voltage_alert = True if value == -1 else False
     
-    return voltage_alert
+    return int(voltage_alert)
 
 def arima_detection(list_voltage,instant_energy):
     model = ARIMA(list_voltage, order=(0,1,0))
@@ -49,7 +49,7 @@ def arima_detection(list_voltage,instant_energy):
     
     voltage_alert = True if error > threshold else False
     
-    return voltage_alert
+    return int(voltage_alert)
 
 def volt_outliers(instant_energy):
     data = file_handling.read_json('voltage','electrical-data')
@@ -70,11 +70,18 @@ def volt_outliers(instant_energy):
     
     arima_alert = arima_detection(list_voltage,instant_energy)
     
-    sum_alert = iqr_alert + z_alert + iso_alert + arima_alert
+    concordance_alert = 0 if min(list_voltage[-1],list_voltage[-2]) <= instant_energy <= max(list_voltage[-1],list_voltage[-2]) else 1
     
-    print('iqr: ',iqr_alert)
-    print('z: ',z_alert)
-    print('isolation: ',iso_alert)
-    print('arima: ',arima_alert)
+    general_alert = ((iqr_alert + z_alert + iso_alert + arima_alert) >= 2) and concordance_alert
     
-    return 1 if sum_alert >= 2 else 0
+    # print('iqr: ',iqr_alert)
+    # print('z: ',z_alert)
+    # print('isolation: ',iso_alert)
+    # print('arima: ',arima_alert)
+    
+    if instant_energy >= list_voltage[-1] and general_alert:
+        return 1
+    elif instant_energy < list_voltage[-1] and general_alert:
+        return -1
+    else:
+        return 0
