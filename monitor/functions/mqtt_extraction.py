@@ -1,5 +1,5 @@
 import json
-from functions import file_handling, voltage_detector
+from functions import file_handling, voltage_detector, current_detector, power_detector
 from datetime import datetime
 import math
 
@@ -45,6 +45,7 @@ def on_connect(client, userdata, flags, rc):
 
 def save_data():
     # Load datetime
+    global date_time
     date_time =datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     
     date = {
@@ -82,15 +83,21 @@ def save_data():
         'instant_energy': instant_energy
     }]
     
-    # current
+    # Current
+    global rms_current 
+    rms_current = round(math.sqrt((part_0['7']**2 + part_0['8']**2 + part_0['9']**2)/3),3)
+    
     current = [{
         'date': date_time,
         'Ia':part_0['7'],
         'Ib': part_0['8'],
-        'Ic': part_0['9']
+        'Ic': part_0['9'],
+        'rms_current':rms_current
     }]
     
-    # potency
+    # Potency
+    global active_power 
+    active_power = part_0['13']
     potency = [{
         'date': date_time,
         'total-active-power': part_0['13'],
@@ -113,13 +120,44 @@ def save_data():
 
 
 def save_alert():
-    if voltage_detector.volt_outliers(instant_energy) ==1:
-        voltage_alert = {"message_1":f"Voltage Alert: {instant_energy}"}
-    else:
-        voltage_alert = {"message_1":""}
+    alert = {}
     
-    file_handling.save_json(voltage_alert,'alerts',folder=None)
+    alert['date_time'] = date_time
+    
+    if voltage_detector.volt_outliers(instant_energy) == 1:
+        alert['voltage_message'] = "High Voltage Alert"
+        alert['voltage_flag'] = 1
+    elif voltage_detector.volt_outliers(instant_energy) == -1:
+        alert['voltage_message'] = "Low Voltage Alert"
+        alert['voltage_flag'] = -1
+    else:
+        alert['voltage_message'] = ""
+        alert['voltage_flag'] = 0
+    
+    if current_detector.current_outliers(rms_current) == 1:
+        alert['current_message'] = "High Current Alert"
+        alert['current_flag'] = 1
+    elif current_detector.current_outliers(rms_current) == -1:
+        alert['current_message'] = "Low Current Alert"
+        alert['current_flag'] = -1
+    else:
+        alert['current_message'] = ""
+        alert['current_flag'] = 0
+    
+    if power_detector.power_outliers(active_power) == 1:
+        alert['power_message'] = "High Power Alert"
+        alert['power_flag'] = 1
+    elif power_detector.power_outliers(active_power) == -1:
+        alert['power_message'] = "Low Power Alert"
+        alert['power_flag'] = -1
+    else:
+        alert['power_message'] = ""
+        alert['power_flag'] = 0
+
+    file_handling.save_json(alert,'alerts',folder=None)
+    file_handling.load_update(alert,'history_alerts',folder=None)
     print('go')
+
 
 def on_message(client, userdata, message):
     global dicc_total, temp
