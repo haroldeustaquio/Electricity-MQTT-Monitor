@@ -15,9 +15,15 @@ def save_json(data, filename, folder = 'data'):
 
 def read_json(filename,folder="data"):
     try:
-        with open(f'{folder}/{filename}.json', 'r') as file:
-            data = json.load(file)
-            return data
+        if folder is None:
+            with open(f'{filename}.json', 'r') as file:
+                data = json.load(file)
+                return data
+        else:
+            with open(f'{folder}/{filename}.json', "r") as file:
+                data = json.load(file)
+                return data
+            
     except FileNotFoundError:
         print(f'Error: {filename}.json not found')
     except json.JSONDecodeError:

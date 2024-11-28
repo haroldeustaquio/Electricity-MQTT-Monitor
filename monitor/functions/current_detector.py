@@ -47,9 +47,7 @@ def current_outliers(rms_current):
         list_date.append(x['date'])
     
     iqr_alert = iqr_detection(list_current,rms_current)
-        
     iso_alert = iso_for_detection(list_current,rms_current)
-    
     arima_alert = arima_detection(list_current,rms_current)
     
     concordance_alert = 0 if min(list_current[-1],list_current[-2]) <= rms_current <= max(list_current[-1],list_current[-2]) else 1

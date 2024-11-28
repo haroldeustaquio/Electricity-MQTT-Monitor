@@ -154,8 +154,8 @@ def save_alert():
         alert['power_message'] = ""
         alert['power_flag'] = 0
 
-    file_handling.save_json(alert,'alerts',folder=None)
-    file_handling.load_update(alert,'history_alerts',folder=None)
+    file_handling.save_json(alert,'last_alert',folder='alerts')
+    file_handling.load_update([{**alert}],'history_alerts',folder='alerts')
     print('go')
 
 
