@@ -4,3 +4,4 @@ temp.ipynb
 package*.json
 node_modules/
 .wwebjs_auth/
+.wwebjs_cache/
