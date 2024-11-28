@@ -1,0 +1,929 @@
+[
+    {
+        "date_time": "2024-11-28 02:58:52",
+        "voltage_message": "",
+        "voltage_flag": 0,
+        "current_message": "",
+        "current_flag": 0,
+        "power_message": "",
+        "power_flag": 0
+    },
+    {
+        "date_time": "2024-11-28 03:01:12",
+        "voltage_message": "",
+        "voltage_flag": 0,
+        "current_message": "",
+        "current_flag": 0,
+        "power_message": "",
+        "power_flag": 0
+    },
+    {
+        "date_time": "2024-11-28 03:01:14",
+        "voltage_message": "",
+        "voltage_flag": 0,
+        "current_message": "",
+        "current_flag": 0,
+        "power_message": "",
+        "power_flag": 0
+    },
+    {
+        "date_time": "2024-11-28 03:02:51",
+        "voltage_message": "",
+        "voltage_flag": 0,
+        "current_message": "",
+        "current_flag": 0,
+        "power_message": "",
+        "power_flag": 0
+    },
+    {
+        "date_time": "2024-11-28 03:04:51",
+        "voltage_message": "",
+        "voltage_flag": 0,
+        "current_message": "",
+        "current_flag": 0,
+        "power_message": "",
+        "power_flag": 0
+    },
+    {
+        "date_time": "2024-11-28 03:06:51",
+        "voltage_message": "",
+        "voltage_flag": 0,
+        "current_message": "",
+        "current_flag": 0,
+        "power_message": "",
+        "power_flag": 0
+    },
+    {
+        "date_time": "2024-11-28 03:08:51",
+        "voltage_message": "",
+        "voltage_flag": 0,
+        "current_message": "",
+        "current_flag": 0,
+        "power_message": "",
+        "power_flag": 0
+    },
+    {
+        "date_time": "2024-11-28 03:10:54",
+        "voltage_message": "",
+        "voltage_flag": 0,
+        "current_message": "",
+        "current_flag": 0,
+        "power_message": "",
+        "power_flag": 0
+    },
+    {
+        "date_time": "2024-11-28 03:12:51",
+        "voltage_message": "",
+        "voltage_flag": 0,
+        "current_message": "",
+        "current_flag": 0,
+        "power_message": "",
+        "power_flag": 0
+    },
+    {
+        "date_time": "2024-11-28 03:14:52",
+        "voltage_message": "",
+        "voltage_flag": 0,
+        "current_message": "",
+        "current_flag": 0,
+        "power_message": "",
+        "power_flag": 0
+    },
+    {
+        "date_time": "2024-11-28 03:16:51",
+        "voltage_message": "",
+        "voltage_flag": 0,
+        "current_message": "",
+        "current_flag": 0,
+        "power_message": "",
+        "power_flag": 0
+    },
+    {
+        "date_time": "2024-11-28 03:18:51",
+        "voltage_message": "",
+        "voltage_flag": 0,
+        "current_message": "",
+        "current_flag": 0,
+        "power_message": "",
+        "power_flag": 0
+    },
+    {
+        "date_time": "2024-11-28 03:20:51",
+        "voltage_message": "",
+        "voltage_flag": 0,
+        "current_message": "Low Current Alert",
+        "current_flag": -1,
+        "power_message": "Low Power Alert",
+        "power_flag": -1
+    },
+    {
+        "date_time": "2024-11-28 03:22:52",
+        "voltage_message": "",
+        "voltage_flag": 0,
+        "current_message": "",
+        "current_flag": 0,
+        "power_message": "",
+        "power_flag": 0
+    },
+    {
+        "date_time": "2024-11-28 03:24:51",
+        "voltage_message": "",
+        "voltage_flag": 0,
+        "current_message": "",
+        "current_flag": 0,
+        "power_message": "",
+        "power_flag": 0
+    },
+    {
+        "date_time": "2024-11-28 03:26:51",
+        "voltage_message": "",
+        "voltage_flag": 0,
+        "current_message": "",
+        "current_flag": 0,
+        "power_message": "",
+        "power_flag": 0
+    },
+    {
+        "date_time": "2024-11-28 03:28:51",
+        "voltage_message": "",
+        "voltage_flag": 0,
+        "current_message": "",
+        "current_flag": 0,
+        "power_message": "",
+        "power_flag": 0
+    },
+    {
+        "date_time": "2024-11-28 03:30:51",
+        "voltage_message": "",
+        "voltage_flag": 0,
+        "current_message": "Low Current Alert",
+        "current_flag": -1,
+        "power_message": "Low Power Alert",
+        "power_flag": -1
+    },
+    {
+        "date_time": "2024-11-28 03:32:51",
+        "voltage_message": "",
+        "voltage_flag": 0,
+        "current_message": "",
+        "current_flag": 0,
+        "power_message": "",
+        "power_flag": 0
+    },
+    {
+        "date_time": "2024-11-28 03:34:51",
+        "voltage_message": "",
+        "voltage_flag": 0,
+        "current_message": "",
+        "current_flag": 0,
+        "power_message": "",
+        "power_flag": 0
+    },
+    {
+        "date_time": "2024-11-28 03:36:56",
+        "voltage_message": "",
+        "voltage_flag": 0,
+        "current_message": "",
+        "current_flag": 0,
+        "power_message": "",
+        "power_flag": 0
+    },
+    {
+        "date_time": "2024-11-28 03:38:51",
+        "voltage_message": "",
+        "voltage_flag": 0,
+        "current_message": "",
+        "current_flag": 0,
+        "power_message": "",
+        "power_flag": 0
+    },
+    {
+        "date_time": "2024-11-28 03:40:51",
+        "voltage_message": "",
+        "voltage_flag": 0,
+        "current_message": "",
+        "current_flag": 0,
+        "power_message": "",
+        "power_flag": 0
+    },
+    {
+        "date_time": "2024-11-28 03:42:51",
+        "voltage_message": "",
+        "voltage_flag": 0,
+        "current_message": "Low Current Alert",
+        "current_flag": -1,
+        "power_message": "Low Power Alert",
+        "power_flag": -1
+    },
+    {
+        "date_time": "2024-11-28 03:44:51",
+        "voltage_message": "",
+        "voltage_flag": 0,
+        "current_message": "",
+        "current_flag": 0,
+        "power_message": "",
+        "power_flag": 0
+    },
+    {
+        "date_time": "2024-11-28 03:45:06",
+        "voltage_message": "",
+        "voltage_flag": 0,
+        "current_message": "",
+        "current_flag": 0,
+        "power_message": "",
+        "power_flag": 0
+    },
+    {
+        "date_time": "2024-11-28 03:46:51",
+        "voltage_message": "",
+        "voltage_flag": 0,
+        "current_message": "",
+        "current_flag": 0,
+        "power_message": "",
+        "power_flag": 0
+    },
+    {
+        "date_time": "2024-11-28 03:48:51",
+        "voltage_message": "",
+        "voltage_flag": 0,
+        "current_message": "",
+        "current_flag": 0,
+        "power_message": "",
+        "power_flag": 0
+    },
+    {
+        "date_time": "2024-11-28 03:50:51",
+        "voltage_message": "",
+        "voltage_flag": 0,
+        "current_message": "",
+        "current_flag": 0,
+        "power_message": "",
+        "power_flag": 0
+    },
+    {
+        "date_time": "2024-11-28 04:04:51",
+        "voltage_message": "",
+        "voltage_flag": 0,
+        "current_message": "",
+        "current_flag": 0,
+        "power_message": "",
+        "power_flag": 0
+    },
+    {
+        "date_time": "2024-11-28 04:06:52",
+        "voltage_message": "",
+        "voltage_flag": 0,
+        "current_message": "Low Current Alert",
+        "current_flag": -1,
+        "power_message": "",
+        "power_flag": 0
+    },
+    {
+        "date_time": "2024-11-28 04:09:04",
+        "voltage_message": "",
+        "voltage_flag": 0,
+        "current_message": "",
+        "current_flag": 0,
+        "power_message": "",
+        "power_flag": 0
+    },
+    {
+        "date_time": "2024-11-28 04:11:00",
+        "voltage_message": "",
+        "voltage_flag": 0,
+        "current_message": "",
+        "current_flag": 0,
+        "power_message": "",
+        "power_flag": 0
+    },
+    {
+        "date_time": "2024-11-28 04:13:06",
+        "voltage_message": "High Voltage Alert",
+        "voltage_flag": 1,
+        "current_message": "",
+        "current_flag": 0,
+        "power_message": "",
+        "power_flag": 0
+    },
+    {
+        "date_time": "2024-11-28 04:14:52",
+        "voltage_message": "",
+        "voltage_flag": 0,
+        "current_message": "",
+        "current_flag": 0,
+        "power_message": "",
+        "power_flag": 0
+    },
+    {
+        "date_time": "2024-11-28 04:16:51",
+        "voltage_message": "",
+        "voltage_flag": 0,
+        "current_message": "",
+        "current_flag": 0,
+        "power_message": "",
+        "power_flag": 0
+    },
+    {
+        "date_time": "2024-11-28 04:18:51",
+        "voltage_message": "High Voltage Alert",
+        "voltage_flag": 1,
+        "current_message": "",
+        "current_flag": 0,
+        "power_message": "",
+        "power_flag": 0
+    },
+    {
+        "date_time": "2024-11-28 04:20:51",
+        "voltage_message": "",
+        "voltage_flag": 0,
+        "current_message": "",
+        "current_flag": 0,
+        "power_message": "",
+        "power_flag": 0
+    },
+    {
+        "date_time": "2024-11-28 04:22:51",
+        "voltage_message": "",
+        "voltage_flag": 0,
+        "current_message": "",
+        "current_flag": 0,
+        "power_message": "",
+        "power_flag": 0
+    },
+    {
+        "date_time": "2024-11-28 04:24:53",
+        "voltage_message": "",
+        "voltage_flag": 0,
+        "current_message": "",
+        "current_flag": 0,
+        "power_message": "",
+        "power_flag": 0
+    },
+    {
+        "date_time": "2024-11-28 04:26:52",
+        "voltage_message": "High Voltage Alert",
+        "voltage_flag": 1,
+        "current_message": "",
+        "current_flag": 0,
+        "power_message": "",
+        "power_flag": 0
+    },
+    {
+        "date_time": "2024-11-28 04:28:52",
+        "voltage_message": "",
+        "voltage_flag": 0,
+        "current_message": "",
+        "current_flag": 0,
+        "power_message": "",
+        "power_flag": 0
+    },
+    {
+        "date_time": "2024-11-28 04:30:51",
+        "voltage_message": "",
+        "voltage_flag": 0,
+        "current_message": "",
+        "current_flag": 0,
+        "power_message": "",
+        "power_flag": 0
+    },
+    {
+        "date_time": "2024-11-28 04:32:51",
+        "voltage_message": "",
+        "voltage_flag": 0,
+        "current_message": "",
+        "current_flag": 0,
+        "power_message": "",
+        "power_flag": 0
+    },
+    {
+        "date_time": "2024-11-28 04:34:51",
+        "voltage_message": "",
+        "voltage_flag": 0,
+        "current_message": "",
+        "current_flag": 0,
+        "power_message": "",
+        "power_flag": 0
+    },
+    {
+        "date_time": "2024-11-28 04:36:51",
+        "voltage_message": "",
+        "voltage_flag": 0,
+        "current_message": "",
+        "current_flag": 0,
+        "power_message": "",
+        "power_flag": 0
+    },
+    {
+        "date_time": "2024-11-28 04:38:51",
+        "voltage_message": "",
+        "voltage_flag": 0,
+        "current_message": "",
+        "current_flag": 0,
+        "power_message": "",
+        "power_flag": 0
+    },
+    {
+        "date_time": "2024-11-28 04:40:51",
+        "voltage_message": "",
+        "voltage_flag": 0,
+        "current_message": "",
+        "current_flag": 0,
+        "power_message": "",
+        "power_flag": 0
+    },
+    {
+        "date_time": "2024-11-28 04:42:52",
+        "voltage_message": "",
+        "voltage_flag": 0,
+        "current_message": "",
+        "current_flag": 0,
+        "power_message": "",
+        "power_flag": 0
+    },
+    {
+        "date_time": "2024-11-28 04:44:51",
+        "voltage_message": "",
+        "voltage_flag": 0,
+        "current_message": "",
+        "current_flag": 0,
+        "power_message": "",
+        "power_flag": 0
+    },
+    {
+        "date_time": "2024-11-28 04:46:52",
+        "voltage_message": "",
+        "voltage_flag": 0,
+        "current_message": "",
+        "current_flag": 0,
+        "power_message": "",
+        "power_flag": 0
+    },
+    {
+        "date_time": "2024-11-28 04:48:51",
+        "voltage_message": "High Voltage Alert",
+        "voltage_flag": 1,
+        "current_message": "Low Current Alert",
+        "current_flag": -1,
+        "power_message": "",
+        "power_flag": 0
+    },
+    {
+        "date_time": "2024-11-28 04:50:51",
+        "voltage_message": "High Voltage Alert",
+        "voltage_flag": 1,
+        "current_message": "",
+        "current_flag": 0,
+        "power_message": "",
+        "power_flag": 0
+    },
+    {
+        "date_time": "2024-11-28 04:52:51",
+        "voltage_message": "",
+        "voltage_flag": 0,
+        "current_message": "",
+        "current_flag": 0,
+        "power_message": "",
+        "power_flag": 0
+    },
+    {
+        "date_time": "2024-11-28 04:54:51",
+        "voltage_message": "Low Voltage Alert",
+        "voltage_flag": -1,
+        "current_message": "Low Current Alert",
+        "current_flag": -1,
+        "power_message": "",
+        "power_flag": 0
+    },
+    {
+        "date_time": "2024-11-28 04:56:51",
+        "voltage_message": "",
+        "voltage_flag": 0,
+        "current_message": "",
+        "current_flag": 0,
+        "power_message": "",
+        "power_flag": 0
+    },
+    {
+        "date_time": "2024-11-28 04:58:52",
+        "voltage_message": "",
+        "voltage_flag": 0,
+        "current_message": "",
+        "current_flag": 0,
+        "power_message": "High Power Alert",
+        "power_flag": 1
+    },
+    {
+        "date_time": "2024-11-28 05:00:51",
+        "voltage_message": "",
+        "voltage_flag": 0,
+        "current_message": "",
+        "current_flag": 0,
+        "power_message": "",
+        "power_flag": 0
+    },
+    {
+        "date_time": "2024-11-28 05:02:51",
+        "voltage_message": "",
+        "voltage_flag": 0,
+        "current_message": "",
+        "current_flag": 0,
+        "power_message": "",
+        "power_flag": 0
+    },
+    {
+        "date_time": "2024-11-28 05:04:52",
+        "voltage_message": "",
+        "voltage_flag": 0,
+        "current_message": "High Current Alert",
+        "current_flag": 1,
+        "power_message": "",
+        "power_flag": 0
+    },
+    {
+        "date_time": "2024-11-28 05:06:51",
+        "voltage_message": "",
+        "voltage_flag": 0,
+        "current_message": "",
+        "current_flag": 0,
+        "power_message": "",
+        "power_flag": 0
+    },
+    {
+        "date_time": "2024-11-28 05:08:52",
+        "voltage_message": "",
+        "voltage_flag": 0,
+        "current_message": "",
+        "current_flag": 0,
+        "power_message": "",
+        "power_flag": 0
+    },
+    {
+        "date_time": "2024-11-28 05:10:51",
+        "voltage_message": "",
+        "voltage_flag": 0,
+        "current_message": "High Current Alert",
+        "current_flag": 1,
+        "power_message": "High Power Alert",
+        "power_flag": 1
+    },
+    {
+        "date_time": "2024-11-28 05:12:51",
+        "voltage_message": "",
+        "voltage_flag": 0,
+        "current_message": "",
+        "current_flag": 0,
+        "power_message": "",
+        "power_flag": 0
+    },
+    {
+        "date_time": "2024-11-28 05:14:51",
+        "voltage_message": "",
+        "voltage_flag": 0,
+        "current_message": "",
+        "current_flag": 0,
+        "power_message": "",
+        "power_flag": 0
+    },
+    {
+        "date_time": "2024-11-28 05:16:51",
+        "voltage_message": "",
+        "voltage_flag": 0,
+        "current_message": "High Current Alert",
+        "current_flag": 1,
+        "power_message": "",
+        "power_flag": 0
+    },
+    {
+        "date_time": "2024-11-28 05:18:51",
+        "voltage_message": "",
+        "voltage_flag": 0,
+        "current_message": "",
+        "current_flag": 0,
+        "power_message": "",
+        "power_flag": 0
+    },
+    {
+        "date_time": "2024-11-28 05:20:51",
+        "voltage_message": "",
+        "voltage_flag": 0,
+        "current_message": "",
+        "current_flag": 0,
+        "power_message": "",
+        "power_flag": 0
+    },
+    {
+        "date_time": "2024-11-28 05:22:51",
+        "voltage_message": "",
+        "voltage_flag": 0,
+        "current_message": "",
+        "current_flag": 0,
+        "power_message": "High Power Alert",
+        "power_flag": 1
+    },
+    {
+        "date_time": "2024-11-28 05:24:51",
+        "voltage_message": "",
+        "voltage_flag": 0,
+        "current_message": "",
+        "current_flag": 0,
+        "power_message": "",
+        "power_flag": 0
+    },
+    {
+        "date_time": "2024-11-28 05:26:51",
+        "voltage_message": "",
+        "voltage_flag": 0,
+        "current_message": "",
+        "current_flag": 0,
+        "power_message": "High Power Alert",
+        "power_flag": 1
+    },
+    {
+        "date_time": "2024-11-28 05:28:51",
+        "voltage_message": "",
+        "voltage_flag": 0,
+        "current_message": "High Current Alert",
+        "current_flag": 1,
+        "power_message": "High Power Alert",
+        "power_flag": 1
+    },
+    {
+        "date_time": "2024-11-28 05:30:51",
+        "voltage_message": "",
+        "voltage_flag": 0,
+        "current_message": "",
+        "current_flag": 0,
+        "power_message": "Low Power Alert",
+        "power_flag": -1
+    },
+    {
+        "date_time": "2024-11-28 05:32:52",
+        "voltage_message": "",
+        "voltage_flag": 0,
+        "current_message": "",
+        "current_flag": 0,
+        "power_message": "",
+        "power_flag": 0
+    },
+    {
+        "date_time": "2024-11-28 05:34:51",
+        "voltage_message": "",
+        "voltage_flag": 0,
+        "current_message": "",
+        "current_flag": 0,
+        "power_message": "",
+        "power_flag": 0
+    },
+    {
+        "date_time": "2024-11-28 05:36:51",
+        "voltage_message": "",
+        "voltage_flag": 0,
+        "current_message": "High Current Alert",
+        "current_flag": 1,
+        "power_message": "High Power Alert",
+        "power_flag": 1
+    },
+    {
+        "date_time": "2024-11-28 05:38:51",
+        "voltage_message": "",
+        "voltage_flag": 0,
+        "current_message": "High Current Alert",
+        "current_flag": 1,
+        "power_message": "High Power Alert",
+        "power_flag": 1
+    },
+    {
+        "date_time": "2024-11-28 05:40:51",
+        "voltage_message": "",
+        "voltage_flag": 0,
+        "current_message": "High Current Alert",
+        "current_flag": 1,
+        "power_message": "High Power Alert",
+        "power_flag": 1
+    },
+    {
+        "date_time": "2024-11-28 05:42:51",
+        "voltage_message": "",
+        "voltage_flag": 0,
+        "current_message": "High Current Alert",
+        "current_flag": 1,
+        "power_message": "High Power Alert",
+        "power_flag": 1
+    },
+    {
+        "date_time": "2024-11-28 05:44:51",
+        "voltage_message": "",
+        "voltage_flag": 0,
+        "current_message": "High Current Alert",
+        "current_flag": 1,
+        "power_message": "High Power Alert",
+        "power_flag": 1
+    },
+    {
+        "date_time": "2024-11-28 05:46:51",
+        "voltage_message": "",
+        "voltage_flag": 0,
+        "current_message": "High Current Alert",
+        "current_flag": 1,
+        "power_message": "High Power Alert",
+        "power_flag": 1
+    },
+    {
+        "date_time": "2024-11-28 05:48:51",
+        "voltage_message": "",
+        "voltage_flag": 0,
+        "current_message": "High Current Alert",
+        "current_flag": 1,
+        "power_message": "High Power Alert",
+        "power_flag": 1
+    },
+    {
+        "date_time": "2024-11-28 05:50:51",
+        "voltage_message": "",
+        "voltage_flag": 0,
+        "current_message": "High Current Alert",
+        "current_flag": 1,
+        "power_message": "High Power Alert",
+        "power_flag": 1
+    },
+    {
+        "date_time": "2024-11-28 05:52:51",
+        "voltage_message": "",
+        "voltage_flag": 0,
+        "current_message": "High Current Alert",
+        "current_flag": 1,
+        "power_message": "High Power Alert",
+        "power_flag": 1
+    },
+    {
+        "date_time": "2024-11-28 05:54:52",
+        "voltage_message": "",
+        "voltage_flag": 0,
+        "current_message": "",
+        "current_flag": 0,
+        "power_message": "",
+        "power_flag": 0
+    },
+    {
+        "date_time": "2024-11-28 05:56:51",
+        "voltage_message": "",
+        "voltage_flag": 0,
+        "current_message": "",
+        "current_flag": 0,
+        "power_message": "",
+        "power_flag": 0
+    },
+    {
+        "date_time": "2024-11-28 05:58:51",
+        "voltage_message": "",
+        "voltage_flag": 0,
+        "current_message": "",
+        "current_flag": 0,
+        "power_message": "",
+        "power_flag": 0
+    },
+    {
+        "date_time": "2024-11-28 06:00:51",
+        "voltage_message": "",
+        "voltage_flag": 0,
+        "current_message": "",
+        "current_flag": 0,
+        "power_message": "",
+        "power_flag": 0
+    },
+    {
+        "date_time": "2024-11-28 06:02:51",
+        "voltage_message": "",
+        "voltage_flag": 0,
+        "current_message": "",
+        "current_flag": 0,
+        "power_message": "",
+        "power_flag": 0
+    },
+    {
+        "date_time": "2024-11-28 06:04:51",
+        "voltage_message": "",
+        "voltage_flag": 0,
+        "current_message": "",
+        "current_flag": 0,
+        "power_message": "",
+        "power_flag": 0
+    },
+    {
+        "date_time": "2024-11-28 06:08:52",
+        "voltage_message": "",
+        "voltage_flag": 0,
+        "current_message": "",
+        "current_flag": 0,
+        "power_message": "",
+        "power_flag": 0
+    },
+    {
+        "date_time": "2024-11-28 06:10:51",
+        "voltage_message": "",
+        "voltage_flag": 0,
+        "current_message": "",
+        "current_flag": 0,
+        "power_message": "",
+        "power_flag": 0
+    },
+    {
+        "date_time": "2024-11-28 06:12:51",
+        "voltage_message": "",
+        "voltage_flag": 0,
+        "current_message": "",
+        "current_flag": 0,
+        "power_message": "",
+        "power_flag": 0
+    },
+    {
+        "date_time": "2024-11-28 06:14:51",
+        "voltage_message": "",
+        "voltage_flag": 0,
+        "current_message": "",
+        "current_flag": 0,
+        "power_message": "",
+        "power_flag": 0
+    },
+    {
+        "date_time": "2024-11-28 06:16:51",
+        "voltage_message": "",
+        "voltage_flag": 0,
+        "current_message": "",
+        "current_flag": 0,
+        "power_message": "",
+        "power_flag": 0
+    },
+    {
+        "date_time": "2024-11-28 06:18:51",
+        "voltage_message": "",
+        "voltage_flag": 0,
+        "current_message": "",
+        "current_flag": 0,
+        "power_message": "",
+        "power_flag": 0
+    },
+    {
+        "date_time": "2024-11-28 06:20:51",
+        "voltage_message": "",
+        "voltage_flag": 0,
+        "current_message": "",
+        "current_flag": 0,
+        "power_message": "",
+        "power_flag": 0
+    },
+    {
+        "date_time": "2024-11-28 06:22:51",
+        "voltage_message": "",
+        "voltage_flag": 0,
+        "current_message": "",
+        "current_flag": 0,
+        "power_message": "",
+        "power_flag": 0
+    },
+    {
+        "date_time": "2024-11-28 06:24:52",
+        "voltage_message": "",
+        "voltage_flag": 0,
+        "current_message": "",
+        "current_flag": 0,
+        "power_message": "",
+        "power_flag": 0
+    },
+    {
+        "date_time": "2024-11-28 06:26:52",
+        "voltage_message": "",
+        "voltage_flag": 0,
+        "current_message": "",
+        "current_flag": 0,
+        "power_message": "",
+        "power_flag": 0
+    },
+    {
+        "date_time": "2024-11-28 06:28:51",
+        "voltage_message": "",
+        "voltage_flag": 0,
+        "current_message": "",
+        "current_flag": 0,
+        "power_message": "",
+        "power_flag": 0
+    },
+    {
+        "date_time": "2024-11-28 06:30:51",
+        "voltage_message": "",
+        "voltage_flag": 0,
+        "current_message": "",
+        "current_flag": 0,
+        "power_message": "",
+        "power_flag": 0
+    },
+    {
+        "date_time": "2024-11-28 06:32:51",
+        "voltage_message": "",
+        "voltage_flag": 0,
+        "current_message": "",
+        "current_flag": 0,
+        "power_message": "",
+        "power_flag": 0
+    }
+]
