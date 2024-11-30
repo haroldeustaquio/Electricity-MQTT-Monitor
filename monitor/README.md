@@ -1,4 +1,4 @@
-# Monitor
+# Electricity Monitor
 
 ## Overview
 
@@ -18,13 +18,23 @@
     - [Voltage](#voltage-1)
     - [Current](#current-1)
     - [Power](#power-1)
-- [Installation]
+- [Installation](#installation)
 
 ---
 
 ## Architecture
 
-[In process...]
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/a9a01b43-82cf-40d8-bd1f-ce0c73265e91" alt="Architecture">
+</p>
+
+
+<div align="center">
+    <em>Figure 1: Architecture of MQTT Monitor</em>
+</div>
+
+
 
 ---
 
@@ -40,16 +50,15 @@
   2. **Process** this data to detect anomalies using statistical and machine learning methods.
   3. **Store** both processed results and raw data for historical analysis.
   4. **Generate Alerts** for significant deviations or abnormal readings, preparing the information for external notifications.
-  5. **Support Maintenance Decisions** by identifying patterns and trends in electrical behavior over time.
 
 > [!NOTE]
 > - ``MQTT Configuration``: Ensure broker details are set correctly in `broker.json`.
-```json
-{
-"broker": "",
-"port": "",
-"topics": ""
-}
+  ```json
+  {
+  "broker": "",
+  "port": "",
+  "topics": ""
+  }
 ```
 
 ## Selecting Variables
@@ -111,70 +120,63 @@
 
 ### `file_handling.py`
 
-- **`save_json`**:  
+- **`save_json`**
   Saves data to a specified JSON file within a given folder. If the folder does not exist, it creates the folder before saving.
 
-- **`read_json`**:  
+- **`read_json`**
   Reads and returns data from a specified JSON file. Handles exceptions if the file does not exist or contains invalid data.
 
-- **`load_update`**:  
+- **`load_update`**
   Reads an existing JSON file, appends new data to it if the data is in a list format, and saves the updated list back to the file. Ensures data integrity by creating the file if it does not exist.
 
 
 
 ### `mqtt_extraction.py`
 
-- **`return_broker_data`**:  
+- **`return_broker_data`**
   Retrieves broker configuration details (broker, port, topics) from a JSON file (`broker.json`). Ensures connectivity settings are accessible for the MQTT client.
 
-- **`on_connect`**:  
+- **`on_connect`**
   Handles the MQTT client’s connection to the broker. Prints connection status messages and subscribes to the topics specified in the broker configuration.
 
-- **`on_message`**:  
+- **`on_message`**
   Processes incoming MQTT messages:
   1. Decodes the JSON payload.
   2. Validates the structure of the incoming message.
   3. Splits and saves parts of the message into temporary JSON files (`part_0.json`, `part_1.json`) for further processing.
 
-- **`save_data`**:  
+- **`save_data`**
   Combines and processes data from the temporary JSON files. Adds a timestamp and updates dedicated JSON files for **voltage**, **current**, and **power**.
 
 
 ### Alert Detector
 
-#### `voltage_detector.py`
+#### **`voltage_detector.py`**
 
-- **Purpose**:  
-  Detects anomalies in voltage data using statistical methods (IQR, Z-Score) and machine learning techniques (ARIMA, Isolation Forest).
-
-- **Criteria for Alert Generation**:  
-  An alert is triggered when:
-  1. At least two methods detect an anomaly.
-  2. The current voltage value deviates from the range defined by the last two readings (concordance check).
+- Detects anomalies in voltage data using statistical methods (IQR, Z-Score) and machine learning techniques (ARIMA, Isolation Forest).
+- An alert is triggered when:
+  - At least two methods detect an anomaly.
+  - The current voltage value deviates from the range defined by the last two readings (concordance check).
 
 
 
-#### `current_detector.py`
+#### **`current_detector.py`**
 
-- **Purpose**:  
-  Monitors RMS current data for anomalies using IQR, ARIMA, and Isolation Forest.
+- Monitors RMS current data for anomalies using IQR, ARIMA, and Isolation Forest.
 
-- **Criteria for Alert Generation**:  
-  An alert is generated when:
-  1. At least two detection methods indicate an anomaly.
-  2. The current RMS value falls outside the range of the last two readings.
+- An alert is generated when:
+  - At least two detection methods indicate an anomaly.
+  - The current RMS value falls outside the range of the last two readings.
 
 
 
-#### `power_detector.py`
+#### **`power_detector.py`**
 
-- **Purpose**:  
-  Identifies anomalies in active power data using IQR, Z-Score, ARIMA, and Isolation Forest.
+- Identifies anomalies in active power data using IQR, Z-Score, ARIMA, and Isolation Forest.
 
-- **Criteria for Alert Generation**:  
-  An alert is raised when:
-  1. Two or more methods flag an anomaly.
-  2. The current power value deviates from the range defined by the last two readings.
+- An alert is raised when:
+  - Two or more methods flag an anomaly.
+  - The current power value deviates from the range defined by the last two readings.
 
 
 
@@ -185,7 +187,7 @@
 #### **``data/``**
 - **``history.json``**: Stores all the information received from MQTT to keep a complete record of the data.
 - **``last_update.json``**: Stores only the last update received, allowing quick access to the most recent information.
-- **``part_1.json``** and **``part_2.json``**: These are temporary files used to join partial messages. These files help to concatenate the data that, at the end of the process, is saved in ``history.json``.
+- **``part_1.json``** and **``part_2.json``**: These are temporary files used to join partial messages. These files help to concatenate the data that, at the end of the process, is saved in **``history.json``**.
 
 
 #### **``electrical-data/``**
@@ -196,7 +198,6 @@
 
 #### **`alerts/`**
 - **`alerts.json`**:  Contains the latest generated alert, including details about voltage, current, and power anomalies. This file is updated whenever a new alert is triggered.
-
 - **`history_alerts.json`**:  Maintains a historical record of all alerts generated over time. 
 
 This files serves as a reference for tracking past anomalies and is also used as the source for sending external notifications (e.g., via WhatsApp).
@@ -212,34 +213,75 @@ This files serves as a reference for tracking past anomalies and is also used as
 
 This measure is typically calculated using the **Euclidean norm** (or quadratic magnitude) of individual voltage or current measurements. The general formula for instantaneous energy with multiple voltages is:
 
-\[
-\text{Instantaneous Energy} = \sqrt{\sum_{i=1}^{n} V_i^2}
-\]
+$$\text{Instantaneous Energy} = \sqrt{\sum_{i=1}^{n} V_i^2}$$
 
 
-where $V_i$ represents each voltage measurement (e.g., `Voltage A`, `Voltage B`, `Voltage C`, `Voltage AB`, `Voltage BC`, `Voltage CA`). This calculation provides a single metric that includes all voltage contributions in the system.
+where $V_i$ represents each voltage measurement (e.g., **`Voltage A`**, **`Voltage B`**, **`Voltage C`**, **`Voltage AB`**, **`Voltage BC`**, **`Voltage CA`**). This calculation provides a single metric that includes all voltage contributions in the system.
 
 **Benefits of Using Instantaneous Energy for Anomaly Detection**
-    * Captures Total Voltage Magnitude
-    * Preserves the Distinct Nature of Voltages
-    * Detects Global System Changes
-    * Enhances Sensitivity to Peaks
-
-
+  * Captures Total Voltage Magnitude
+  * Preserves the Distinct Nature of Voltages
+  * Detects Global System Changes
+  * Enhances Sensitivity to Peaks
 
 ### Current
 
-[In process...]
+**Root Mean Square (RMS) Current** is a key metric in electrical systems used to represent the effective value of an alternating current (AC) or varying current. It provides a single value that corresponds to the equivalent direct current (DC) value delivering the same power to a resistive load. The RMS value is particularly useful for assessing the magnitude of current over time in complex systems.
 
+The **RMS Current** is calculated using the **quadratic mean** of individual current measurements. This method ensures that both positive and negative variations of the current contribute meaningfully to the overall value. The general formula for RMS Current is:
+
+$$
+\text{RMS Current} = \sqrt{\frac{\sum_{i=1}^{n} I_i^2}{n}}
+$$
+
+where $I_i$ represents each current measurement (e.g., **`Current A`**, **`Current B`**, **`Current C`**).
+
+**Benefits of Using RMS Current for Monitoring and Analysis**
+* Represents Effective Current Magnitude
+* Smooths Out Variations in Current
+* Sensitive to Fluctuations
 
 
 ### Power 
 
-[In process...]
+**Power** is a fundamental measure in electrical systems, representing the rate at which energy is transferred or converted. Power can be categorized into three key types: active power (real power), reactive power, and apparent power. These metrics are essential for analyzing and monitoring the performance and efficiency of electrical systems.
 
+In this implementation, **active power** is directly extracted from a single variable, making the computation straightforward and efficient. Alongside active power, other key parameters such as reactive power, apparent power, power factor, and frequency are also tracked for a comprehensive understanding of the system.
+
+
+**Benefits of Using Active Power for Monitoring and Analysis**
+* Direct Evaluation of Energy Delivered to Loads
+* Precise Monitoring of System Demand in Real-Time
+* Detection of Overloads and Inefficient Operation
 
 ---
 
 ## Installation
 
-[In process...]
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/haroldeustaquio/Electricity-MQTT-Monitor
+```
+
+### 2. Go to ``monitor`` folder
+```bash
+cd monitor
+```
+
+### 3. Install dependencies:
+
+```bash
+pip install paho-mqtt numpy scipy statsmodels scikit-learn
+```
+
+### 4. Run the main script
+
+```bash
+python main.py
+```
+
+### 5. Alerts and Data Monitoring
+
+The project monitors real-time electrical data (``voltage``, ``current``, ``power``) and generates alerts for anomalies. Alerts are saved in **``alerts/``** json and historical data is logged for further analysis.
