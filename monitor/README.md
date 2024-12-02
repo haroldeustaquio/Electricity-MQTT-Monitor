@@ -1,8 +1,9 @@
 # Electricity Monitor
 
+
 ## Overview
 
-[In process...]
+The **``Electricity Monitor``** is a real-time system that collects, processes, and analyzes electrical data (voltage, current, power) using MQTT. It detects anomalies through statistical and machine learning methods and generates alerts for abnormal readings. The system ensures data storage for historical analysis and provides insights into system performance and stability, making it ideal for proactive electrical monitoring and management.
 
 
 **Content**
@@ -31,7 +32,7 @@
 
 
 <div align="center">
-    <em>Figure 1: Architecture of MQTT Monitor</em>
+    <em>Figure 1: Architecture of Electricity Monitor</em>
 </div>
 
 
@@ -285,3 +286,11 @@ python main.py
 ### 5. Alerts and Data Monitoring
 
 The project monitors real-time electrical data (``voltage``, ``current``, ``power``) and generates alerts for anomalies. Alerts are saved in **``alerts/``** json and historical data is logged for further analysis.
+
+---
+
+<div align="center">
+    <em>
+      We believe in the power of collaboration and the amazing things we can achieve together. If you have ideas, suggestions, or improvements, feel free to open an issue or submit a pull request. Let’s make this project even better—your contributions are always welcome!
+    </em>
+</div>
