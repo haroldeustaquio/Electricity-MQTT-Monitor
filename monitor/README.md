@@ -42,8 +42,8 @@ The **``Electricity Monitor``** is a real-time system that collects, processes, 
 ## Usage
 
 * **Initialization**
-- The system initializes by configuring an MQTT client, using `broker.json` for the broker, port, and topic settings.
-- Received data from MQTT topics is parsed and temporarily stored in JSON files (`part_0.json` and `part_1.json`) for processing.
+- The system initializes by configuring an MQTT client, using **`broker.json`** for the broker, port, and topic settings.
+- Received data from MQTT topics is parsed and temporarily stored in JSON files (**`part_0.json`** and **`part_1.json`**) for processing.
 
 * **Purpose**
 - The project is designed to:
@@ -53,7 +53,7 @@ The **``Electricity Monitor``** is a real-time system that collects, processes, 
   4. **Generate Alerts** for significant deviations or abnormal readings, preparing the information for external notifications.
 
 > [!NOTE]
-> - ``MQTT Configuration``: Ensure broker details are set correctly in `broker.json`.
+> - **``MQTT Configuration``**: Ensure broker details are set correctly in **`broker.json`**.
   ```json
   {
   "broker": "",
@@ -135,7 +135,7 @@ The **``Electricity Monitor``** is a real-time system that collects, processes, 
 ### `mqtt_extraction.py`
 
 - **`return_broker_data`**
-  Retrieves broker configuration details (broker, port, topics) from a JSON file (`broker.json`). Ensures connectivity settings are accessible for the MQTT client.
+  Retrieves broker configuration details (broker, port, topics) from a JSON file (**`broker.json`**). Ensures connectivity settings are accessible for the MQTT client.
 
 - **`on_connect`**
   Handles the MQTT client’s connection to the broker. Prints connection status messages and subscribes to the topics specified in the broker configuration.
@@ -144,7 +144,7 @@ The **``Electricity Monitor``** is a real-time system that collects, processes, 
   Processes incoming MQTT messages:
   1. Decodes the JSON payload.
   2. Validates the structure of the incoming message.
-  3. Splits and saves parts of the message into temporary JSON files (`part_0.json`, `part_1.json`) for further processing.
+  3. Splits and saves parts of the message into temporary JSON files (**`part_0.json`**, **`part_1.json`**) for further processing.
 
 - **`save_data`**
   Combines and processes data from the temporary JSON files. Adds a timestamp and updates dedicated JSON files for **voltage**, **current**, and **power**.
