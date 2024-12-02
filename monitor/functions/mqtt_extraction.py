@@ -4,7 +4,7 @@ from datetime import datetime
 import math
 
 def return_broker_data():
-    keys = file_handling.read_json('broker')
+    keys = file_handling.read_json('broker',folder=None)
 
     if keys is not None:
         try:
@@ -12,9 +12,9 @@ def return_broker_data():
             port = keys['port']
             topic = keys['topics']
         except KeyError as e:
-            print(f"Error: Key {e} not found in data/broker.json")
+            print(f"Error: Key {e} not found in broker.json")
     else:
-        print("Error: Could not load data/broker.json")
+        print("Error: Could not load broker.json")
     
     return broker, port, topic
 
