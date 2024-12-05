@@ -6,24 +6,24 @@ import pandas as pd
 electrical_data = "G:/Electricity-MQTT-Monitor/monitor/electrical-data"
 
 for archivo in os.listdir(electrical_data):
-    if archivo.endswith("current.json"):
+    if archivo.endswith("energy.json"):
         file = os.path.join(electrical_data, archivo)
         
         # Leer los datos JSON (opcional)
         with open(file, "r", encoding="utf-8") as f:
-            current = json.load(f)
+            energy = json.load(f)
         
-        current = current[-30:]
-        date = [current[i]['date'] for i in range(len(current))]
-        values = [current[i]['rms_current'] for i in range(len(current))]
+        energy = energy[-30:]
+        date = [energy[i]['date'] for i in range(len(energy))]
+        values = [energy[i]['energy_consumed'] for i in range(len(energy))]
         df = pd.DataFrame({'Timestamp': pd.to_datetime(date), 'Value': values})
 
         fig = px.line(
             df,
             x='Timestamp',
             y='Value',
-            title='Last Hour: Current',
-            labels={'Timestamp': 'Fecha y Hora', 'Value': 'rms_current'},
+            title='Last Hour: Energy',
+            labels={'Timestamp': 'Fecha y Hora', 'Value': 'Consumed Energy'},
             line_shape='spline',
             template='plotly_white'
         )
@@ -49,7 +49,7 @@ for archivo in os.listdir(electrical_data):
                 )
             )
         )
-        output_path = r"G:\Electricity-MQTT-Monitor\media_outputs\images\current.png"
+        output_path = r"G:\Electricity-MQTT-Monitor\media_outputs\images\energy.png"
         fig.write_image(output_path, format='png', width=1200, height=800)
 
     if archivo.endswith("potency.json"):
