@@ -92,7 +92,7 @@ client.on('message', (message) => {
         runPythonScript(() => {
             sendGeneratedImages(message.from); // Send all images
         });
-    } else if (['image current', 'image power', 'image voltage'].includes(command)) {
+    } else if (['image energy', 'image power', 'image voltage'].includes(command)) {
         const imageName = command.split(' ')[1]; // Extract the specific image name
         runPythonScript(() => {
             sendSpecificImage(message.from, imageName); // Send the specific image
