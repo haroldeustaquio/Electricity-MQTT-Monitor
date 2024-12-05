@@ -93,7 +93,7 @@ git clone https://github.com/haroldeustaquio/Electricity-MQTT-Monitor.git
 
 * For **``notifications``**:
     ```bash
-    npm install whatsapp-web.js qrcode-terminal fs
+    npm install whatsapp-web.js qrcode-terminal fs node-schedule
     ```
 
 
