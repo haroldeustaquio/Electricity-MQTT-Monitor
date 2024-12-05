@@ -107,6 +107,13 @@ def save_data():
         'frecuency': part_0['26']
     }]
     
+    global energy_consumed
+    
+    energy_consumed = part_0['28']
+    energy = [{
+        'energy_consumed': energy_consumed
+    }]
+    
     # Save in voltage
     file_handling.load_update(voltage,'voltage','electrical-data')
     
@@ -115,6 +122,9 @@ def save_data():
     
     # Save in potency
     file_handling.load_update(potency,'potency','electrical-data')
+    
+    # Save in potency
+    file_handling.load_update(energy,'energy','electrical-data')
     
     print('Saving data... 100%')
 
@@ -134,15 +144,15 @@ def save_alert():
         alert['voltage_message'] = ""
         alert['voltage_flag'] = 0
     
-    if current_detector.current_outliers(rms_current) == 1:
-        alert['current_message'] = "High Current Alert"
-        alert['current_flag'] = 1
-    elif current_detector.current_outliers(rms_current) == -1:
-        alert['current_message'] = "Low Current Alert"
-        alert['current_flag'] = -1
-    else:
-        alert['current_message'] = ""
-        alert['current_flag'] = 0
+    # if current_detector.current_outliers(rms_current) == 1:
+    #     alert['current_message'] = "High Current Alert"
+    #     alert['current_flag'] = 1
+    # elif current_detector.current_outliers(rms_current) == -1:
+    #     alert['current_message'] = "Low Current Alert"
+    #     alert['current_flag'] = -1
+    # else:
+    #     alert['current_message'] = ""
+    #     alert['current_flag'] = 0
     
     if power_detector.power_outliers(active_power) == 1:
         alert['power_message'] = "High Power Alert"
@@ -156,7 +166,6 @@ def save_alert():
 
     file_handling.save_json(alert,'last_alert',folder='alerts')
     file_handling.load_update([{**alert}],'history_alerts',folder='alerts')
-    print('go')
 
 
 def on_message(client, userdata, message):
