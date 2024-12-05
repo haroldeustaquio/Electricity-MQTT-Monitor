@@ -28,11 +28,11 @@ for archivo in os.listdir(electrical_data):
         for i in range(0, len(df), group_size):
             group = df[i:i + group_size]
             if len(group) == group_size:
-                first = group['energy_consumed'].iloc[0]
-                last = group['energy_consumed'].iloc[-1]
+                first = group['Value'].iloc[0]
+                last = group['Value'].iloc[-1]
                 diff = last - first
                 results.append(diff)
-                timestamps.append(group['date'].iloc[0])
+                timestamps.append(group['Timestamp'].iloc[0])
 
         result_df = pd.DataFrame({'Timestamp': timestamps, 'diff': results})
 
