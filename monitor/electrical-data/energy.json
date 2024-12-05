@@ -1,13 +1,154 @@
 [
     {
-        "date": "2024-12-05 11:54:13",
-        "total-active-power": 43.61,
-        "total-reactive-power": 8.332,
-        "total-apparent-power": 44.398,
-        "total-power-factor": 0.982,
-        "frecuency": 60.01
+        "date": "2024-12-05 12:44:13",
+        "energy_consumed": 43632.67
     },
     {
-        "energy_consumed": 43592.56
+        "date": "2024-12-05 12:50:13",
+        "energy_consumed": 43638.05
+    },
+    {
+        "date": "2024-12-05 12:52:13",
+        "energy_consumed": 43639.85
+    },
+    {
+        "date": "2024-12-05 12:54:13",
+        "energy_consumed": 43641.65
+    },
+    {
+        "date": "2024-12-05 12:56:13",
+        "energy_consumed": 43643.41
+    },
+    {
+        "date": "2024-12-05 12:58:13",
+        "energy_consumed": 43645.25
+    },
+    {
+        "date": "2024-12-05 13:00:13",
+        "energy_consumed": 43647.07
+    },
+    {
+        "date": "2024-12-05 13:02:13",
+        "energy_consumed": 43648.87
+    },
+    {
+        "date": "2024-12-05 13:04:13",
+        "energy_consumed": 43650.65
+    },
+    {
+        "date": "2024-12-05 13:06:13",
+        "energy_consumed": 43652.48
+    },
+    {
+        "date": "2024-12-05 13:08:13",
+        "energy_consumed": 43654.27
+    },
+    {
+        "date": "2024-12-05 13:10:13",
+        "energy_consumed": 43656.05
+    },
+    {
+        "date": "2024-12-05 13:12:13",
+        "energy_consumed": 43657.86
+    },
+    {
+        "date": "2024-12-05 13:14:13",
+        "energy_consumed": 43659.66
+    },
+    {
+        "date": "2024-12-05 13:16:13",
+        "energy_consumed": 43661.42
+    },
+    {
+        "date": "2024-12-05 13:18:13",
+        "energy_consumed": 43663.19
+    },
+    {
+        "date": "2024-12-05 13:20:13",
+        "energy_consumed": 43665.02
+    },
+    {
+        "date": "2024-12-05 13:22:13",
+        "energy_consumed": 43666.87
+    },
+    {
+        "date": "2024-12-05 13:24:13",
+        "energy_consumed": 43668.63
+    },
+    {
+        "date": "2024-12-05 13:26:13",
+        "energy_consumed": 43670.44
+    },
+    {
+        "date": "2024-12-05 13:28:13",
+        "energy_consumed": 43672.27
+    },
+    {
+        "date": "2024-12-05 13:30:13",
+        "energy_consumed": 43674.03
+    },
+    {
+        "date": "2024-12-05 13:32:13",
+        "energy_consumed": 43675.84
+    },
+    {
+        "date": "2024-12-05 13:34:13",
+        "energy_consumed": 43677.66
+    },
+    {
+        "date": "2024-12-05 13:36:13",
+        "energy_consumed": 43679.43
+    },
+    {
+        "date": "2024-12-05 13:38:13",
+        "energy_consumed": 43681.18
+    },
+    {
+        "date": "2024-12-05 13:40:13",
+        "energy_consumed": 43682.98
+    },
+    {
+        "date": "2024-12-05 13:42:13",
+        "energy_consumed": 43684.79
+    },
+    {
+        "date": "2024-12-05 13:44:13",
+        "energy_consumed": 43686.57
+    },
+    {
+        "date": "2024-12-05 13:46:13",
+        "energy_consumed": 43688.37
+    },
+    {
+        "date": "2024-12-05 13:48:13",
+        "energy_consumed": 43690.16
+    },
+    {
+        "date": "2024-12-05 13:50:13",
+        "energy_consumed": 43691.88
+    },
+    {
+        "date": "2024-12-05 13:52:12",
+        "energy_consumed": 43693.62
+    },
+    {
+        "date": "2024-12-05 13:54:13",
+        "energy_consumed": 43695.42
+    },
+    {
+        "date": "2024-12-05 13:56:13",
+        "energy_consumed": 43697.17
+    },
+    {
+        "date": "2024-12-05 13:58:12",
+        "energy_consumed": 43698.87
+    },
+    {
+        "date": "2024-12-05 14:00:12",
+        "energy_consumed": 43700.65
+    },
+    {
+        "date": "2024-12-05 14:02:12",
+        "energy_consumed": 43702.4
     }
 ]
