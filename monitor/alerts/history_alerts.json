@@ -1249,5 +1249,47 @@
         "current_flag": 0,
         "power_message": "",
         "power_flag": 0
+    },
+    {
+        "date_time": "2024-12-05 11:46:14",
+        "voltage_message": "Low Voltage Alert",
+        "voltage_flag": -1,
+        "power_message": "High Power Alert",
+        "power_flag": 1
+    },
+    {
+        "date_time": "2024-12-05 11:48:14",
+        "voltage_message": "Low Voltage Alert",
+        "voltage_flag": -1,
+        "power_message": "High Power Alert",
+        "power_flag": 1
+    },
+    {
+        "date_time": "2024-12-05 11:50:13",
+        "voltage_message": "Low Voltage Alert",
+        "voltage_flag": -1,
+        "power_message": "High Power Alert",
+        "power_flag": 1
+    },
+    {
+        "date_time": "2024-12-05 11:52:13",
+        "voltage_message": "",
+        "voltage_flag": 0,
+        "power_message": "High Power Alert",
+        "power_flag": 1
+    },
+    {
+        "date_time": "2024-12-05 11:54:13",
+        "voltage_message": "",
+        "voltage_flag": 0,
+        "power_message": "",
+        "power_flag": 0
+    },
+    {
+        "date_time": "2024-12-05 11:56:13",
+        "voltage_message": "",
+        "voltage_flag": 0,
+        "power_message": "",
+        "power_flag": 0
     }
 ]

@@ -1,0 +1,13 @@
+[
+    {
+        "date": "2024-12-05 11:54:13",
+        "total-active-power": 43.61,
+        "total-reactive-power": 8.332,
+        "total-apparent-power": 44.398,
+        "total-power-factor": 0.982,
+        "frecuency": 60.01
+    },
+    {
+        "energy_consumed": 43592.56
+    }
+]
