@@ -111,6 +111,7 @@ def save_data():
     
     energy_consumed = part_0['28']
     energy = [{
+        'date': date_time,
         'energy_consumed': energy_consumed
     }]
     

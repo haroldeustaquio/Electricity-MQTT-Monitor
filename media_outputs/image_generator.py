@@ -5,6 +5,8 @@ import pandas as pd
 
 electrical_data = "G:/Electricity-MQTT-Monitor/monitor/electrical-data"
 
+
+
 for archivo in os.listdir(electrical_data):
     if archivo.endswith("energy.json"):
         file = os.path.join(electrical_data, archivo)
@@ -13,17 +15,33 @@ for archivo in os.listdir(electrical_data):
         with open(file, "r", encoding="utf-8") as f:
             energy = json.load(f)
         
-        energy = energy[-30:]
+        energy = energy[-60:]
         date = [energy[i]['date'] for i in range(len(energy))]
         values = [energy[i]['energy_consumed'] for i in range(len(energy))]
         df = pd.DataFrame({'Timestamp': pd.to_datetime(date), 'Value': values})
+        
+        group_size = 5
+
+        timestamps = []
+        results = []
+        
+        for i in range(0, len(df), group_size):
+            group = df[i:i + group_size]
+            if len(group) == group_size:
+                first = group['energy_consumed'].iloc[0]
+                last = group['energy_consumed'].iloc[-1]
+                diff = last - first
+                results.append(diff)
+                timestamps.append(group['date'].iloc[0])
+
+        result_df = pd.DataFrame({'Timestamp': timestamps, 'diff': results})
 
         fig = px.line(
-            df,
+            result_df,
             x='Timestamp',
-            y='Value',
+            y='diff',
             title='Last Hour: Energy',
-            labels={'Timestamp': 'Fecha y Hora', 'Value': 'Consumed Energy'},
+            labels={'Timestamp': 'Fecha y Hora', 'diff': 'Consumed Energy'},
             line_shape='spline',
             template='plotly_white'
         )
@@ -51,6 +69,9 @@ for archivo in os.listdir(electrical_data):
         )
         output_path = r"G:\Electricity-MQTT-Monitor\media_outputs\images\energy.png"
         fig.write_image(output_path, format='png', width=1200, height=800)
+
+
+
 
     if archivo.endswith("potency.json"):
         file = os.path.join(electrical_data, archivo)
@@ -97,6 +118,9 @@ for archivo in os.listdir(electrical_data):
 
         output_path = r"G:\Electricity-MQTT-Monitor\media_outputs\images\power.png"
         fig.write_image(output_path, format='png', width=1200, height=800)
+
+
+
 
     if archivo.endswith("voltage.json"):
         file = os.path.join(electrical_data, archivo)
