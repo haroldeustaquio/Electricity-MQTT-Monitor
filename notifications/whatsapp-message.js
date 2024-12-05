@@ -26,7 +26,7 @@ const checkForAlertChanges = () => {
     // Compare the last alert with the penultimate
     const isDifferent =
         last_alert.voltage_flag !== penultimate_alert.voltage_flag ||
-        last_alert.current_flag !== penultimate_alert.current_flag ||
+        // last_alert.current_flag !== penultimate_alert.current_flag ||
         last_alert.power_flag !== penultimate_alert.power_flag;
 
     // Check if the alert is new and process accordingly
@@ -36,10 +36,9 @@ const checkForAlertChanges = () => {
 ⚠️ Change detected ⚠️
 > 🕝 Date/Time: ${last_alert.date_time}
 > ⚡ Voltage: ${last_alert.voltage_message || 'Normal Voltage'}
-> 🔌 Current: ${last_alert.current_message || 'Normal Current'}
 > 💡 Power: ${last_alert.power_message || 'Normal Power'}
             `.trim();
-
+// > 🔌 Current: ${last_alert.current_message || 'Normal Current'}
             console.log('Generated message:', message);
             sendMessage(client, number, message);
 
