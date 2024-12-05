@@ -123,7 +123,7 @@ cd notifications
 ### 3. Install dependencies:
 
 ```bash
-npm install whatsapp-web.js qrcode-terminal fs
+npm install whatsapp-web.js qrcode-terminal fs node-schedule  
 ```
 
 ### 4. Run the bot

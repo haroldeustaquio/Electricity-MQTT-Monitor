@@ -3,7 +3,7 @@
 
 ## Overview
 
-The **``Electricity Monitor``** is a real-time system that collects, processes, and analyzes electrical data (voltage, current, power) using MQTT. It detects anomalies through statistical and machine learning methods and generates alerts for abnormal readings. The system ensures data storage for historical analysis and provides insights into system performance and stability, making it ideal for proactive electrical monitoring and management.
+The **``Electricity Monitor``** is a real-time system that collects, processes, and analyzes electrical data (voltage, current, power, energy) using MQTT. It detects anomalies through statistical and machine learning methods and generates alerts for abnormal readings. The system ensures data storage for historical analysis and provides insights into system performance and stability, making it ideal for proactive electrical monitoring and management.
 
 
 **Content**
@@ -27,7 +27,7 @@ The **``Electricity Monitor``** is a real-time system that collects, processes, 
 
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/a9a01b43-82cf-40d8-bd1f-ce0c73265e91" alt="Architecture">
+  <img src="https://github.com/user-attachments/assets/3a294824-0d69-4a0f-99de-b1eb22774fef" alt="Architecture">
 </p>
 
 
@@ -112,6 +112,13 @@ The **``Electricity Monitor``** is a real-time system that collects, processes, 
 | 21  | Total Apparent Power    | Combined active and reactive power              |
 | 25  | Total Power Factor      | Efficiency in power use                         |
 
+### Energy
+
+| ID  | Variable               | Description                                     |
+|-----|-------------------------|-------------------------------------------------|
+| 28  | Active Energy      | Forward active energy consumption                  |
+
+
 </div>
 </div>
 
@@ -147,7 +154,7 @@ The **``Electricity Monitor``** is a real-time system that collects, processes, 
   3. Splits and saves parts of the message into temporary JSON files (**`part_0.json`**, **`part_1.json`**) for further processing.
 
 - **`save_data`**
-  Combines and processes data from the temporary JSON files. Adds a timestamp and updates dedicated JSON files for **voltage**, **current**, and **power**.
+  Combines and processes data from the temporary JSON files. Adds a timestamp and updates dedicated JSON files for **voltage**, **current**, **power** and **energy**.
 
 
 ### Alert Detector
@@ -195,10 +202,11 @@ The **``Electricity Monitor``** is a real-time system that collects, processes, 
 - **`current.json`**: Contains data on the current in each phase, used to monitor load and detect overloads.
 - **`potency.json`**: Includes total active, reactive, and apparent power data, as well as power factor and frequency, to evaluate system efficiency and stability.
 - **`voltage.json`**: Stores voltage measurements across phases, essential for assessing voltage stability and detecting imbalances.
+- **`energy.json`**: Stores the forward active.
 
 
 #### **`alerts/`**
-- **`alerts.json`**:  Contains the latest generated alert, including details about voltage, current, and power anomalies. This file is updated whenever a new alert is triggered.
+- **`alerts.json`**:  Contains the latest generated alert, including details about **``voltage``** and **``power``** anomalies. This file is updated whenever a new alert is triggered.
 - **`history_alerts.json`**:  Maintains a historical record of all alerts generated over time. 
 
 This files serves as a reference for tracking past anomalies and is also used as the source for sending external notifications (e.g., via WhatsApp).
