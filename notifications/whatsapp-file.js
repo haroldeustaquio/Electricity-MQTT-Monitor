@@ -3,30 +3,25 @@ const { Client, LocalAuth } = require('whatsapp-web.js');
 const { exec } = require('child_process');
 const fs = require('fs');
 const path = require('path');
-const sendFile = require('./sendFile'); // Importar la función personalizada
+const sendFile = require('./sendFile');
 
-// Configuración del cliente de WhatsApp
 const client = new Client({
     authStrategy: new LocalAuth(),
 });
 
-// Número al que se enviarán las alertas o respuestas (cambia según sea necesario)
 const number = '51973434110@c.us';
 
-// Ruta del script de Python y carpeta de imágenes
-const pythonScriptPath = path.join(__dirname, '../media_outputs/generate_images.py');
+const pythonScriptPath = path.join(__dirname, '../media_outputs/image_generator.py');
 const imagesFolder = path.join(__dirname, '../media_outputs/images/');
 
-// Escanea el QR para autenticarte
 client.on('qr', (qr) => {
     qrcode.generate(qr, { small: true });
 });
 
-// Evento: cuando el cliente esté listo
 client.on('ready', () => {
     console.log('Client is ready!');
 
-    // Programar alertas diarias a las 8:00, 12:00 y 18:00
+    // Schedule daily alerts at 8:00, 12:00 and 18:00
     const alertTimes = ['08:00', '12:00', '18:00'];
     alertTimes.forEach((time) => {
         const [hour, minute] = time.split(':');
@@ -38,51 +33,71 @@ client.on('ready', () => {
     });
 });
 
-// Función para ejecutar el script de Python
+// Function to execute the Python script
 function runPythonScript(callback) {
     exec(`python "${pythonScriptPath}"`, (error, stdout, stderr) => {
         if (error) {
-            console.error(`Error ejecutando el script de Python: ${error.message}`);
+            console.error(`Error running Python script: ${error.message}`);
             return;
         }
         if (stderr) {
-            console.error(`Error del script de Python: ${stderr}`);
+            console.error(`Python script error: ${stderr}`);
         }
-        console.log(`Resultado del script de Python: ${stdout}`);
+        console.log(`Python script output: ${stdout}`);
         callback();
     });
 }
 
-// Función para enviar las imágenes generadas usando sendFile.js
+// Function to send all generated images
 function sendGeneratedImages(chatId) {
     fs.readdir(imagesFolder, (err, files) => {
         if (err) {
-            console.error(`Error leyendo la carpeta de imágenes: ${err.message}`);
+            console.error(`Error reading images folder: ${err.message}`);
             return;
         }
 
-        const imageFiles = files.filter(file => file.endsWith('.png')); // Filtrar solo imágenes PNG
+        const imageFiles = files.filter(file => file.endsWith('.png')); // Filter only PNG images
         if (imageFiles.length === 0) {
-            client.sendMessage(chatId, 'No se encontraron imágenes generadas.');
+            client.sendMessage(chatId, 'No generated images were found.');
             return;
         }
 
         imageFiles.forEach(image => {
             const imagePath = path.join(imagesFolder, image);
-            sendFile(client, chatId, imagePath, image); // Usar sendFile para enviar el archivo
+            sendFile(client, chatId, imagePath, image); // Use sendFile to send the file
         });
     });
 }
 
-// Escuchar mensajes entrantes
+// Function to send a specific image
+function sendSpecificImage(chatId, imageName) {
+    const imagePath = path.join(imagesFolder, `${imageName}.png`); // Construct the specific image path
+
+    fs.access(imagePath, fs.constants.F_OK, (err) => {
+        if (err) {
+            client.sendMessage(chatId, `The image '${imageName}' was not found.`);
+            return;
+        }
+
+        sendFile(client, chatId, imagePath, `${imageName}.png`); // Send the specific file
+    });
+}
+
+// Listen for incoming messages
 client.on('message', (message) => {
-    if (message.body.toLowerCase() === 'imagen') {
-        // Ejecutar el script de Python y luego enviar las imágenes generadas
+    const command = message.body.toLowerCase();
+
+    if (command === 'image') {
+        // Run the Python script and send all images
         runPythonScript(() => {
-            sendGeneratedImages(message.from);
+            sendGeneratedImages(message.from); // Send all images
+        });
+    } else if (['image current', 'image power', 'image voltage'].includes(command)) {
+        const imageName = command.split(' ')[1]; // Extract the specific image name
+        runPythonScript(() => {
+            sendSpecificImage(message.from, imageName); // Send the specific image
         });
     }
 });
 
-// Inicia el cliente
 client.initialize();
