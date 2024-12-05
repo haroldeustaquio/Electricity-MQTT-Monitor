@@ -294,13 +294,5 @@
         "total-apparent-power": 54.042,
         "total-power-factor": 0.982,
         "frecuency": 59.96
-    },
-    {
-        "date": "2024-12-05 14:02:12",
-        "total-active-power": 51.404,
-        "total-reactive-power": 9.828,
-        "total-apparent-power": 52.334,
-        "total-power-factor": 0.982,
-        "frecuency": 59.97
     }
 ]
