@@ -146,8 +146,8 @@ def save_alert():
     alert['date_time'] = date_time
     
     voltage_list = [Va, Vb, Vc, Va_b, Vb_c, Vc_a]
-    voltage_name = ['Va','Vb','Vc','Va-b','Vb-c','Vc-a']
-    
+    voltage_name = ['Va','Vb','Vc','Va_b','Vb_c','Vc_a']
+
     for value,name in zip(voltage_list, voltage_name):
         if voltage_detector.volt_outliers(value,name) == 1:
             alert[f'{name}_message'] = f"High {name} Alert"
