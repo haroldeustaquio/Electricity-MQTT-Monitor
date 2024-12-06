@@ -2808,7 +2808,19 @@
         "energy_consumed": 44239.72
     },
     {
-        "date": "2024-12-06 12:40:12",
-        "energy_consumed": 44241.31
+        "date": "2024-12-06 13:10:12",
+        "energy_consumed": 44264.88
+    },
+    {
+        "date": "2024-12-06 13:12:12",
+        "energy_consumed": 44266.55
+    },
+    {
+        "date": "2024-12-06 13:14:12",
+        "energy_consumed": 44268.07
+    },
+    {
+        "date": "2024-12-06 13:16:12",
+        "energy_consumed": 44269.54
     }
 ]
