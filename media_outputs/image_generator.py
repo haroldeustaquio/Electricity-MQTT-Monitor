@@ -3,7 +3,7 @@ import json
 import plotly.express as px
 import pandas as pd
 
-electrical_data = r"C:\Users\USUARIO\Documents\Electricity-MQTT-Monitor\monitor\electrical-data"
+electrical_data = r"G:\Electricity-MQTT-Monitor\monitor\electrical-data"
 
 for archivo in os.listdir(electrical_data):
     if archivo.endswith("energy.json"):
@@ -65,7 +65,7 @@ for archivo in os.listdir(electrical_data):
                 )
             )
         )
-        output_path = r"C:\Users\USUARIO\Documents\Electricity-MQTT-Monitor\media_outputs\images\energy.png"
+        output_path = r"G:\Electricity-MQTT-Monitor\media_outputs\images\energy.png"
         fig.write_image(output_path, format='png', width=1200, height=800)
 
 
@@ -114,61 +114,107 @@ for archivo in os.listdir(electrical_data):
             )
         )
 
-        output_path = r"C:\Users\USUARIO\Documents\Electricity-MQTT-Monitor\media_outputs\images\power.png"
+        output_path = r"G:\Electricity-MQTT-Monitor\media_outputs\images\power.png"
         fig.write_image(output_path, format='png', width=1200, height=800)
-
 
 
 
     if archivo.endswith("voltage.json"):
         file = os.path.join(electrical_data, archivo)
         
-        # Leer los datos JSON (opcional)
         with open(file, "r", encoding="utf-8") as f:
             voltage = json.load(f)
         
         voltage = voltage[-30:]
         date = [voltage[i]['date'] for i in range(len(voltage))]
+
+        grouped_voltage_names = ['Va', 'Vb', 'Vc']
+        separate_voltage_names = ['Va_b', 'Vb_c', 'Vc_a']
+
+        combined_data = []
+        for name in grouped_voltage_names:
+            combined_data.extend([{'Timestamp': pd.to_datetime(date[i]), 'Value': voltage[i][name], 'Phase': name} for i in range(len(voltage))])
         
-        voltage_name = ['Va','Vb','Vc','Va-b','Vb-c','Vc-a']
+        df_combined = pd.DataFrame(combined_data)
 
-        
-        for name in voltage_name:
-            values = [voltage[i][f'{name}'] for i in range(len(voltage))]
-            # Crear un DataFrame
-            df = pd.DataFrame({'Timestamp': pd.to_datetime(date), 'Value': values})
+        fig_combined = px.line(
+            df_combined,
+            x='Timestamp',
+            y='Value',
+            color='Phase',  # Colorear por fase
+            title='SmartFit: Last Hour - Va, Vb, Vc',
+            labels={'Timestamp': 'Fecha y Hora', 'Value': 'Voltage (V)', 'Phase': 'Fase'},
+            line_shape='spline',
+            template='plotly_white'
+        )
 
-            # Crear nuevamente el gráfico con formato claro
-            fig = px.line(
-                df,
-                x='Timestamp',
-                y='Value',
-                title=f'SmartFit: Last Hour - {name}',
-                labels={'Timestamp': 'Fecha y Hora', 'Value': f'{name}'},
-                line_shape='spline',
-                template='plotly_white'
-            )
-
-            fig.update_traces(line=dict(width=5), marker=dict(size=12))
-
-            fig.update_layout(
-                title_font=dict(size=30),
-                xaxis=dict(
-                    showgrid=False,
-                    tickfont=dict(size=20, color='black'),
-                    title=dict(
-                        text='Fecha y Hora',
-                        font=dict(size=24, color='black')
-                    )
-                ),
-                yaxis=dict(
-                    showgrid=False,
-                    tickfont=dict(size=20, color='black'),
-                    title=dict(
-                        text=f'{name}',
-                        font=dict(size=24, color='black')
-                    )
+        fig_combined.update_traces(line=dict(width=5), marker=dict(size=12))
+        fig_combined.update_layout(
+            title_font=dict(size=30),
+            xaxis=dict(
+                showgrid=True,
+                tickfont=dict(size=20, color='black'),
+                title=dict(
+                    text='Fecha y Hora',
+                    font=dict(size=24, color='black')
                 )
+            ),
+            yaxis=dict(
+                showgrid=True,
+                tickfont=dict(size=20, color='black'),
+                title=dict(
+                    text='Voltage (V)',
+                    font=dict(size=24, color='black')
+                )
+            ),
+            legend=dict(
+            font=dict(size=20),
+            title=dict(font=dict(size=24)),
             )
-            output_path = f"G:\Electricity-MQTT-Monitor\media_outputs\images\{name}.png"
-            fig.write_image(output_path, format='png', width=1200, height=800)
+        )
+        output_path_combined = r"G:\Electricity-MQTT-Monitor\media_outputs\images\voltage_1.png"
+        fig_combined.write_image(output_path_combined, format='png', width=1200, height=800)
+
+        combined_diff_data = []
+        for name in separate_voltage_names:
+            combined_diff_data.extend([{'Timestamp': pd.to_datetime(date[i]), 'Value': voltage[i][name], 'Phase': name} for i in range(len(voltage))])
+        
+        df_combined_diff = pd.DataFrame(combined_diff_data)
+
+        fig_combined_diff = px.line(
+            df_combined_diff,
+            x='Timestamp',
+            y='Value',
+            color='Phase',  # Colorear por fase
+            title='SmartFit: Last Hour - Va-b, Vb-c, Vc-a',
+            labels={'Timestamp': 'Fecha y Hora', 'Value': 'Voltage Difference (V)', 'Phase': 'Fase'},
+            line_shape='spline',
+            template='plotly_white'
+        )
+
+        fig_combined_diff.update_traces(line=dict(width=5), marker=dict(size=12))
+        fig_combined_diff.update_layout(
+            title_font=dict(size=30),
+            xaxis=dict(
+                showgrid=True,
+                tickfont=dict(size=20, color='black'),
+                title=dict(
+                    text='Fecha y Hora',
+                    font=dict(size=24, color='black')
+                )
+            ),
+            yaxis=dict(
+                showgrid=True,
+                tickfont=dict(size=20, color='black'),
+                title=dict(
+                    text='Voltage Difference (V)',
+                    font=dict(size=24, color='black')
+                )
+            ),
+            legend=dict(
+            font=dict(size=20),
+            title=dict(font=dict(size=24)),
+            )
+        )
+        output_path_combined_diff = r"G:\Electricity-MQTT-Monitor\media_outputs\images\voltage_2.png"
+        fig_combined_diff.write_image(output_path_combined_diff, format='png', width=1200, height=800)
