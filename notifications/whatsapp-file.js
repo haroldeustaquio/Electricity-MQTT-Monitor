@@ -6,10 +6,14 @@ const path = require('path');
 const sendFile = require('./sendFile');
 
 const client = new Client({
-    authStrategy: new LocalAuth(),
+    authStrategy: new LocalAuth({
+        clientId: 'session_images',
+    }),
 });
 
-const number = '51973434110@c.us';
+const data = require('./number_id.json'); // Importa el archivo JSON
+const number = data.number; // Obtén el número desde el JSON
+
 
 const pythonScriptPath = path.join(__dirname, '../media_outputs/image_generator.py');
 const imagesFolder = path.join(__dirname, '../media_outputs/images/');
@@ -22,7 +26,7 @@ client.on('ready', () => {
     console.log('Client is ready!');
 
     // Schedule daily alerts at 8:00, 12:00 and 18:00
-    const alertTimes = ['08:00', '12:00', '18:00'];
+    const alertTimes = ['08:00', '01:29', '01:32'];
     alertTimes.forEach((time) => {
         const [hour, minute] = time.split(':');
         schedule.scheduleJob({ hour: parseInt(hour), minute: parseInt(minute) }, () => {
@@ -87,6 +91,10 @@ function sendSpecificImage(chatId, imageName) {
 client.on('message', (message) => {
     const command = message.body.toLowerCase();
 
+    if (message.from !== number) {
+        console.log(`Message from unauthorized chat: ${message.from}`);
+        return; // Ignorar mensajes de otros chats
+    }
     if (command === 'image') {
         // Run the Python script and send all images
         runPythonScript(() => {

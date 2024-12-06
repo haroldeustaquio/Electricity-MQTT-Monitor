@@ -5,10 +5,13 @@ const keepAlive = require('./keepAlive');
 const { get_last_alert, get_penultimate_alert } = require('./data_loader'); // Import the dinamic functions
 
 const client = new Client({
-    authStrategy: new LocalAuth(),
+    authStrategy: new LocalAuth({
+        clientId: 'session_alerts', // Identificador único para esta sesión
+    }),
 });
 
-const number = '51973434110@c.us'; // Test number
+const data = require('./number_id.json'); // Importa el archivo JSON
+const number = data.number; // Obtén el número desde el JSON
 
 let lastSentAlertDateTime = null; // Variable to track the last alert sent
 
