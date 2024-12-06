@@ -11,8 +11,8 @@ const client = new Client({
     }),
 });
 
-const data = require('./number_id.json'); // Importa el archivo JSON
-const number = data.number; // Obtén el número desde el JSON
+const data = require('./number_id.json');
+const number = data.number;
 
 
 const pythonScriptPath = path.join(__dirname, '../media_outputs/image_generator.py');

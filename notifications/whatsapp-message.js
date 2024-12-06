@@ -6,12 +6,12 @@ const { get_last_alert, get_penultimate_alert } = require('./data_loader'); // I
 
 const client = new Client({
     authStrategy: new LocalAuth({
-        clientId: 'session_alerts', // Identificador único para esta sesión
+        clientId: 'session_alerts',
     }),
 });
 
-const data = require('./number_id.json'); // Importa el archivo JSON
-const number = data.number; // Obtén el número desde el JSON
+const data = require('./number_id.json');
+const number = data.number;
 
 let lastSentAlertDateTime = null; // Variable to track the last alert sent
 
