@@ -38,7 +38,7 @@ for archivo in os.listdir(electrical_data):
             result_df,
             x='Timestamp',
             y='diff',
-            title='Last Hour: Energy',
+            title='SmartFit: Last 2 Hours - Energy',
             labels={'Timestamp': 'Fecha y Hora', 'diff': 'Consumed Energy'},
             line_shape='spline',
             template='plotly_white'
@@ -60,7 +60,7 @@ for archivo in os.listdir(electrical_data):
                 showgrid=False,
                 tickfont=dict(size=20, color='black'),
                 title=dict(
-                    text='Valor',
+                    text='Consumed Energy (KW-H)',
                     font=dict(size=24, color='black')
                 )
             )
@@ -86,7 +86,7 @@ for archivo in os.listdir(electrical_data):
             df,
             x='Timestamp',
             y='Value',
-            title='Last Hour: Power',
+            title='SmartFit: Last Hour - Power',
             labels={'Timestamp': 'Fecha y Hora', 'Value': 'Active Power'},
             line_shape='spline',
             template='plotly_white'
@@ -108,7 +108,7 @@ for archivo in os.listdir(electrical_data):
                 showgrid=False,  # Ocultar cuadrícula
                 tickfont=dict(size=20, color='black'),
                 title=dict(
-                    text='Valor',
+                    text='Active Power',
                     font=dict(size=24, color='black')
                 )
             )
@@ -129,42 +129,46 @@ for archivo in os.listdir(electrical_data):
         
         voltage = voltage[-30:]
         date = [voltage[i]['date'] for i in range(len(voltage))]
-        values = [voltage[i]['instant_energy'] for i in range(len(voltage))]
-        # Crear un DataFrame
-        df = pd.DataFrame({'Timestamp': pd.to_datetime(date), 'Value': values})
+        
+        voltage_name = ['Va','Vb','Vc','Va-b','Vb-c','Vc-a']
 
-        # Crear nuevamente el gráfico con formato claro
-        fig = px.line(
-            df,
-            x='Timestamp',
-            y='Value',
-            title='Last Hour: Voltage',
-            labels={'Timestamp': 'Fecha y Hora', 'Value': 'Instant Energy'},
-            line_shape='spline',
-            template='plotly_white'
-        )
+        
+        for name in voltage_name:
+            values = [voltage[i][f'{name}'] for i in range(len(voltage))]
+            # Crear un DataFrame
+            df = pd.DataFrame({'Timestamp': pd.to_datetime(date), 'Value': values})
 
-        fig.update_traces(line=dict(width=5), marker=dict(size=12))
+            # Crear nuevamente el gráfico con formato claro
+            fig = px.line(
+                df,
+                x='Timestamp',
+                y='Value',
+                title=f'SmartFit: Last Hour - {name}',
+                labels={'Timestamp': 'Fecha y Hora', 'Value': f'{name}'},
+                line_shape='spline',
+                template='plotly_white'
+            )
 
-        fig.update_layout(
-            title_font=dict(size=30),
-            xaxis=dict(
-                showgrid=False,
-                tickfont=dict(size=20, color='black'),
-                title=dict(
-                    text='Fecha y Hora',
-                    font=dict(size=24, color='black')
-                )
-            ),
-            yaxis=dict(
-                showgrid=False,
-                tickfont=dict(size=20, color='black'),
-                title=dict(
-                    text='Valor',
-                    font=dict(size=24, color='black')
+            fig.update_traces(line=dict(width=5), marker=dict(size=12))
+
+            fig.update_layout(
+                title_font=dict(size=30),
+                xaxis=dict(
+                    showgrid=False,
+                    tickfont=dict(size=20, color='black'),
+                    title=dict(
+                        text='Fecha y Hora',
+                        font=dict(size=24, color='black')
+                    )
+                ),
+                yaxis=dict(
+                    showgrid=False,
+                    tickfont=dict(size=20, color='black'),
+                    title=dict(
+                        text=f'{name}',
+                        font=dict(size=24, color='black')
+                    )
                 )
             )
-        )
-
-        output_path = r"C:\Users\USUARIO\Documents\Electricity-MQTT-Monitor\media_outputs\images\voltage.png"
-        fig.write_image(output_path, format='png', width=1200, height=800)
+            output_path = f"G:\Electricity-MQTT-Monitor\media_outputs\images\{name}.png"
+            fig.write_image(output_path, format='png', width=1200, height=800)
