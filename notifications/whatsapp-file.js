@@ -4,6 +4,7 @@ const { exec } = require('child_process');
 const fs = require('fs');
 const path = require('path');
 const sendFile = require('./sendFile');
+const schedule = require('node-schedule');
 
 const client = new Client({
     authStrategy: new LocalAuth({
@@ -26,7 +27,7 @@ client.on('ready', () => {
     console.log('Client is ready!');
 
     // Schedule daily alerts at 8:00, 12:00 and 18:00
-    const alertTimes = ['08:00', '01:29', '01:32'];
+    const alertTimes = ['08:00', '12:00', '18:00'];
     alertTimes.forEach((time) => {
         const [hour, minute] = time.split(':');
         schedule.scheduleJob({ hour: parseInt(hour), minute: parseInt(minute) }, () => {
