@@ -15,8 +15,21 @@ const number = data.number;
 
 let lastSentAlertDateTime = null; // Variable to track the last alert sent
 
+// Function to check if current time is within allowed hours (8:00 AM to 6:00 PM)
+const isWithinAllowedHours = () => {
+    const now = new Date();
+    const currentHour = now.getHours();
+    return currentHour >= 8 && currentHour < 18;
+};
+
 // Function to check for changes between alerts
 const checkForAlertChanges = () => {
+    // Validate time restriction
+    if (!isWithinAllowedHours()) {
+        console.log('Outside allowed hours. No messages will be sent.');
+        return;
+    }
+
     const last_alert = get_last_alert();
     const penultimate_alert = get_penultimate_alert();
 
