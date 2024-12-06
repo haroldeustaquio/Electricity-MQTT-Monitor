@@ -282,7 +282,7 @@ cd monitor
 ### 3. Install dependencies:
 
 ```bash
-pip install paho-mqtt numpy scipy statsmodels scikit-learn
+pip install paho-mqtt numpy scipy statsmodels scikit-learn plotly kaleido
 ```
 
 ### 4. Run the main script
