@@ -88,24 +88,56 @@ function sendSpecificImage(chatId, imageName) {
     });
 }
 
+
 // Listen for incoming messages
 client.on('message', (message) => {
-    const command = message.body.toLowerCase();
+    const command = message.body.toLowerCase().trim(); // Convert to lowercase and trim spaces
 
+    const validImages = ['power', 'voltage_1', 'voltage_2', 'energy'];
+    const allImagesCommand = 'image'; // Command to send all images
+
+    // Check if the message is from an authorized number
     if (message.from !== number) {
-        return; // Message from unauthorized chat
+        console.log('Unauthorized sender:', message.from);
+        return; // Ignore messages from unauthorized numbers
     }
-    if (command === 'image') {
-        // Run the Python script and send all images
+
+    if (command === allImagesCommand) {
+        // Send all images
+        console.log('Sending all images...');
         runPythonScript(() => {
-            sendGeneratedImages(message.from); // Send all images
+            sendGeneratedImages(message.from); // Function to send all images
         });
-    } else if (['image energy', 'image power', 'image voltage'].includes(command)) {
-        const imageName = command.split(' ')[1]; // Extract the specific image name
-        runPythonScript(() => {
-            sendSpecificImage(message.from, imageName); // Send the specific image
-        });
+    } else if (command.startsWith('image')) {
+        // Extract the specific image name from the command
+        const imageName = command.split(' ')[1]; // Get the second word after 'image'
+
+        if (imageName === 'voltage') {
+            console.log('Sending voltage images: voltage_1 and voltage_2');
+            runPythonScript(() => {
+                sendSpecificImage(message.from, 'voltage_1'); // Send voltage_1
+                sendSpecificImage(message.from, 'voltage_2'); // Send voltage_2
+            });
+        } else if (validImages.includes(imageName)) {
+            console.log(`Sending specific image: ${imageName}`);
+            runPythonScript(() => {
+                sendSpecificImage(message.from, imageName); // Function to send the specific image
+            });
+        } else {
+            console.log(`Invalid image name: ${imageName}`);
+            client.sendMessage(
+                message.from,
+                `Invalid image name. Available images are: ${validImages.join(', ')}`
+            );
+        }
+    } else {
+        console.log(`Unknown command: ${command}`);
+        client.sendMessage(
+            message.from,
+            `Unknown command. Use "${allImagesCommand}" to get all images or "image <name>" to get a specific image. Available images are: ${validImages.join(', ')}. Use "image voltage" to get both voltage images.`
+        );
     }
 });
+
 
 client.initialize();

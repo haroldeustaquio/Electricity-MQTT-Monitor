@@ -41,9 +41,15 @@ const checkForAlertChanges = () => {
 
     // Compare the last alert with the penultimate
     const isDifferent =
-        last_alert.voltage_flag !== penultimate_alert.voltage_flag ||
+        last_alert.power_flag !== penultimate_alert.power_flag ||
+        last_alert.Va_flag !== penultimate_alert.Va_flag ||
+        last_alert.Vb_flag !== penultimate_alert.Vb_flag ||
+        last_alert.Vc_flag !== penultimate_alert.Vc_flag ||
+        last_alert.Va_b_flag !== penultimate_alert.Va_b_flag ||
+        last_alert.Vb_c_flag !== penultimate_alert.Vb_c_flag ||
+        last_alert.Vc_a_flag !== penultimate_alert.Vc_a_flag 
         // last_alert.current_flag !== penultimate_alert.current_flag ||
-        last_alert.power_flag !== penultimate_alert.power_flag;
+
 
     // Check if the alert is new and process accordingly
     if (last_alert.date_time !== lastSentAlertDateTime) {
@@ -51,8 +57,13 @@ const checkForAlertChanges = () => {
             const message = `
 ⚠️ Change detected ⚠️
 > 🕝 Date/Time: ${last_alert.date_time}
-> ⚡ Voltage: ${last_alert.voltage_message || 'Normal Voltage'}
 > 💡 Power: ${last_alert.power_message || 'Normal Power'}
+> ⚡ Voltage A: ${last_alert.Va_flag || 'Normal Voltage'}
+> ⚡ Voltage B: ${last_alert.Vb_flag || 'Normal Voltage'}
+> ⚡ Voltage C: ${last_alert.Vc_flag || 'Normal Voltage'}
+> ⚡ Voltage A-B: ${last_alert.Va_b_flag || 'Normal Voltage'}
+> ⚡ Voltage B-C: ${last_alert.Vb_c_flag || 'Normal Voltage'}
+> ⚡ Voltage C-A: ${last_alert.Vc_a_flag || 'Normal Voltage'}
             `.trim();
 // > 🔌 Current: ${last_alert.current_message || 'Normal Current'}
             console.log('Generated message:', message);
