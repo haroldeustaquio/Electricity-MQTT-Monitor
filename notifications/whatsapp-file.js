@@ -93,8 +93,7 @@ client.on('message', (message) => {
     const command = message.body.toLowerCase();
 
     if (message.from !== number) {
-        console.log(`Message from unauthorized chat: ${message.from}`);
-        return; // Ignorar mensajes de otros chats
+        return; // Message from unauthorized chat
     }
     if (command === 'image') {
         // Run the Python script and send all images
