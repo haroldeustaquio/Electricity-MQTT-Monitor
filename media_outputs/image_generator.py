@@ -3,9 +3,7 @@ import json
 import plotly.express as px
 import pandas as pd
 
-electrical_data = "G:/Electricity-MQTT-Monitor/monitor/electrical-data"
-
-
+electrical_data = r"C:\Users\USUARIO\Documents\Electricity-MQTT-Monitor\monitor\electrical-data"
 
 for archivo in os.listdir(electrical_data):
     if archivo.endswith("energy.json"):
@@ -67,7 +65,7 @@ for archivo in os.listdir(electrical_data):
                 )
             )
         )
-        output_path = r"G:\Electricity-MQTT-Monitor\media_outputs\images\energy.png"
+        output_path = r"C:\Users\USUARIO\Documents\Electricity-MQTT-Monitor\media_outputs\images\energy.png"
         fig.write_image(output_path, format='png', width=1200, height=800)
 
 
@@ -116,7 +114,7 @@ for archivo in os.listdir(electrical_data):
             )
         )
 
-        output_path = r"G:\Electricity-MQTT-Monitor\media_outputs\images\power.png"
+        output_path = r"C:\Users\USUARIO\Documents\Electricity-MQTT-Monitor\media_outputs\images\power.png"
         fig.write_image(output_path, format='png', width=1200, height=800)
 
 
@@ -168,5 +166,5 @@ for archivo in os.listdir(electrical_data):
             )
         )
 
-        output_path = r"G:\Electricity-MQTT-Monitor\media_outputs\images\voltage.png"
+        output_path = r"C:\Users\USUARIO\Documents\Electricity-MQTT-Monitor\media_outputs\images\voltage.png"
         fig.write_image(output_path, format='png', width=1200, height=800)
