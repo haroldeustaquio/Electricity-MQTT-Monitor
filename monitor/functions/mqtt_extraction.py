@@ -69,19 +69,29 @@ def save_data():
     file_handling.save_json(total_part,'last_update')
     
     # Voltage
-    global instant_energy 
+
+
+    
+    global instant_energy, Va, Vb, Vc, Va_b, Vb_c, Vc_a
     instant_energy = round(math.sqrt(part_0['1']**2 + part_0['2']**2 + part_0['3']**2 + part_0['4']**2 + part_0['5']**2 + part_0['6']**2),3)
+    Va = part_0['1'],
+    Vb = part_0['2'],
+    Vc = part_0['3'],
+    Va_b = part_0['4'],
+    Vb_c = part_0['5'],
+    Vc_a = part_0['6'],
     
     voltage = [{
         'date': date_time,
-        'Va': part_0['1'],
-        'Vb': part_0['2'],
-        'Vc': part_0['3'],
-        'Va-b': part_0['4'],
-        'Vb-c': part_0['5'],
-        'Vc-a': part_0['6'],
+        'Va': Va,
+        'Vb': Vb,
+        'Vc': Vc,
+        'Va-b': Va_b,
+        'Vb-c': Vb_c,
+        'Vc-a': Vc_a,
         'instant_energy': instant_energy
     }]
+    
     
     # Current
     global rms_current 
@@ -135,16 +145,21 @@ def save_alert():
     
     alert['date_time'] = date_time
     
-    if voltage_detector.volt_outliers(instant_energy) == 1:
-        alert['voltage_message'] = "High Voltage Alert"
-        alert['voltage_flag'] = 1
-    elif voltage_detector.volt_outliers(instant_energy) == -1:
-        alert['voltage_message'] = "Low Voltage Alert"
-        alert['voltage_flag'] = -1
-    else:
-        alert['voltage_message'] = ""
-        alert['voltage_flag'] = 0
+    voltage_list = [Va, Vb, Vc, Va_b, Vb_c, Vc_a]
+    voltage_name = ['Va','Vb','Vc','Va-b','Vb-c','Vc-a']
     
+    for value,name in zip(voltage_list, voltage_name):
+        if voltage_detector.volt_outliers(value,name) == 1:
+            alert['voltage_message'] = f"High {name} Alert"
+            alert['voltage_flag'] = 1
+        elif voltage_detector.volt_outliers(value,name) == -1:
+            alert['voltage_message'] = f"Low {name} Alert"
+            alert['voltage_flag'] = -1
+        else:
+            alert['voltage_message'] = ""
+            alert['voltage_flag'] = 0
+
+
     # if current_detector.current_outliers(rms_current) == 1:
     #     alert['current_message'] = "High Current Alert"
     #     alert['current_flag'] = 1
