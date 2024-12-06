@@ -86,9 +86,9 @@ def save_data():
         'Va': Va,
         'Vb': Vb,
         'Vc': Vc,
-        'Va-b': Va_b,
-        'Vb-c': Vb_c,
-        'Vc-a': Vc_a,
+        'Va_b': Va_b,
+        'Vb_c': Vb_c,
+        'Vc_a': Vc_a,
         'instant_energy': instant_energy
     }]
     
