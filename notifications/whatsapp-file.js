@@ -125,17 +125,9 @@ client.on('message', (message) => {
             });
         } else {
             console.log(`Invalid image name: ${imageName}`);
-            client.sendMessage(
-                message.from,
-                `Invalid image name. Available images are: ${validImages.join(', ')}`
-            );
         }
     } else {
         console.log(`Unknown command: ${command}`);
-        client.sendMessage(
-            message.from,
-            `Unknown command. Use "${allImagesCommand}" to get all images or "image <name>" to get a specific image. Available images are: ${validImages.join(', ')}. Use "image voltage" to get both voltage images.`
-        );
     }
 });
 
