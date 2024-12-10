@@ -58,12 +58,12 @@ const checkForAlertChanges = () => {
 ⚠️ Change detected ⚠️
 > 🕝 Date/Time: ${last_alert.date_time}
 > 💡 Power: ${last_alert.power_message || 'Normal Power'}
-> ⚡ Voltage A: ${last_alert.Va_flag || 'Normal Voltage'}
-> ⚡ Voltage B: ${last_alert.Vb_flag || 'Normal Voltage'}
-> ⚡ Voltage C: ${last_alert.Vc_flag || 'Normal Voltage'}
-> ⚡ Voltage A-B: ${last_alert.Va_b_flag || 'Normal Voltage'}
-> ⚡ Voltage B-C: ${last_alert.Vb_c_flag || 'Normal Voltage'}
-> ⚡ Voltage C-A: ${last_alert.Vc_a_flag || 'Normal Voltage'}
+> ⚡ Voltage A: ${last_alert.Va_message || 'Normal Voltage'}
+> ⚡ Voltage B: ${last_alert.Vb_message || 'Normal Voltage'}
+> ⚡ Voltage C: ${last_alert.Vc_message || 'Normal Voltage'}
+> ⚡ Voltage A-B: ${last_alert.Va_b_message || 'Normal Voltage'}
+> ⚡ Voltage B-C: ${last_alert.Vb_c_message || 'Normal Voltage'}
+> ⚡ Voltage C-A: ${last_alert.Vc_a_message || 'Normal Voltage'}
             `.trim();
 // > 🔌 Current: ${last_alert.current_message || 'Normal Current'}
             console.log('Generated message:', message);
