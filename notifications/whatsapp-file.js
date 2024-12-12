@@ -97,10 +97,10 @@ client.on('message', (message) => {
     const allImagesCommand = 'image'; // Command to send all images
 
     // Check if the message is from an authorized number
-    if (message.from !== number) {
-        console.log('Unauthorized sender:', message.from);
-        return; // Ignore messages from unauthorized numbers
-    }
+    // if (message.from !== number) {
+    //     console.log('Unauthorized sender:', message.from);
+    //     return; // Ignore messages from unauthorized numbers
+    // }
 
     if (command === allImagesCommand) {
         // Send all images
