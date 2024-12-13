@@ -13,7 +13,7 @@ for archivo in os.listdir(electrical_data):
         with open(file, "r", encoding="utf-8") as f:
             energy = json.load(f)
         
-        energy = energy[-90:]
+        energy = energy[-480:]
         date = [energy[i]['date'] for i in range(len(energy))]
         values = [energy[i]['energy_consumed'] for i in range(len(energy))]
         df = pd.DataFrame({'Timestamp': pd.to_datetime(date), 'Value': values})
@@ -48,77 +48,22 @@ for archivo in os.listdir(electrical_data):
         fig.update_layout(
             xaxis=dict(
                 showgrid=False,
-                tickfont=dict(size=26, color='black'),
+                tickfont=dict(size=32, color='black'),
                 title=None  # Remove x-axis title
             ),
             yaxis=dict(
                 showgrid=False,
-                tickfont=dict(size=26, color='black'),
+                tickfont=dict(size=32, color='black'),
                 title=dict(
                     text='Consumed Energy (KW-H)',
-                    font=dict(size=26, color='black')
+                    font=dict(size=32, color='black')
                 )
             )
         )
         output_path = r"G:\Electricity-MQTT-Monitor\media_outputs\images\energy.png"
-        fig.write_image(output_path, format='png', width=1500, height=1000)
+        fig.write_image(output_path, format='png', width=2350, height=900)
 
 # ------------------------------------------------------------------------------- 
-
-        file = os.path.join(electrical_data, archivo)
-        
-        with open(file, "r", encoding="utf-8") as f:
-            energy = json.load(f)
-        
-        energy = energy[-90:]
-        date = [energy[i]['date'] for i in range(len(energy))]
-        values = [energy[i]['energy_consumed'] for i in range(len(energy))]
-        df = pd.DataFrame({'Timestamp': pd.to_datetime(date), 'Value': values})
-        
-        group_size = 5
-
-        timestamps = []
-        results = []
-        
-        for i in range(0, len(df), group_size):
-            group = df[i:i + group_size]
-            if len(group) == group_size:
-                first = group['Value'].iloc[0]
-                last = group['Value'].iloc[-1]
-                diff = last - first
-                results.append(diff)
-                timestamps.append(group['Timestamp'].iloc[0])
-
-        result_df = pd.DataFrame({'Timestamp': timestamps, 'diff': results})
-
-        fig = px.line(
-            result_df,
-            x='Timestamp',
-            y='diff',
-            labels={'diff': 'Consumed Energy'},
-            line_shape='spline',
-            template='plotly_white'
-        )
-
-        fig.update_traces(line=dict(width=5), marker=dict(size=12))
-
-        fig.update_layout(
-            xaxis=dict(
-                showgrid=False,
-                tickfont=dict(size=26, color='black'),
-                title=None  # Remove x-axis title
-            ),
-            yaxis=dict(
-                showgrid=False,
-                tickfont=dict(size=26, color='black'),
-                title=dict(
-                    text='Consumed Energy (KW-H)',
-                    font=dict(size=26, color='black')
-                )
-            )
-        )
-        output_path = r"G:\Electricity-MQTT-Monitor\media_outputs\images\energy.png"
-        fig.write_image(output_path, format='png', width=1500, height=1000)
 
 
     if archivo.endswith("potency.json"):
